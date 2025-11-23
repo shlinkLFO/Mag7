@@ -1,0 +1,567 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     23519,        516]
+NotebookOptionsPosition[     19935,        449]
+NotebookOutlinePosition[     20366,        466]
+CellTagsIndexPosition[     20323,        463]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Test Code Execution", "Section",
+ CellChangeTimes->{{3.9000000000000000`*^9, 3.9000000010000000`*^9}},
+ ExpressionUUID->"test-section-uuid-12345"],
+
+Cell["\<\
+These simple code cells verify that the Wolfram kernel executes properly after conversion to .vsnb format.\
+\>", "Text",
+ CellChangeTimes->{{3.9000000020000000`*^9, 3.9000000030000000`*^9}},
+ ExpressionUUID->"test-text-uuid-12346"],
+
+Cell[BoxData[
+ RowBox[{"2", "+", "2"}]], "Input",
+ CellChangeTimes->{{3.9000000040000000`*^9, 3.9000000050000000`*^9}},
+ CellLabel->"In[1]:=",
+ ExpressionUUID->"test-input1-uuid-12347"],
+
+Cell[BoxData[
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"Sin", "[", "x", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", 
+     RowBox[{"2", " ", "Pi"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9000000070000000`*^9, 3.9000000080000000`*^9}},
+ CellLabel->"In[2]:=",
+ ExpressionUUID->"test-input2-uuid-12349"],
+
+Cell[BoxData[
+ RowBox[{"Range", "[", "10", "]"}]], "Input",
+ CellChangeTimes->{{3.9000000100000000`*^9, 3.9000000110000000`*^9}},
+ CellLabel->"In[3]:=",
+ ExpressionUUID->"test-input3-uuid-12351"],
+
+Cell[BoxData[
+ RowBox[{"StringJoin", "[", 
+  RowBox[{"\"\<Hello\>\"", ",", "\"\< \>\"", ",", "\"\<World!\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9000000130000000`*^9, 3.9000000140000000`*^9}},
+ CellLabel->"In[4]:=",
+ ExpressionUUID->"test-input4-uuid-12353"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell["Final Project Grading Rubric  (60 points)", "Section",
+ CellChangeTimes->{{3.7753876644560347`*^9, 3.7753876767523537`*^9}, {
+   3.775387779320078*^9, 3.775387779596787*^9}, {3.77548514152209*^9, 
+   3.775485142922316*^9}, {3.775490318625944*^9, 3.775490326945765*^9}, {
+   3.9012857174260187`*^9, 3.9012857174798746`*^9}, {3.9012859719028444`*^9, 
+   3.901285992500193*^9}, 3.936912986068119*^9, {3.9652383666787663`*^9, 
+   3.9652383759167004`*^9}},ExpressionUUID->"034bc564-ca23-4c77-a38c-\
+894ab6f502f1"],
+
+Cell[CellGroupData[{
+
+Cell["Define the question (10 points)", "Subsection",
+ CellChangeTimes->{{3.7753876862688017`*^9, 3.775387689902996*^9}, 
+   3.77538774637715*^9, {3.7754851455904903`*^9, 3.775485146954405*^9}, {
+   3.9369120120790634`*^9, 3.936912012266306*^9}, {3.9369121870655746`*^9, 
+   3.9369122085472736`*^9}, {3.936912667549473*^9, 3.936912671343811*^9}, {
+   3.936912877822706*^9, 3.9369128788814297`*^9}, {3.9374805757487965`*^9, 
+   3.937480580916443*^9}},ExpressionUUID->"e339ffc8-0e31-4337-b7f9-\
+fc33a5ce943a"],
+
+Cell["\<\
+Specific data questions to be answered by the end of the project have been \
+clearly defined. \
+\>", "Item",
+ CellChangeTimes->{{3.775387713650929*^9, 3.775387738826848*^9}, {
+   3.775388062897616*^9, 3.775388063578086*^9}, {3.775388651729395*^9, 
+   3.775388652078739*^9}, {3.7754851615465527`*^9, 3.775485163450686*^9}, 
+   3.77549064068639*^9, {3.901289307659272*^9, 3.9012893076612673`*^9}, {
+   3.901289386892933*^9, 3.901289387083036*^9}, {3.9369122105223846`*^9, 
+   3.936912210872196*^9}},ExpressionUUID->"ece6f0f2-0674-4b36-852d-\
+c8cc2b5c4553"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Get data (10 points)", "Subsection",
+ CellChangeTimes->{{3.775387752008897*^9, 3.775387752909717*^9}, {
+  3.77538786933467*^9, 3.7753878709808826`*^9}, {3.775387928649818*^9, 
+  3.775387928953071*^9}, {3.775485708863441*^9, 3.775485709858457*^9}, {
+  3.90128601422904*^9, 3.901286014310856*^9}, {3.936911998391926*^9, 
+  3.936912013962797*^9}, {3.936912216686819*^9, 3.9369122171530743`*^9}, {
+  3.9369126426241264`*^9, 3.9369126428961315`*^9}, {3.937481723479212*^9, 
+  3.9374817258229065`*^9}},ExpressionUUID->"53653c27-6650-442e-b104-\
+6c01635cbe16"],
+
+Cell["\<\
+The data source has been clearly identified. Either the link to a publicly \
+accessible source or the data file itself has been included. If I am  unable \
+to run the code in the notebook for lack of access to the data, I cannot \
+proceed with the grading.\
+\>", "Item",
+ CellChangeTimes->{{3.775388254759263*^9, 3.775388295531497*^9}, {
+   3.7754851805836687`*^9, 3.775485247084344*^9}, 3.7754906631426907`*^9, {
+   3.90128581939107*^9, 
+   3.9012858303918037`*^9}},ExpressionUUID->"202423a3-e21c-43df-ba91-\
+3aeb387d9140"],
+
+Cell["\<\
+Data has been cleaned and any errors and missing data have been dealt with.\
+\>", "Item",
+ CellChangeTimes->{{3.775388254759263*^9, 3.775388374449259*^9}, {
+  3.77548546720897*^9, 3.775485467209351*^9}, {3.775490688583459*^9, 
+  3.775490705351965*^9}},ExpressionUUID->"d14cffcb-0841-4553-be5e-\
+f73ddad25cd8"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Visualize data and explore data (10 points)", "Subsection",
+ CellChangeTimes->{{3.7753877549568367`*^9, 3.77538775577153*^9}, {
+  3.775387905716024*^9, 3.775387910686287*^9}, {3.775387954151703*^9, 
+  3.7753879544837008`*^9}, {3.7754857130732727`*^9, 3.775485714148526*^9}, {
+  3.9012980379944115`*^9, 3.9012980383885193`*^9}, {3.936912016824316*^9, 
+  3.9369120202059402`*^9}, {3.936912239482231*^9, 3.936912241378792*^9}, {
+  3.9369122994286137`*^9, 3.9369123031804905`*^9}, {3.936912620336727*^9, 
+  3.936912646092064*^9}, {3.937481747048418*^9, 3.9374817572626247`*^9}, {
+  3.937553356972599*^9, 3.937553377747549*^9}, {3.9438552641642857`*^9, 
+  3.9438552645846596`*^9}},ExpressionUUID->"35cea5b1-d4cc-46ae-ad87-\
+cc0e5d58b934"],
+
+Cell[CellGroupData[{
+
+Cell["Visualizations of the data has been performed, including:", "Item",
+ CellChangeTimes->{{3.775388254759263*^9, 3.775388466758676*^9}, {
+  3.775491122783391*^9, 3.77549112667973*^9}, {3.775496476264073*^9, 
+  3.775496480422662*^9}, {3.936912695175091*^9, 3.936912707347746*^9}, {
+  3.9438553621692696`*^9, 
+  3.9438554000128384`*^9}},ExpressionUUID->"639038db-81e3-da43-9b4e-\
+2d50d2191b15"],
+
+Cell["\<\
+ At least three types of data such as numbers, websites, texts, images, audio.\
+\>", "Subsubitem",
+ CellChangeTimes->{{3.775388254759263*^9, 3.775388466758676*^9}, {
+  3.775491122783391*^9, 3.77549112667973*^9}, {3.775496476264073*^9, 
+  3.775496480422662*^9}, {3.936912695175091*^9, 3.936912707347746*^9}, {
+  3.9438553621692696`*^9, 
+  3.9438554465248985`*^9}},ExpressionUUID->"f6f0fb2c-e6ea-ec4e-924f-\
+946f6986d893"],
+
+Cell["\<\
+At least one visualization about time, one visualization about place, and \
+once visualization about price.\
+\>", "Subsubitem",
+ CellChangeTimes->{{3.775388254759263*^9, 3.775388466758676*^9}, {
+  3.775491122783391*^9, 3.77549112667973*^9}, {3.775496476264073*^9, 
+  3.775496480422662*^9}, {3.936912695175091*^9, 3.936912707347746*^9}, {
+  3.9438553621692696`*^9, 
+  3.9438554299042873`*^9}},ExpressionUUID->"ebb0e3ab-e065-c148-b373-\
+9406772dc6d5"]
+}, Open  ]],
+
+Cell["\<\
+Simple visualizations should be used whenever possible to illustrate the \
+topic and add visual interest.\
+\>", "Item",
+ CellChangeTimes->{{3.775390044660186*^9, 3.7753901018302803`*^9}, {
+   3.7754868113646173`*^9, 3.7754868169137*^9}, {3.775487040337111*^9, 
+   3.775487042480402*^9}, {3.775487650773282*^9, 3.7754876543356953`*^9}, {
+   3.77548787935334*^9, 3.7754878890340843`*^9}, 3.775492897569605*^9, {
+   3.9369127475837097`*^9, 
+   3.9369127475866985`*^9}},ExpressionUUID->"11abeda1-12d6-4fa4-87a8-\
+ac4c1f7cdd84"],
+
+Cell["\<\
+Exploratory data analysis has been performed, including but not limited to \
+correlation, regression, machine learning.
+Conclusions from the exploratory analysis have been clearly explained.\
+\>", "Item",
+ CellChangeTimes->{{3.9375533883671036`*^9, 3.937553395196108*^9}, {
+  3.943855485538954*^9, 
+  3.943855486024931*^9}},ExpressionUUID->"cab8642c-bccc-1145-bff4-\
+de51eb085627"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+The final results of the analysis must include at least one or more of the \
+following: \
+\>", "Item",
+ CellChangeTimes->{{3.775390044660186*^9, 3.7753901018302803`*^9}, {
+   3.7754868113646173`*^9, 3.7754868169137*^9}, {3.775487040337111*^9, 
+   3.775487042480402*^9}, {3.775487650773282*^9, 3.7754876543356953`*^9}, {
+   3.77548787935334*^9, 3.7754878890340843`*^9}, 3.775492897569605*^9, {
+   3.9369127478050537`*^9, 
+   3.936912761678896*^9}},ExpressionUUID->"6baf6ce3-cd0e-ac47-a5e5-\
+9a972e50ca41"],
+
+Cell["\<\
+An infographic (either static or interactive) such as a poster that conveys \
+the results succinctly, without need for accompanying verbal explanation.\
+\>", "Subitem",
+ CellChangeTimes->{{3.775390044660186*^9, 3.7753901018302803`*^9}, {
+   3.7754868113646173`*^9, 3.7754868169137*^9}, {3.775487040337111*^9, 
+   3.775487042480402*^9}, {3.775487650773282*^9, 3.7754876543356953`*^9}, {
+   3.77548787935334*^9, 3.7754878890340843`*^9}, 3.775492897569605*^9, {
+   3.9369127478050537`*^9, 3.936912770223013*^9}, {3.9438554877249928`*^9, 
+   3.9438554883840466`*^9}},ExpressionUUID->"d42d59b8-e194-b14c-a5cf-\
+983bec6efac3"],
+
+Cell["\<\
+A data product or app run locally on the desktop in a Wolfram Notebook or \
+online through the Wolfram Cloud that performs data analysis according to the \
+model developed in this project. (Optional) \
+\>", "Subitem",
+ CellChangeTimes->{{3.775390044660186*^9, 3.7753901018302803`*^9}, {
+   3.7754868113646173`*^9, 3.7754868169137*^9}, {3.775487040337111*^9, 
+   3.775487042480402*^9}, {3.775487650773282*^9, 3.7754876543356953`*^9}, {
+   3.77548787935334*^9, 3.7754878890340843`*^9}, 3.775492897569605*^9, {
+   3.9369127478050537`*^9, 
+   3.9369127699876595`*^9}},ExpressionUUID->"a2744942-939a-ee44-8060-\
+c83368faa898"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Code is interpretable (10 points)", "Subsection",
+ CellChangeTimes->{{3.936912374085663*^9, 3.9369123868524075`*^9}, {
+  3.936912599007229*^9, 3.9369125997015038`*^9}, {3.937481734667591*^9, 
+  3.937481736816166*^9}},ExpressionUUID->"5048eb94-55f3-1143-93c3-\
+a72e8a127978"],
+
+Cell["\<\
+Clearly defined sections/steps for data analysis have been provided.\
+\>", "Item",
+ CellChangeTimes->{{3.775388254759263*^9, 3.775388524420382*^9}, {
+  3.775485781158581*^9, 3.775485803457266*^9}, {3.775491174865364*^9, 
+  3.7754911908658648`*^9}, {3.9369123156823635`*^9, 3.936912362526531*^9}, {
+  3.9369123990204983`*^9, 3.9369123990235786`*^9}, {3.936912826869034*^9, 
+  3.9369128480554695`*^9}},ExpressionUUID->"1ec4dd48-ab6d-0a43-bb52-\
+21be7ab946b3"],
+
+Cell["\<\
+ Variable and function names should have a clear relationship to their \
+purpose in the code. \
+\>", "Item",
+ CellChangeTimes->{
+  3.775388703011911*^9, {3.775389994579177*^9, 3.7753900159410677`*^9}, {
+   3.775486734863624*^9, 3.775486735755278*^9}, {3.7754927958376904`*^9, 
+   3.775492805726102*^9}},ExpressionUUID->"589e5eb0-7c44-4294-ba84-\
+c15e4a9f0f24"],
+
+Cell["\<\
+Relevant, concise text explanations should be included to describe every \
+stage of the project workflow.\
+\>", "Item",
+ CellChangeTimes->{{3.775388254759263*^9, 3.775388524420382*^9}, {
+   3.775485781158581*^9, 3.775485803457266*^9}, {3.775491174865364*^9, 
+   3.7754911908658648`*^9}, {3.9369123156823635`*^9, 3.936912362526531*^9}, 
+   3.936912399181282*^9, {3.936912439341524*^9, 3.9369124406740837`*^9}, 
+   3.937734121373192*^9},ExpressionUUID->"abb62b24-ee02-8146-b0c3-\
+60ca80dc8b76"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Code should include comments to explain exactly what is being done by the \
+code. Use comments in the following format:\
+\>", "Item",
+ CellChangeTimes->{
+  3.775388703011911*^9, {3.775389994579177*^9, 3.775389999161647*^9}, {
+   3.7754867502535954`*^9, 3.775486752703004*^9}, {3.7754868221701717`*^9, 
+   3.775486870515932*^9}, {3.775487686422722*^9, 3.775487701492942*^9}, 
+   3.7754878572003727`*^9, {3.7754928127182837`*^9, 3.7754928347593727`*^9}, {
+   3.775495656703917*^9, 3.7754956598874617`*^9}, {3.9438555231202316`*^9, 
+   3.943855531132395*^9}},ExpressionUUID->"6eeea311-266b-48d2-ae39-\
+d8e307f273d5"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{"this", " ", "is", " ", "a", " ", "comment"}], " ", "*)"}]], "Input",\
+
+ CellChangeTimes->{{3.775487706656369*^9, 3.775487710998777*^9}, 
+   3.775487851708981*^9},ExpressionUUID->"1f3fc372-0cba-4b24-8ee0-\
+54abab6507a1"]
+}, Open  ]],
+
+Cell["\<\
+No irrelevant results, unnecessarily long display of data, or distracting \
+code (experimentations) should be present in the final notebook. \
+\>", "Item",
+ CellChangeTimes->{
+  3.775388703011911*^9, {3.775389994579177*^9, 3.77539000734067*^9}, {
+   3.7754866985218287`*^9, 3.775486719327338*^9}, {3.775487599179203*^9, 
+   3.7754875991793623`*^9}, {3.775492700827188*^9, 3.77549270202909*^9}, {
+   3.9369122572707043`*^9, 3.9369122649249134`*^9}, {3.9438555343051987`*^9, 
+   3.943855548337652*^9}},ExpressionUUID->"b02e787a-dafa-4771-9086-\
+d7c6ea2a53e2"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Results are replicable (10 points)", "Subsection",
+ CellChangeTimes->{{3.936912405295353*^9, 3.9369124074565372`*^9}, {
+  3.9369126015402374`*^9, 3.936912602861683*^9}, {3.9374817388473186`*^9, 
+  3.9374817409929485`*^9}},ExpressionUUID->"846e2a3b-c4d7-f248-afff-\
+4f702f3a85ec"],
+
+Cell["\<\
+Notebook should be self-contained. (It should be possible for the grader to \
+run the code without any external dependency.)\
+\>", "Item",
+ CellChangeTimes->{
+  3.775388703011911*^9, {3.775389994579177*^9, 3.775389999161647*^9}, {
+   3.7754867502535954`*^9, 3.775486752703004*^9}, {3.7754868221701717`*^9, 
+   3.775486870515932*^9}, {3.775487686005972*^9, 3.77548768600634*^9}, {
+   3.775492677362625*^9, 3.7754926782971354`*^9}, {3.7754955698068457`*^9, 
+   3.775495569823492*^9}, {3.77549561250226*^9, 3.7754956127584057`*^9}, {
+   3.936912108326212*^9, 3.936912112368828*^9}, {3.936912258317091*^9, 
+   3.9369122604439144`*^9}},ExpressionUUID->"f3108afd-a0a0-4947-a2cf-\
+d506d49cdecf"],
+
+Cell["\<\
+Links to existing published research used as references for this project \
+should be included.\
+\>", "Item",
+ CellChangeTimes->{{3.775390044660186*^9, 3.775390136524127*^9}, {
+  3.7754878684039717`*^9, 3.775487927310478*^9}, {3.7754879682570333`*^9, 
+  3.775487999275796*^9}, {3.775495724242672*^9, 
+  3.775495726712784*^9}},ExpressionUUID->"5d9146f3-0e78-4f71-ab93-\
+94fbaa0f4088"],
+
+Cell["\<\
+If this project builds on someone else\[CloseCurlyQuote]s work or attempts to \
+provide comparative analysis, it should clearly provide a reference to such \
+work.\
+\>", "Item",
+ CellChangeTimes->{{3.775390044660186*^9, 3.775390195286236*^9}, 
+   3.775492905265918*^9, {3.775495731592643*^9, 
+   3.775495737400894*^9}},ExpressionUUID->"f481b138-d2b1-4172-9d8a-\
+bd4eaa7d2f4a"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Share your story and engage (10 points)", "Subsection",
+ CellChangeTimes->{{3.936912405295353*^9, 3.9369124074565372`*^9}, {
+  3.9369126015402374`*^9, 3.936912602861683*^9}, {3.9374817388473186`*^9, 
+  3.9374817409929485`*^9}, {3.943855278118746*^9, 
+  3.94385529096476*^9}},ExpressionUUID->"24014795-3edd-0c43-8b79-\
+39d752e8ff22"],
+
+Cell["A 10-minute in-class presentation. (5 points)", "Item",
+ CellChangeTimes->{
+  3.775388703011911*^9, {3.775389994579177*^9, 3.775389999161647*^9}, {
+   3.7754867502535954`*^9, 3.775486752703004*^9}, {3.7754868221701717`*^9, 
+   3.775486870515932*^9}, {3.775487686005972*^9, 3.77548768600634*^9}, {
+   3.775492677362625*^9, 3.7754926782971354`*^9}, {3.7754955698068457`*^9, 
+   3.775495569823492*^9}, {3.77549561250226*^9, 3.7754956127584057`*^9}, {
+   3.936912108326212*^9, 3.936912112368828*^9}, {3.936912258317091*^9, 
+   3.9369122604439144`*^9}, {3.943855295281193*^9, 
+   3.9438553335132465`*^9}},ExpressionUUID->"6a4db296-b75f-964a-81a8-\
+ef19b9b8d8cb"],
+
+Cell["An LinkedIn Page about your Project (5 points)", "Item",
+ CellChangeTimes->{{3.775390044660186*^9, 3.775390136524127*^9}, {
+  3.7754878684039717`*^9, 3.775487927310478*^9}, {3.7754879682570333`*^9, 
+  3.775487999275796*^9}, {3.775495724242672*^9, 3.775495726712784*^9}, {
+  3.9438553010055904`*^9, 
+  3.9438553146489544`*^9}},ExpressionUUID->"298eb525-0741-624d-9fd6-\
+a80df9b34776"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Final Project FAQs", "Section",
+ CellChangeTimes->{{3.7753876644560347`*^9, 3.7753876767523537`*^9}, {
+   3.775387779320078*^9, 3.775387779596787*^9}, {3.77548514152209*^9, 
+   3.775485142922316*^9}, {3.775490318625944*^9, 3.775490326945765*^9}, {
+   3.9012857174260187`*^9, 3.9012857174798746`*^9}, {3.9012859719028444`*^9, 
+   3.901285992500193*^9}, 3.936912986068119*^9, {3.937905330076103*^9, 
+   3.9379053350769672`*^9}},ExpressionUUID->"dbbd15e8-fe5a-3f40-8643-\
+5ddd10af425a"],
+
+Cell["\<\
+Q: Could we use data from Kaggle? Should the reference come from published \
+research? or Naggle project is good enough?
+A: Yes, Kaggle is a great data source. I would strong you include multiple \
+references, and yes, I accept Naggle project as references too.
+
+Q: For the group projects, should we find members by ourselves or will it be \
+randomly assigned?
+A: Please find members by yourselves within your section (8:00AM MSB, 12:30PM \
+MS, 3:30PM C4)
+
+Q: What should the infographic look like? Does it mean the poster cannot \
+include any words or letters in it?
+A: Infographic is just another way to say data visualization, by definition \
+it is a visual image such as a chart or diagram used to represent information \
+or data. N, on the contrary, infographic combines legends, labels, marks, \
+numbers, images, trends. Please see the deck of slides (Source: Du & Peecher, \
+MOOC, Sustainability Reporting, Copyrighted: Gies School of Business, \
+University of Illinois) for some general guidance about infographics.
+
+Q:So the deliverable is just a notebook and the data source (if any) or does \
+it also need a slide deck?
+A: Yes, the deliverable is just a notebook and the data source, I don\
+\[CloseCurlyQuote]t need a slide deck, but if you could print the notebook as \
+a PDF file, it\[CloseCurlyQuote]ll make my grading easier.
+
+Q: For the final project, can we work on data related to the ... of the \
+immigrants from the Middle East? Do we have a proper source for that ? 
+A: You can use Perplexity.AI for finding data sources. It is better for \
+research purposes and can be use as a supplement in addition to OpenAI\
+\[CloseCurlyQuote]s ChatGPT. This URL might be helpful
+https://www.perplexity.ai/
+https://cis.org/Report/Immigrants-Middle-East
+
+Q: What are the things I need to focus on while working on the project.
+A: First, start with finding group members who share similar interests. \
+Second, use group discussion time to decide on question/data you\
+\[CloseCurlyQuote]ll work on. Third, submit your work for checkpoint-1, -2, \
+-3, so that you\[CloseCurlyQuote]ll have sufficient opportunities to obtain \
+feedback from the instructor.
+
+Q: Are there previous projects that I can refer to?
+A: I\[CloseCurlyQuote]ll show some in the beginning of the next class.
+
+Q: Should we focus on specific functions or algorithms?
+A: Some of my favorable functions are Table, Manipulate, CountryData, \
+FinancialData, CityData, GeolistPlot, WebDeploy... But feel free to use your \
+own creativity!
+
+Q: Can we use other tools of languages to help processing data?
+A: you surely can. As long as you import the final data to Mathematica for \
+visualization, exploration, and web deploy.
+
+Q: Is it ok if we reference some code from another source?
+A: you surely can. I\[CloseCurlyQuote]ll talk about some notebook examples in \
+Wolfram Mathematica environment. Feel free to build your work based on \
+others, as long as you cite properly.
+
+Q: Will the project checkpoints contribute to the score?
+A: Not officially but my observation is that groups who submit project \
+checkpoints on time usually perform better for the submissions for the final \
+projects.
+
+Q: Can we use virtual data if some data parts of the project is missing? Or \
+we cannot find it on the internet?
+A: This is a hard question! I strongly strongly encourage you use the real \
+data. It\[CloseCurlyQuote]s hard for me to answer this one without more \
+contextual understanding about the particular data items you have in mind.
+
+Q: I worry I could not find a teammate.
+A: Give it a try. TAs will help students find groups if there remains team \
+matching need at the end of October.
+
+Q: Do we have presentations for the final project?
+A: I will arrange final presentations for the final project, the grading will \
+consider the quality of your submitted notebook anas well as your presentation.
+
+Q: Can we use the same topic and data from another course?
+A: You can use the same data, but the focus of my final project is for data \
+story-telling.
+\
+\>", "Text",
+ CellChangeTimes->{{3.937905338686672*^9, 3.9379055637054996`*^9}, {
+  3.9379057147219734`*^9, 3.9379057192716484`*^9}, {3.9379058288715687`*^9, 
+  3.937906062965193*^9}, {3.937906285855871*^9, 3.937906325879072*^9}, {
+  3.937931800210943*^9, 3.937932248857929*^9}, {3.937932306369011*^9, 
+  3.9379323065511703`*^9}, {3.9652384305554314`*^9, 
+  3.965238471218321*^9}},ExpressionUUID->"d3d963b5-46a8-ee44-a805-\
+0501ffc72ecd"]
+}, Open  ]]
+},
+WindowSize->{890.25, 469.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>0.8 Inherited,
+FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f6080af0-b02c-4fe1-8fe8-87eb5387b381"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 514, 7, 52, "Section",ExpressionUUID->"034bc564-ca23-4c77-a38c-894ab6f502f1"],
+Cell[CellGroupData[{
+Cell[1119, 33, 507, 7, 42, "Subsection",ExpressionUUID->"e339ffc8-0e31-4337-b7f9-fc33a5ce943a"],
+Cell[1629, 42, 564, 10, 24, "Item",ExpressionUUID->"ece6f0f2-0674-4b36-852d-c8cc2b5c4553"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2230, 57, 559, 8, 30, "Subsection",ExpressionUUID->"53653c27-6650-442e-b104-6c01635cbe16"],
+Cell[2792, 67, 534, 10, 40, "Item",ExpressionUUID->"202423a3-e21c-43df-ba91-3aeb387d9140"],
+Cell[3329, 79, 319, 6, 24, "Item",ExpressionUUID->"d14cffcb-0841-4553-be5e-f73ddad25cd8"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[3685, 90, 739, 10, 30, "Subsection",ExpressionUUID->"35cea5b1-d4cc-46ae-ad87-cc0e5d58b934"],
+Cell[CellGroupData[{
+Cell[4449, 104, 395, 6, 24, "Item",ExpressionUUID->"639038db-81e3-da43-9b4e-2d50d2191b15"],
+Cell[4847, 112, 430, 8, 19, "Subsubitem",ExpressionUUID->"f6f0fb2c-e6ea-ec4e-924f-946f6986d893"],
+Cell[5280, 122, 459, 9, 19, "Subsubitem",ExpressionUUID->"ebb0e3ab-e065-c148-b373-9406772dc6d5"]
+}, Open  ]],
+Cell[5754, 134, 533, 10, 24, "Item",ExpressionUUID->"11abeda1-12d6-4fa4-87a8-ac4c1f7cdd84"],
+Cell[6290, 146, 391, 8, 40, "Item",ExpressionUUID->"cab8642c-bccc-1145-bff4-de51eb085627"],
+Cell[CellGroupData[{
+Cell[6706, 158, 514, 10, 24, "Item",ExpressionUUID->"6baf6ce3-cd0e-ac47-a5e5-9a972e50ca41"],
+Cell[7223, 170, 630, 10, 20, "Subitem",ExpressionUUID->"d42d59b8-e194-b14c-a5cf-983bec6efac3"],
+Cell[7856, 182, 631, 11, 35, "Subitem",ExpressionUUID->"a2744942-939a-ee44-8060-c83368faa898"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[8536, 199, 280, 4, 30, "Subsection",ExpressionUUID->"5048eb94-55f3-1143-93c3-a72e8a127978"],
+Cell[8819, 205, 467, 8, 24, "Item",ExpressionUUID->"1ec4dd48-ab6d-0a43-bb52-21be7ab946b3"],
+Cell[9289, 215, 370, 8, 24, "Item",ExpressionUUID->"589e5eb0-7c44-4294-ba84-c15e4a9f0f24"],
+Cell[9662, 225, 502, 9, 24, "Item",ExpressionUUID->"abb62b24-ee02-8146-b0c3-60ca80dc8b76"],
+Cell[CellGroupData[{
+Cell[10189, 238, 623, 11, 24, "Item",ExpressionUUID->"6eeea311-266b-48d2-ae39-d8e307f273d5"],
+Cell[10815, 251, 265, 6, 22, "Input",ExpressionUUID->"1f3fc372-0cba-4b24-8ee0-54abab6507a1"]
+}, Open  ]],
+Cell[11095, 260, 567, 10, 24, "Item",ExpressionUUID->"b02e787a-dafa-4771-9086-d7c6ea2a53e2"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[11699, 275, 285, 4, 30, "Subsection",ExpressionUUID->"846e2a3b-c4d7-f248-afff-4f702f3a85ec"],
+Cell[11987, 281, 698, 12, 24, "Item",ExpressionUUID->"f3108afd-a0a0-4947-a2cf-d506d49cdecf"],
+Cell[12688, 295, 392, 8, 24, "Item",ExpressionUUID->"5d9146f3-0e78-4f71-ab93-94fbaa0f4088"],
+Cell[13083, 305, 386, 8, 24, "Item",ExpressionUUID->"f481b138-d2b1-4172-9d8a-bd4eaa7d2f4a"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[13506, 318, 338, 5, 30, "Subsection",ExpressionUUID->"24014795-3edd-0c43-8b79-39d752e8ff22"],
+Cell[13847, 325, 663, 10, 24, "Item",ExpressionUUID->"6a4db296-b75f-964a-81a8-ef19b9b8d8cb"],
+Cell[14513, 337, 389, 6, 24, "Item",ExpressionUUID->"298eb525-0741-624d-9fd6-a80df9b34776"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14951, 349, 489, 7, 52, "Section",ExpressionUUID->"dbbd15e8-fe5a-3f40-8643-5ddd10af425a"],
+Cell[15443, 358, 4476, 88, 971, "Text",ExpressionUUID->"d3d963b5-46a8-ee44-a805-0501ffc72ecd"]
+}, Open  ]]
+}
+]
+*)
+

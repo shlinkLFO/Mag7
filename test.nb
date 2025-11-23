@@ -1,0 +1,286 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      9426,        277]
+NotebookOptionsPosition[      8424,        257]
+NotebookOutlinePosition[      8741,        271]
+CellTagsIndexPosition[      8698,        268]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+---
+## Test Code Execution
+
+These simple code cells verify that the Wolfram kernel executes properly \
+after conversion to .vsnb format.\
+\>", "Text",ExpressionUUID->"d8ef38ae-ba74-4748-aa2f-de06147934c9"],
+
+Cell["2 + 2", "Input",ExpressionUUID->"3a3c5f51-de6b-49aa-98d5-81bb1b24dd3c"],
+
+Cell["Plot[Sin[x], {x, 0, 2*Pi}]", "Input",ExpressionUUID->"945d3ce2-7d08-4d8c-8531-24e43c28c65b"],
+
+Cell["Range[10]", "Input",ExpressionUUID->"16b248ea-ab42-48a9-89be-e05845450688"],
+
+Cell["StringJoin[\"Hello\", \" \", \"World!\"]", "Input",ExpressionUUID->"c503caa7-18bb-4a2f-a1b3-fe0a3a208674"],
+
+Cell["\<\
+test md
+\
+\>", "Text",ExpressionUUID->"d6e4415d-efb4-4b46-ae9d-e7d09d3c6833"],
+
+Cell["\<\
+---
+## Final Project Grading Rubric  (60 points)
+
+### Define the question (10 points)
+
+-   Specific data questions to be answered by the end of the project have \
+been clearly defined. 
+
+### Get data (10 points)
+
+-   The data source has been clearly identified. Either the link to a \
+publicly accessible source or the data file itself has been included. If I am \
+ unable to run the code in the notebook for lack of access to the data, I \
+cannot proceed with the grading.
+
+-   Data has been cleaned and any errors and missing data have been dealt with.
+
+### Visualize data and explore data (10 points)
+
+-   Visualizations of the data has been performed, including:
+
+        -    At least three types of data such as numbers, websites, texts, \
+images, audio.
+
+        -   At least one visualization about time, one visualization about \
+place, and once visualization about price.
+
+-   Simple visualizations should be used whenever possible to illustrate the \
+topic and add visual interest.
+
+-   Exploratory data analysis has been performed, including but not limited \
+to correlation, regression, machine learning.
+
+Conclusions from the exploratory analysis have been clearly explained.
+
+-   The final results of the analysis must include at least one or more of \
+the following: 
+
+    -   An infographic (either static or interactive) such as a poster that \
+conveys the results succinctly, without need for accompanying verbal \
+explanation.
+
+    -   A data product or app run locally on the desktop in a Wolfram \
+Notebook or online through the Wolfram Cloud that performs data analysis \
+according to the model developed in this project. (Optional) 
+
+### Code is interpretable (10 points)
+
+-   Clearly defined sections/steps for data analysis have been provided.
+
+-    Variable and function names should have a clear relationship to their \
+purpose in the code. 
+
+-   Relevant, concise text explanations should be included to describe every \
+stage of the project workflow.
+
+-   Code should include comments to explain exactly what is being done by the \
+code. Use comments in the following format:\
+\>", "Text",ExpressionUUID->"2a962e5a-7aba-48b0-b034-103b34d46762"],
+
+Cell["Null", "Input",ExpressionUUID->"b4285e7a-73ad-46ed-ab89-de5670891445"],
+
+Cell["\<\
+-   No irrelevant results, unnecessarily long display of data, or distracting \
+code (experimentations) should be present in the final notebook. 
+
+### Results are replicable (10 points)
+
+-   Notebook should be self-contained. (It should be possible for the grader \
+to run the code without any external dependency.)
+
+-   Links to existing published research used as references for this project \
+should be included.
+
+-   If this project builds on someone else\[CloseCurlyQuote]s work or \
+attempts to provide comparative analysis, it should clearly provide a \
+reference to such work.
+
+### Share your story and engage (10 points)
+
+-   A 10-minute in-class presentation. (5 points)
+
+-   An LinkedIn Page about your Project (5 points)
+
+---
+## Final Project FAQs
+
+Q: Could we use data from Kaggle? Should the reference come from published \
+research? or Naggle project is good enough?
+
+A: Yes, Kaggle is a great data source. I would strong you include multiple \
+references, and yes, I accept Naggle project as references too.
+
+
+
+Q: For the group projects, should we find members by ourselves or will it be \
+randomly assigned?
+
+A: Please find members by yourselves within your section (8:00AM MSB, 12:30PM \
+MS, 3:30PM C4)
+
+
+
+Q: What should the infographic look like? Does it mean the poster cannot \
+include any words or letters in it?
+
+A: Infographic is just another way to say data visualization, by definition \
+it is a visual image such as a chart or diagram used to represent information \
+or data. N, on the contrary, infographic combines legends, labels, marks, \
+numbers, images, trends. Please see the deck of slides (Source: Du & Peecher, \
+MOOC, Sustainability Reporting, Copyrighted: Gies School of Business, \
+University of Illinois) for some general guidance about infographics.
+
+
+
+Q:So the deliverable is just a notebook and the data source (if any) or does \
+it also need a slide deck?
+
+A: Yes, the deliverable is just a notebook and the data source, I don\
+\[CloseCurlyQuote]t need a slide deck, but if you could print the notebook as \
+a PDF file, it\[CloseCurlyQuote]ll make my grading easier.
+
+
+
+Q: For the final project, can we work on data related to the ... of the \
+immigrants from the Middle East? Do we have a proper source for that ? 
+
+A: You can use Perplexity.AI for finding data sources. It is better for \
+research purposes and can be use as a supplement in addition to OpenAI\
+\[CloseCurlyQuote]s ChatGPT. This URL might be helpful
+
+https://www.perplexity.ai/
+
+https://cis.org/Report/Immigrants-Middle-East
+
+
+
+Q: What are the things I need to focus on while working on the project.
+
+A: First, start with finding group members who share similar interests. \
+Second, use group discussion time to decide on question/data you\
+\[CloseCurlyQuote]ll work on. Third, submit your work for checkpoint-1, -2, \
+-3, so that you\[CloseCurlyQuote]ll have sufficient opportunities to obtain \
+feedback from the instructor.
+
+
+
+Q: Are there previous projects that I can refer to?
+
+A: I\[CloseCurlyQuote]ll show some in the beginning of the next class.
+
+
+
+Q: Should we focus on specific functions or algorithms?
+
+A: Some of my favorable functions are Table, Manipulate, CountryData, \
+FinancialData, CityData, GeolistPlot, WebDeploy... But feel free to use your \
+own creativity!
+
+
+
+Q: Can we use other tools of languages to help processing data?
+
+A: you surely can. As long as you import the final data to Mathematica for \
+visualization, exploration, and web deploy.
+
+
+
+Q: Is it ok if we reference some code from another source?
+
+A: you surely can. I\[CloseCurlyQuote]ll talk about some notebook examples in \
+Wolfram Mathematica environment. Feel free to build your work based on \
+others, as long as you cite properly.
+
+
+
+Q: Will the project checkpoints contribute to the score?
+
+A: Not officially but my observation is that groups who submit project \
+checkpoints on time usually perform better for the submissions for the final \
+projects.
+
+
+
+Q: Can we use virtual data if some data parts of the project is missing? Or \
+we cannot find it on the internet?
+
+A: This is a hard question! I strongly strongly encourage you use the real \
+data. It\[CloseCurlyQuote]s hard for me to answer this one without more \
+contextual understanding about the particular data items you have in mind.
+
+
+
+Q: I worry I could not find a teammate.
+
+A: Give it a try. TAs will help students find groups if there remains team \
+matching need at the end of October.
+
+
+
+Q: Do we have presentations for the final project?
+
+A: I will arrange final presentations for the final project, the grading will \
+consider the quality of your submitted notebook anas well as your presentation.
+
+
+
+Q: Can we use the same topic and data from another course?
+
+A: You can use the same data, but the focus of my final project is for data \
+story-telling.
+
+\
+\>", "Text",ExpressionUUID->"a6213c90-2331-43aa-9543-ce240b1824e3"]
+},
+FrontEndVersion->"14.3 for Mac OS X ARM (64-bit) (July 8, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b3b160bc-0c4e-4492-b561-ef39bc014138"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 215, 6, 70, "Text",ExpressionUUID->"d8ef38ae-ba74-4748-aa2f-de06147934c9"],
+Cell[772, 28, 77, 0, 70, "Input",ExpressionUUID->"3a3c5f51-de6b-49aa-98d5-81bb1b24dd3c"],
+Cell[852, 30, 98, 0, 70, "Input",ExpressionUUID->"945d3ce2-7d08-4d8c-8531-24e43c28c65b"],
+Cell[953, 32, 81, 0, 70, "Input",ExpressionUUID->"16b248ea-ab42-48a9-89be-e05845450688"],
+Cell[1037, 34, 112, 0, 70, "Input",ExpressionUUID->"c503caa7-18bb-4a2f-a1b3-fe0a3a208674"],
+Cell[1152, 36, 87, 3, 70, "Text",ExpressionUUID->"d6e4415d-efb4-4b46-ae9d-e7d09d3c6833"],
+Cell[1242, 41, 2184, 59, 70, "Text",ExpressionUUID->"2a962e5a-7aba-48b0-b034-103b34d46762"],
+Cell[3429, 102, 76, 0, 70, "Input",ExpressionUUID->"b4285e7a-73ad-46ed-ab89-de5670891445"],
+Cell[3508, 104, 4912, 151, 70, "Text",ExpressionUUID->"a6213c90-2331-43aa-9543-ce240b1824e3"]
+}
+]
+*)
+
+(* End of internal cache information *)
