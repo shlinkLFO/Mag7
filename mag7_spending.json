@@ -1,0 +1,2386 @@
+{
+  "Apple": {
+    "security_cryptography": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "Post-quantum cryptography (PQ3) for iMessage encryption"
+        ],
+        "notes": "Apple built a PQ3 protocol to harden iMessage against future quantum attacks; no spending figure disclosed.",
+        "source_figure": "Apple invested in cryptographic R&D to withstand quantum attacks (PQ3).",
+        "links": [
+          "https://techhq.com/news/fortifying-apple-imessage-defense-against-quantum-threats/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "autonomous_mobility": [
+      {
+        "investment_amount_billions_usd": 10.0,
+        "year": 2024,
+        "initiatives": [
+          "Project Titan autonomous EV development (Apple Car)"
+        ],
+        "notes": "Reporting indicates Apple spent >$10B over a decade on its self-driving car effort before shelving it and reassigning staff.",
+        "source_figure": "Apple spent more than $10 billion on the Apple Car program over the last decade.",
+        "links": [
+          "https://www.macrumors.com/2024/02/28/apple-car-10-billion-spent/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_efficiency_methods": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2023,
+        "initiatives": [
+          "Context Tuning for Retrieval-Augmented Generation",
+          "Retrieval-Augmented Correction of Named Entity Speech Recognition"
+        ],
+        "notes": "Apple ML Research published RAG-focused work (context tuning, retrieval-augmented ASR, multilingual RAG over knowledge graphs). Funded from Apple\u2019s >$30B R&D budget; no project-specific spend disclosed.",
+        "source_figure": "Apple R&D papers on Retrieval-Augmented Generation for tools, speech, and translation (EACL 2024 and later).",
+        "links": [
+          "https://machinelearning.apple.com/research/context-tuning-retrieval",
+          "https://machinelearning.apple.com/research/retrieval-asr"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "batteries_and_storage": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2021,
+        "initiatives": [
+          "Talks with CATL and BYD to supply EV batteries for Project Titan",
+          "Exploration of a US-based EV battery plant with Chinese partners"
+        ],
+        "notes": "Reuters reported Apple\u2019s early-stage negotiations with CATL and BYD to secure lithium-ion batteries for a planned Apple EV and to explore joint US manufacturing; no dollar figure disclosed.",
+        "source_figure": "Apple in early talks with CATL and BYD about EV batteries and a potential US factory.",
+        "links": [
+          "https://www.reuters.com/world/china/exclusive-apple-talks-with-catl-byd-over-battery-supplies-its-electric-car-2021-06-08/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "renewable_energy_generation": [
+      {
+        "investment_amount_billions_usd": 4.7,
+        "year": null,
+        "initiatives": [
+          "Green Bond-funded solar and wind capacity build-out",
+          "Low-carbon manufacturing and circularity projects"
+        ],
+        "notes": "Environmental progress report cites >1M tCO2e avoided annually and >60% emissions reduction vs 2015, using the same Green Bond proceeds.",
+        "source_figure": "$4.7B in Green Bonds; 1.2GW clean power capacity",
+        "links": [
+          "https://www.apple.com/newsroom/2021/03/apples-four-point-seven-billion-green-bond-spend-is-helping-to-create-one-point-two-gigawatts-of-clean-power/",
+          "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2025.pdf"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "circularity_reuse_recycling": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2022,
+        "initiatives": [
+          "Daisy & Dave recycling robots for iPhone disassembly"
+        ],
+        "notes": "Apple developed Daisy/Dave/Taz robots to recover rare materials; Daisy can tear down ~1.2M iPhones per year. Patents offered for free licensing; no spend disclosed.",
+        "source_figure": "Daisy can disassemble up to 1.2 million phones each year.",
+        "links": [
+          "https://www.apple.com/newsroom/2022/04/apple-expands-the-use-of-recycled-materials-across-its-products/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "digital_inclusion_and_economy": [
+      {
+        "investment_amount_billions_usd": 500.0,
+        "year": 2025,
+        "initiatives": [
+          "Four-year US investment plan (AI server factory, R&D hubs, 20k jobs)"
+        ],
+        "notes": "Apple plans to spend $500B in the US by 2029, including a Foxconn-run Texas AI server plant and doubling its Advanced Manufacturing Fund to $10B.",
+        "source_figure": "Spend $500 billion in U.S. investments over four years.",
+        "links": [
+          "https://www.reuters.com/technology/artificial-intelligence/apple-plans-texas-factory-ai-servers-20000-research-jobs-2025-02-24/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "digital_health_devices": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2019,
+        "initiatives": [
+          "Apple Heart Study with Stanford Medicine (AFib detection via Apple Watch)",
+          "Launch of Apple Heart & Movement, Hearing, and Women\u2019s Health Studies",
+          "Long-running noninvasive glucose monitoring R&D for Apple Watch"
+        ],
+        "notes": "Apple ran the virtual Apple Heart Study with 400k+ participants and launched multiple longitudinal health studies in 2019; also funding a decade-long noninvasive glucose monitoring program. Costs are embedded in Apple\u2019s multi-tens-of-billions annual R&D.",
+        "source_figure": "Apple Heart Study enrolled 400k+; Apple announced three major health studies in 2019; 2023 reports detail long-term glucose monitoring R&D.",
+        "links": [
+          "https://www.apple.com/newsroom/2019/03/stanford-medicine-announces-results-of-unprecedented-apple-heart-study/",
+          "https://www.apple.com/newsroom/2019/09/apple-announces-three-groundbreaking-health-studies/",
+          "https://www.diabetes.co.uk/news/2023/mar/non-invasive-blood-glucose-monitoring-closer-as-apple-hits-major-milestone.html"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "xr_metaverse_and_spatial_computing": [
+      {
+        "investment_amount_billions_usd": 20.0,
+        "year": null,
+        "initiatives": [
+          "Vision Pro spatial computing stack and AR/VR hardware R&D"
+        ],
+        "notes": "Estimate of cumulative Vision Pro-related R&D over a decade, framed against >$100B total Apple R&D over the past five years.",
+        "source_figure": "\u2248$20B inferred R&D allocated to Vision Pro over a decade",
+        "links": [
+          "https://humanprogress.org/apple-vision-pro-is-half-the-price-of-the-apple-ii/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 30.0,
+        "year": 2023,
+        "initiatives": [
+          "Scaling R&D for Vision Pro and spatial computing software"
+        ],
+        "notes": "Apple R&D rose from ~$8B (2015) to ~30B (2023); commentary attributes a substantial share to Vision Pro and spatial computing.",
+        "source_figure": "Apple R&D rising from ~$8B (2015) to ~30B (2023)",
+        "links": [
+          "https://www.matthewball.co/all/applevision2024"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "diversity_equity_inclusion": [
+      {
+        "investment_amount_billions_usd": 0.2,
+        "year": 2023,
+        "initiatives": [
+          "Racial Equity and Justice Initiative (education, economic empowerment, justice reform)"
+        ],
+        "notes": "Launched with $100M in 2020 and surpassed $200M by 2023, supporting HBCUs, minority venture funding, and reentry programs across five countries.",
+        "source_figure": "Surpassed $200 million in investments since 2020.",
+        "links": [
+          "https://www.apple.com/newsroom/2023/06/apples-racial-equity-and-justice-initiative-surpasses-200m-usd-in-investments/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_foundation_models": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2023,
+        "initiatives": [
+          "Building in-house large language models ('Ajax GPT')"
+        ],
+        "notes": "Media reports claim Apple spent \u201cmillions of dollars per day\u201d in 2023 to train generative AI models for Siri and related projects; no explicit total given.",
+        "source_figure": "Apple is spending millions of dollars per day training its language models.",
+        "links": [
+          "https://www.macrumors.com/2023/09/06/apple-conversational-ai-spending/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "satellite_and_subsea_infrastructure": [
+      {
+        "investment_amount_billions_usd": 1.5,
+        "year": 2024,
+        "initiatives": [
+          "Expansion of Globalstar satellite network for iPhone emergency services",
+          "Acquisition of 20% equity stake in Globalstar"
+        ],
+        "notes": "Committed $1.5B total ($1.1B cash prepayments for infrastructure + $400M equity) to fund a new satellite constellation and ground infrastructure dedicated to Apple.",
+        "source_figure": "Apple commits $1.5 billion to Globalstar for satellite expansion.",
+        "links": [
+          "https://www.cnbc.com/2024/11/01/apple-to-invest-1point5-billion-in-satellite-company-globalstar.html",
+          "https://www.sec.gov/ix?doc=/Archives/edgar/data/1366868/000136686824000055/gsat-20241029.htm"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.45,
+        "year": 2022,
+        "initiatives": [
+          "Emergency SOS via satellite (Globalstar capacity build-out)"
+        ],
+        "notes": "Allocated $450M (\u224895% to Globalstar) from Advanced Manufacturing Fund to upgrade satellites and build new ground stations (AK, FL, TX, etc.) for iPhone 14 Emergency SOS.",
+        "source_figure": "Apple dedicated $450 million to satellite infrastructure (mostly Globalstar) to support iPhone 14 emergency messaging.",
+        "links": [
+          "https://www.reuters.com/technology/apple-picks-globalstar-satellite-service-iphone-14-series-2022-09-07/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "cloud_data_centers_ai_infra": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2025,
+        "initiatives": [
+          "Private Cloud Compute (PCC) server deployment",
+          "Custom Apple Silicon servers for AI privacy"
+        ],
+        "notes": "Began shipping custom servers with Apple Silicon to data centers to handle complex Apple Intelligence requests with privacy guarantees; part of broader infrastructure spend.",
+        "source_figure": "Apple shipping US-made advanced servers for Private Cloud Compute.",
+        "links": [
+          "https://security.apple.com/blog/private-cloud-compute/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 10.0,
+        "year": 2018,
+        "initiatives": [
+          "US data center expansion (2018\u20132023 plan)"
+        ],
+        "notes": "Five-year US investment initiative earmarking >$10B for new and existing data centers (NC, OR, NV, AZ, IA) to expand iCloud/services on 100% renewables.",
+        "source_figure": "Over $10 billion of Apple\u2019s five-year capex plan will go into US data centers.",
+        "links": [
+          "https://www.apple.com/newsroom/2018/01/apple-accelerates-us-investment-and-job-creation/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "semiconductor_ai_hardware": [
+      {
+        "investment_amount_billions_usd": 1.2,
+        "year": 2021,
+        "initiatives": [
+          "European Silicon Design Center in Munich (wireless chip R&D)"
+        ],
+        "notes": "New Munich silicon design hub (largest EU R&D site) focused on wireless semiconductors/software; three-year expansion for 5G and chip research.",
+        "source_figure": "Apple to invest more than 1 billion euros (~$1.2B) over three years in its Munich chip design center.",
+        "links": [
+          "https://www.reuters.com/technology/apple-set-up-silicon-design-centre-germany-invest-1-bln-euros-2021-03-10/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "robotics_autonomy": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "Development of tabletop home robotics (Project J595)",
+          "Generative AI integration for home devices"
+        ],
+        "notes": "Bloomberg reports Apple is accelerating development of a high-end tabletop robotic device with an iPad-like display and robotic arm, targeted for 2026/2027.",
+        "source_figure": "Reported development of 'J595' home robot project.",
+        "links": [
+          "https://www.bloomberg.com/news/articles/2024-08-14/apple-moves-ahead-with-tabletop-robot-device-aiming-for-2026-release"
+        ],
+        "orig_domain": "robotics_autonomy",
+        "spend_type": "r_and_d",
+        "timeframe": null,
+        "amount_basis": "undisclosed",
+        "certainty": "press_report",
+        "is_rollup": false
+      }
+    ]
+  },
+  "Microsoft": {
+    "quantum_computing": [
+      {
+        "investment_amount_billions_usd": 0.16,
+        "year": 2025,
+        "initiatives": [
+          "Expansion of Copenhagen-area quantum labs focused on topological qubits",
+          "Majorana 1 chip program for fault-tolerant quantum computing"
+        ],
+        "notes": "Feature story provides program context and technical approach alongside the Danish facility expansion spend.",
+        "source_figure": ">1B DKK (~$0.16B) invested in Danish quantum facilities",
+        "links": [
+          "https://www.reuters.com/technology/microsoft-expands-danish-quantum-facility-with-second-lab-2025-11-12/",
+          "https://news.microsoft.com/source/features/innovation/microsofts-majorana-1-chip-carves-new-path-for-quantum-computing/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "security_cryptography": [
+      {
+        "investment_amount_billions_usd": 20.0,
+        "year": 2021,
+        "initiatives": [
+          "Integrate cybersecurity by design across products (5-year plan)"
+        ],
+        "notes": "At a White House summit, Microsoft pledged $20B (2021\u20132026) to embed security, zero-trust, and encryption into its software and services, quadrupling prior security R&D levels.",
+        "source_figure": "Microsoft investing $20 billion over five years to integrate cybersecurity by design.",
+        "links": [
+          "https://www.cybersecuritydive.com/news/biden-white-house-cyber-security-google-microsoft-apple-summit/605617/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "autonomous_mobility": [
+      {
+        "investment_amount_billions_usd": 2.0,
+        "year": 2021,
+        "initiatives": [
+          "Equity stake in Cruise (self-driving vehicles) to expand Azure\u2019s cloud footprint"
+        ],
+        "notes": "Participated in a >$2B funding round for Cruise in 2021, gaining a minority stake and making Azure the preferred cloud for robotaxi development.",
+        "source_figure": "New equity investment of more than $2 billion in Cruise.",
+        "links": [
+          "https://www.reuters.com/business/autos-transportation/cruise-gm-partner-with-microsoft-ramp-up-self-driving-vehicles-2021-01-19/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_efficiency_methods": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2021,
+        "initiatives": [
+          "LoRA (Low-Rank Adaptation) for parameter-efficient LLM fine-tuning"
+        ],
+        "notes": "Microsoft Research introduced LoRA, adding trainable low-rank matrices to frozen transformer weights to cut compute/memory costs when fine-tuning large models; spend is within Microsoft\u2019s broader AI R&D.",
+        "source_figure": "Original LoRA paper from Microsoft Research (2021).",
+        "links": [
+          "https://arxiv.org/abs/2106.09685"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "batteries_and_storage": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2022,
+        "initiatives": [
+          "Group14 Technologies silicon\u2013carbon anode materials (Climate Innovation Fund)"
+        ],
+        "notes": "Participated via the Climate Innovation Fund in Group14\u2019s large Series C to scale next-gen silicon-based lithium-ion materials; round totaled hundreds of millions (reported $400M\u2013$600M+), but Microsoft\u2019s specific check wasn\u2019t disclosed.",
+        "source_figure": "Group14 raised over $400M in its 2022 Series C with Microsoft Climate Innovation Fund participation.",
+        "links": [
+          "https://group14technologies.com/news/group14-closes-614m-series-c-round-to-power-the-ev-and-broad-electrification-markets"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "renewable_energy_generation": [
+      {
+        "investment_amount_billions_usd": 1.0,
+        "year": null,
+        "initiatives": [
+          "Climate Innovation Fund commitments to carbon removal",
+          "Low-carbon fuels and grid-scale storage",
+          "Circular materials and waste reduction investments"
+        ],
+        "notes": ">$800M deployed across 67 companies with an estimated ~$12B total climate investment multiplier (~15x).",
+        "source_figure": "$1B Climate Innovation Fund; >$800M deployed; \u2248$12B follow-on capital",
+        "links": [
+          "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/climate-innovation-fund",
+          "https://sustainabilitymag.com/news/the-multiplier-effect-of-microsofts-climate-innovation-fund"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "circularity_reuse_recycling": [
+      {
+        "investment_amount_billions_usd": 0.03,
+        "year": 2020,
+        "initiatives": [
+          "Zero-waste by 2030 and Circular Centers to refurbish/reuse cloud hardware",
+          "$30M investment in Closed Loop Partners\u2019 circular economy funds"
+        ],
+        "notes": "Committed to zero waste by 2030 with Circular Centers refurbishing servers (>90% reuse/recycle) and invested $30M in Closed Loop Partners to accelerate recycling infrastructure.",
+        "source_figure": "$30M Closed Loop Partners investment as part of zero-waste strategy.",
+        "links": [
+          "https://blogs.microsoft.com/on-the-issues/2020/08/04/zero-waste-2030-circular-economy/",
+          "https://blogs.microsoft.com/blog/2021/07/14/how-microsoft-is-creating-more-sustainable-data-centers/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "cloud_data_centers_ai_infra": [
+      {
+        "investment_amount_billions_usd": 2.2,
+        "year": 2024,
+        "initiatives": [
+          "Malaysia datacenter region and National AI Centre (4-year plan)"
+        ],
+        "notes": "Largest-ever Microsoft investment in Malaysia: $2.2B (2024\u20132028) for cloud infrastructure, AI skilling, and a national AI Centre of Excellence plus cybersecurity partnerships.",
+        "source_figure": "Invest US$2.2 billion over the next four years to support Malaysia\u2019s digital transformation.",
+        "links": [
+          "https://news.microsoft.com/apac/2024/05/02/microsoft-announces-us2-2-billion-investment-to-fuel-malaysias-cloud-and-ai-transformation/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 80.0,
+        "year": 2025,
+        "initiatives": [
+          "U.S. data center expansion for AI infrastructure",
+          "Global AI compute capacity build-out"
+        ],
+        "notes": "Microsoft announced plans to invest $80B in 2025, with approximately half ($40B) directed toward U.S. data centers to support AI workloads and cloud infrastructure expansion.",
+        "source_figure": "Microsoft plans $80 billion investment in 2025, with half for U.S. data centers.",
+        "links": [
+          "https://www.ainvest.com/news/magnificent-7-ai-driven-growth-engine-economic-expansion-2508/"
+        ],
+        "spend_type": "capex",
+        "timeframe": {
+          "start": 2025,
+          "end": 2025
+        },
+        "amount_basis": "single_year_spend",
+        "certainty": "company_guidance",
+        "is_rollup": false
+      }
+    ],
+    "digital_health_devices": [
+      {
+        "investment_amount_billions_usd": 19.7,
+        "year": 2022,
+        "initiatives": [
+          "Acquisition of Nuance Communications (clinical AI speech tech)"
+        ],
+        "notes": "Microsoft acquired Nuance in 2022 for $19.7B, integrating AI voice recognition and clinical documentation into its healthcare cloud solutions.",
+        "source_figure": "Microsoft completed its $19.7B acquisition of Nuance.",
+        "links": [
+          "https://www.geekwire.com/2022/microsofts-19-7b-nuance-deal-is-finally-final-nearly-a-year-after-it-was-announced/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "diversity_equity_inclusion": [
+      {
+        "investment_amount_billions_usd": 0.5,
+        "year": 2020,
+        "initiatives": [
+          "Supplier diversity program (double Black-owned suppliers)",
+          "Expanded internal D&I hiring and training"
+        ],
+        "notes": "Pledged an extra $150M for diversity initiatives and $500M of additional spend with Black-owned suppliers over three years.",
+        "source_figure": "Add $150 million to D&I budget; +$500 million in Black-owned supplier spend.",
+        "links": [
+          "https://www.reuters.com/article/us-microsoft-race/microsoft-adds-to-diversity-investment-aims-to-increase-number-of-black-employees-idUSKBN23U2ZM/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_foundation_models": [
+      {
+        "investment_amount_billions_usd": 13.8,
+        "year": 2025,
+        "initiatives": [
+          "Strategic investment and cloud credits to OpenAI for LLM/gen-AI development"
+        ],
+        "notes": "Later reporting pegs Microsoft\u2019s total cash/credits exposure at $13.8B (vs. earlier ~$13B) with stake valued around $135B.",
+        "source_figure": "$13.8B total cash/credits exposure; stake valued \u2248$135B",
+        "links": [
+          "https://www.ft.com/content/8f7fcaaf-2ae0-4c2f-a016-6f51d2f83cba",
+          "https://www.reuters.com/business/microsoft-openai-reach-new-deal-allow-openai-restructure-2025-10-28/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 1.5,
+        "year": 2024,
+        "initiatives": [
+          "Strategic investment in G42 (UAE-based AI company)"
+        ],
+        "notes": "Invested $1.5B for a minority stake in G42 to expand AI infrastructure in the Middle East and globally, ensuring G42 runs on Azure.",
+        "source_figure": "Microsoft invests $1.5 billion in G42 to accelerate AI innovation.",
+        "links": [
+          "https://blogs.microsoft.com/blog/2024/04/16/microsoft-invests-1-5-billion-in-g42-to-accelerate-ai-innovation-and-global-expansion/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.016,
+        "year": 2024,
+        "initiatives": [
+          "Equity investment in Mistral AI"
+        ],
+        "notes": "Invested \u20ac15M (~$16M) in French AI startup Mistral AI, converting to equity alongside a multi-year Azure hosting partnership.",
+        "source_figure": "Microsoft made a \u20ac15 million investment in Mistral AI.",
+        "links": [
+          "https://techcrunch.com/2024/02/26/microsoft-invests-in-mistral-ai/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "semiconductor_ai_hardware": [
+      {
+        "investment_amount_billions_usd": 1.3,
+        "year": 2023,
+        "initiatives": [
+          "Inflection AI funding round (personal AI assistant 'Pi')"
+        ],
+        "notes": "Inflection AI raised $1.3B in 2023 from Microsoft, NVIDIA, and others to build a 22k-GPU cluster (~3x GPT-4\u2019s reported compute) powering its Pi AI assistant and future foundation models.",
+        "source_figure": "$1.3B raised (Microsoft and NVIDIA among backers; ~$4B valuation).",
+        "links": [
+          "https://www.reuters.com/technology/inflection-ai-raises-13-bln-funding-microsoft-others-2023-06-29/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "robotics_autonomy": [
+      {
+        "investment_amount_billions_usd": 0.095,
+        "year": 2024,
+        "initiatives": [
+          "Investment in Figure AI (Humanoid robots)"
+        ],
+        "notes": "Invested about $95M in Figure AI\u2019s $675M Series B to accelerate humanoid robots and Azure integration.",
+        "source_figure": "Microsoft invested $95 million in Figure AI.",
+        "links": [
+          "https://www.bloomberg.com/news/articles/2024-02-23/jeff-bezos-nvidia-join-openai-in-funding-humanoid-robot-startup-figure-ai"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "digital_inclusion_and_economy": [
+      {
+        "investment_amount_billions_usd": 0.1,
+        "year": 2019,
+        "initiatives": [
+          "Africa Development Center hubs in Kenya and Nigeria"
+        ],
+        "notes": "Launched ADC sites in Nairobi and Lagos with a five-year plan >$100M to hire 500 engineers and grow local AI/cloud talent.",
+        "source_figure": "Microsoft will spend more than $100 million over five years to open its first development center in Africa.",
+        "links": [
+          "https://www.geekwire.com/2019/microsoft-will-spend-100m-open-first-development-center-africa/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "responsible_ai_safety_governance": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2022,
+        "initiatives": [
+          "Office of Responsible AI (ORA) operations",
+          "Responsible AI Standard v2 implementation"
+        ],
+        "notes": "Microsoft maintains a dedicated Office of Responsible AI to govern development; specific budget undisclosed but integral to AI product rollout.",
+        "source_figure": "Implementation of Responsible AI Standard v2 across engineering groups.",
+        "links": [
+          "https://blogs.microsoft.com/on-the-issues/2022/06/21/microsofts-framework-for-building-ai-systems-responsibly/"
+        ],
+        "spend_type": "opex",
+        "amount_basis": "undisclosed",
+        "certainty": "company_guidance",
+        "is_rollup": false
+      }
+    ]
+  },
+  "Alphabet": {
+    "quantum_computing": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2021,
+        "initiatives": [
+          "Quantum AI campus in Santa Barbara",
+          "Plan for error-corrected quantum computer by 2029"
+        ],
+        "notes": "Quantum AI campus serves as hub for in-house quantum data center, labs, and fab; plans call for several-billion-dollar investment to build a useful error-corrected quantum computer by 2029.",
+        "source_figure": "Alphabet plans to spend several billion dollars on a commercial-grade quantum computer by 2029, centered at its Quantum AI campus.",
+        "links": [
+          "https://blog.google/technology/ai/unveiling-our-new-quantum-ai-campus/",
+          "https://www.wsj.com/articles/google-aims-for-commercial-grade-quantum-computer-by-2029-11621359156"
+        ],
+        "spend_type": "r_and_d",
+        "timeframe": {
+          "start": 2021,
+          "end": 2029
+        },
+        "amount_basis": "multi_year_commitment",
+        "certainty": "press_report",
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "Willow quantum chip (105-qubit superconducting processor)",
+          "Advancement toward large-scale quantum error correction"
+        ],
+        "notes": "Google announced the Willow chip in December 2024, representing a major milestone in quantum computing with improved error correction capabilities. Specific investment amount not disclosed but represents continuation of multi-year quantum AI campus program.",
+        "source_figure": "Willow chip achieves breakthrough in quantum error correction with 105 qubits.",
+        "links": [
+          "https://www.fool.com/investing/2025/01/10/ai-quantum-computing-magnificent-seven-stock/",
+          "https://markets.financialcontent.com/sandiego/article/marketminute-2025-8-27-tech-sectors-new-horizon-beyond-the-magnificent-7-diversified-growth-ignites-2025"
+        ],
+        "spend_type": "r_and_d",
+        "timeframe": null,
+        "amount_basis": "undisclosed",
+        "certainty": "company_guidance",
+        "is_rollup": false
+      }
+    ],
+    "security_cryptography": [
+      {
+        "investment_amount_billions_usd": 10.0,
+        "year": 2021,
+        "initiatives": [
+          "Five-year commitment to zero-trust security and open-source supply chain protection"
+        ],
+        "notes": "At a 2021 White House summit, Google pledged $10B (2021\u20132026) to expand zero trust, secure software supply chains, and bolster cybersecurity workforce.",
+        "source_figure": "Google pledged a $10B investment over five years for cybersecurity and zero trust.",
+        "links": [
+          "https://www.cybersecuritydive.com/news/biden-white-house-cyber-security-google-microsoft-apple-summit/605617/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2025,
+        "initiatives": [
+          "Acquisition of ID Quantique (Swiss quantum encryption provider)",
+          "Quantum-safe security solutions deployment"
+        ],
+        "notes": "Alphabet acquired ID Quantique to enhance quantum-safe encryption capabilities across its services. Deal value not disclosed but positions Google to capture multiple quantum security market segments.",
+        "source_figure": "Google acquired ID Quantique to strengthen quantum encryption portfolio.",
+        "links": [
+          "https://www.futuremarketsinc.com/the-global-quantum-technology-industry-2025-technologies-markets-investments-and-opportunities/"
+        ],
+        "spend_type": "equity",
+        "timeframe": null,
+        "amount_basis": "undisclosed",
+        "certainty": "press_report",
+        "is_rollup": false
+      }
+    ],
+    "autonomous_mobility": [
+      {
+        "investment_amount_billions_usd": 30.0,
+        "year": null,
+        "initiatives": [
+          "Waymo autonomous vehicle commercialization and scaling"
+        ],
+        "notes": "Estimates ~30B cumulative Alphabet investment with ~1.5B annual burn to scale Waymo in California and beyond.",
+        "source_figure": "\u2248$30B cumulative Alphabet investment into Waymo; \u2248$1.5B annual burn",
+        "links": [
+          "https://www.roadtoautonomy.com/waymo-business-scaling-california/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_efficiency_methods": [
+      {
+        "investment_amount_billions_usd": 2.0,
+        "year": 2023,
+        "initiatives": [
+          "Up to $2B strategic investment in Anthropic (equity plus cloud credits)",
+          "Expansion of Vertex AI and Gemini RAG tooling for enterprise search and assistants"
+        ],
+        "notes": "Agreed to invest up to $2B in Anthropic (initial $500M equity plus further funding and cloud credits). Anthropic models integrate with Gemini and Vertex AI RAG tooling; split between equity and cloud spend not disclosed.",
+        "source_figure": "Up to $2B commitment to Anthropic combining equity and cloud spend.",
+        "links": [
+          "https://www.anthropic.com",
+          "https://cloud.google.com/blog/products/ai-machine-learning"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2020,
+        "initiatives": [
+          "REALM (Retrieval-Augmented Language Model Pre-Training)"
+        ],
+        "notes": "REALM jointly trained a retriever and language model, an early retrieval-augmented pre-training approach that influenced modern RAG systems across Google products. Spend is within Google AI research budgets.",
+        "source_figure": "REALM paper published in 2020 by Google researchers.",
+        "links": [
+          "https://arxiv.org/abs/2002.08909"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "superconducting_devices_squids": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2019,
+        "initiatives": [
+          "Sycamore superconducting quantum processor using Josephson-junction circuits",
+          "Quantum supremacy random circuit sampling experiment"
+        ],
+        "notes": "The 53-qubit Sycamore processor, built with superconducting Josephson junctions (akin to SQUID-derived devices), powered Google\u2019s 2019 quantum supremacy experiment. Spend is embedded in Alphabet\u2019s quantum R&D.",
+        "source_figure": "Quantum supremacy on a 53-qubit Sycamore processor (Nature 2019).",
+        "links": [
+          "https://www.nature.com/articles/s41586-019-1666-5",
+          "https://research.google/blog/quantum-supremacy-using-a-programmable-superconducting-processor/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "batteries_and_storage": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2017,
+        "initiatives": [
+          "Project Malta molten-salt grid-scale energy storage (X moonshot)",
+          "Spin-out of Malta Inc. for long-duration storage commercialization"
+        ],
+        "notes": "Project Malta stored electricity as heat in molten salt and cold in an antifreeze fluid to deliver long-duration storage; spun out as Malta Inc. with a $26M Series A led by Breakthrough Energy Ventures. Costs not broken out from Alphabet\u2019s Other Bets.",
+        "source_figure": "Malta Inc. raised $26M Series A after graduating from Alphabet\u2019s X.",
+        "links": [
+          "https://www.bloomberg.com/news/articles/2017-07-31/alphabet-wants-to-fix-renewable-energy-s-storage-problem-with-salt",
+          "https://techcrunch.com/2018/12/24/alphabet-spins-off-moonshot-project-malta-with-backing-from-gatess-bev-fund/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "renewable_energy_generation": [
+      {
+        "investment_amount_billions_usd": 3.7,
+        "year": null,
+        "initiatives": [
+          "Corporate clean energy PPAs and project investments (22 GW capacity)"
+        ],
+        "notes": "Since 2010, Alphabet reports investing ~$3.7B in clean energy projects/partnerships (170 deals, 22 GW) to enable 24/7 carbon-free operations across data centers.",
+        "source_figure": "Invested over $3.7B in clean energy projects and partnerships (170 deals for 22 GW).",
+        "links": [
+          "https://datacenters.google/operating-sustainably/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "circularity_reuse_recycling": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2023,
+        "initiatives": [
+          "Zero-waste-to-landfill certifications for Google data centers",
+          "Circularity programs for hardware reuse and e-waste recycling"
+        ],
+        "notes": "Reports describe high operational waste-diversion rates and multiple Google data centers achieving zero-waste-to-landfill certifications; spend is embedded in broader infrastructure capex/opex.",
+        "source_figure": "Google reports >80% operational waste diversion and multiple zero-waste-certified data centers.",
+        "links": [
+          "https://sustainability.google",
+          "https://sustainability.google/commitments/operations/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "digital_inclusion_and_economy": [
+      {
+        "investment_amount_billions_usd": 10.0,
+        "year": 2020,
+        "initiatives": [
+          "Google for India Digitization Fund (infrastructure, internet access, apps)"
+        ],
+        "notes": "Alphabet launched a $10B fund in 2020 to accelerate India\u2019s digital economy via equity investments, partnerships, and infrastructure, including a $4.5B Jio Platforms stake.",
+        "source_figure": "Would spend around $10B in India over the next five to seven years.",
+        "links": [
+          "https://www.reuters.com/article/business/alphabet-s-google-commits-10-billion-to-accelerate-digitization-in-india-idUSKCN24E16M"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "bio_ai_and_drug_discovery": [
+      {
+        "investment_amount_billions_usd": 1.0,
+        "year": 2022,
+        "initiatives": [
+          "Verily life sciences spinout - precision health expansion"
+        ],
+        "notes": "Alphabet injected $1B into Verily in 2022 to expand precision health, data analytics, and clinical research platforms.",
+        "source_figure": "Verily received a $1B investment from Alphabet to fuel growth.",
+        "links": [
+          "https://www.fiercehealthcare.com/health-tech/alphabets-verily-banks-1b-double-down-precision-health"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "xr_metaverse_and_spatial_computing": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2021,
+        "initiatives": [
+          "Project Starline 3D telepresence system",
+          "Partnership with HP to commercialize Starline hardware (Google Beam)"
+        ],
+        "notes": "Project Starline uses computer vision, light-field displays, and real-time compression for life-size telepresence; later partnered with HP for commercialization. Costs fall under Alphabet R&D/Other Bets, not disclosed separately.",
+        "source_figure": "Google and HP announced partnership to commercialize Project Starline.",
+        "links": [
+          "https://blog.google/technology/research/project-starline-update/",
+          "https://blog.google/technology/research/project-starline-hp-partnership/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "diversity_equity_inclusion": [
+      {
+        "investment_amount_billions_usd": 0.175,
+        "year": 2020,
+        "initiatives": [
+          "Economic Opportunity package for Black entrepreneurs and SMBs",
+          "Funding for Black-led VC firms and startups"
+        ],
+        "notes": "Announced a $175M+ commitment to support Black-owned businesses, Black-led startups, job training, and education initiatives.",
+        "source_figure": "$175 million+ economic opportunity package for Black communities.",
+        "links": [
+          "https://blog.google/inside-google/company-announcements/commitments-racial-equity/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_foundation_models": [
+      {
+        "investment_amount_billions_usd": 45.43,
+        "year": 2023,
+        "initiatives": [
+          "Aggregate R&D across AI (LLMs), Waymo autonomy stack, and experimental hardware including quantum"
+        ],
+        "notes": "Macrotrends series shows Alphabet R&D at $45.43B in 2023; headline figure before allocating to AI and robotics sub-domains.",
+        "source_figure": "Alphabet R&D $45.43B (2023) with multi-year series",
+        "links": [
+          "https://www.macrotrends.net/stocks/charts/GOOGL/alphabet/research-development-expenses"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 2.0,
+        "year": 2023,
+        "initiatives": [
+          "Anthropic generative AI investment (Claude LLM and cloud partnership)"
+        ],
+        "notes": "Agreed to invest up to $2B more into Anthropic in 2023 (with $500M upfront) to deepen Claude integration and bolster Google Cloud\u2019s AI stack against OpenAI/Microsoft.",
+        "source_figure": "Google to invest up to $2B (with $500M upfront) in Anthropic.",
+        "links": [
+          "https://www.reuters.com/technology/google-agrees-invest-up-2-bln-openai-rival-anthropic-wsj-2023-10-27/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "robotics_autonomy": [
+      {
+        "investment_amount_billions_usd": 0.6,
+        "year": 2025,
+        "initiatives": [
+          "CapitalG-led investment in Physical Intelligence"
+        ],
+        "notes": "CapitalG led a $600M round for Physical Intelligence to build foundation models for robots, valuing the startup at $5.6B.",
+        "source_figure": "CapitalG led a $600 million round for Physical Intelligence.",
+        "links": [
+          "https://www.bloomberg.com/news/articles/2024-11-04/robotics-ai-startup-physical-intelligence-raises-400-million-from-bezos-openai"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.113,
+        "year": 2021,
+        "initiatives": [
+          "Intrinsic Series A funding (Industrial robotics software)"
+        ],
+        "notes": "Intrinsic, an Alphabet spin-out, raised $113M Series A to democratize industrial robotics software.",
+        "source_figure": "Intrinsic raised $113 million in Series A funding.",
+        "links": [
+          "https://techcrunch.com/2023/05/24/alphabet-owned-intrinsic-acquires-osr-to-expand-its-industrial-robotics-platform/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ]
+  },
+  "Amazon": {
+    "quantum_computing": [
+      {
+        "investment_amount_billions_usd": 0.04,
+        "year": 2025,
+        "initiatives": [
+          "Strategic equity stake in IonQ (trapped-ion quantum hardware)"
+        ],
+        "notes": "Amazon disclosed owning ~854k shares of IonQ (~$36.7M value), one of Big Tech\u2019s larger public bets on a quantum hardware startup.",
+        "source_figure": "$36.7 million stake in IonQ revealed in SEC filing.",
+        "links": [
+          "https://thequantuminsider.com/2025/08/06/amazon-discloses-stake-in-ionq/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2019,
+        "initiatives": [
+          "Amazon Braket fully managed quantum computing service",
+          "AWS Center for Quantum Networking"
+        ],
+        "notes": "Launched Amazon Braket to provide access to quantum hardware (IonQ, Rigetti, D-Wave) and established the AWS Center for Quantum Networking.",
+        "source_figure": "Launch of Amazon Braket and quantum networking research center.",
+        "links": [
+          "https://aws.amazon.com/braket/",
+          "https://aws.amazon.com/blogs/quantum-computing/announcing-the-aws-center-for-quantum-networking/"
+        ],
+        "spend_type": "r_and_d",
+        "amount_basis": "undisclosed",
+        "certainty": "company_guidance",
+        "is_rollup": false
+      }
+    ],
+    "security_cryptography": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2022,
+        "initiatives": [
+          "AWS Clean Rooms for privacy-preserving data collaboration",
+          "Homomorphic encryption and secure multi-party computation support for ads/analytics"
+        ],
+        "notes": "AWS launched Clean Rooms to let customers query combined datasets without sharing raw data, using cryptographic computing; part of broader AWS R&D, no specific spend disclosed.",
+        "source_figure": "AWS debuted Clean Rooms with cryptographic computing support in 2022/2023.",
+        "links": [
+          "https://aws.amazon.com/clean-rooms/",
+          "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-clean-rooms-preview/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "cloud_data_centers_ai_infra": [
+      {
+        "investment_amount_billions_usd": 48.1,
+        "year": 2023,
+        "initiatives": [
+          "Cash capex for AWS data centers",
+          "Fulfillment network automation and robotics"
+        ],
+        "notes": "10-K discloses $48.1B (2023) and $58.3B (2022) capex primarily for tech infrastructure and fulfillment expansion.",
+        "source_figure": "Cash capex $48.1B (2023) and $58.3B (2022)",
+        "links": [
+          "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 18.3,
+        "year": null,
+        "initiatives": [
+          "AWS U.S. data center construction (2011\u20132022)"
+        ],
+        "notes": "Economic impact statement quantifies $18.3B spent on U.S. data center build-out across multiple states.",
+        "source_figure": "$18.3B AWS data center construction spend in the U.S. (2011\u20132022)",
+        "links": [
+          "https://assets.aboutamazon.com/58/65/29ea168a4839979aa779700ba42c/aws-us-eis-2023.pdf"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "autonomous_mobility": [
+      {
+        "investment_amount_billions_usd": 1.3,
+        "year": 2020,
+        "initiatives": [
+          "Acquisition of Zoox (autonomous robotaxi development)"
+        ],
+        "notes": "Acquired self-driving vehicle startup Zoox in 2020 for $1.3B to develop autonomous ride-hailing and delivery robots tied to Amazon\u2019s logistics network.",
+        "source_figure": "Amazon acquired Zoox in 2020 for $1.3 billion.",
+        "links": [
+          "https://www.reuters.com/business/autos-transportation/us-opens-probe-into-amazon-owned-zoox-cars-2024-05-13/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_efficiency_methods": [
+      {
+        "investment_amount_billions_usd": 4.0,
+        "year": 2023,
+        "initiatives": [
+          "Up to $4B strategic investment in Anthropic (minority stake plus AWS credits)",
+          "Launch of Amazon Bedrock and Amazon Q RAG services on top of foundation models"
+        ],
+        "notes": "Announced up to $4B into Anthropic (initial $1.25B with option for $2.75B more) to make Claude models first-class in Bedrock and Amazon Q; allocation between equity and AWS credits not disclosed.",
+        "source_figure": "Up to $4B Anthropic commitment combining equity and AWS credits.",
+        "links": [
+          "https://www.aboutamazon.com/news/company-news/amazon-and-anthropic-extend-their-strategic-collaboration",
+          "https://aws.amazon.com/bedrock/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "batteries_and_storage": [
+      {
+        "investment_amount_billions_usd": 2.5,
+        "year": 2021,
+        "initiatives": [
+          "Series E funding round in EV-maker Rivian (100k electric delivery vans)"
+        ],
+        "notes": "Co-led a $2.5B round into Rivian in 2021 via the Climate Pledge Fund, contributing to ~$10.5B raised pre-IPO to scale electric pickups, SUVs, and Amazon\u2019s delivery vans.",
+        "source_figure": "$2.5 billion fundraising round led by Amazon (Climate Pledge Fund).",
+        "links": [
+          "https://www.reuters.com/business/autos-transportation/ev-startup-rivian-announces-25-bln-funding-round-led-by-amazon-ford-2021-07-23/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "renewable_energy_generation": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "Global wind and solar PPAs (over 600 projects, ~8.3M homes equivalent)"
+        ],
+        "notes": "As of 2024, Amazon has enabled 600+ clean energy projects in 30+ countries, totaling tens of GW to power operations and decarbonize grids; largest corporate renewable buyer for five straight years.",
+        "source_figure": "Supported more than 600 wind and solar projects capable of powering ~8.3M U.S. homes.",
+        "links": [
+          "https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-solar-wind-nuclear-climate-change"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "circularity_reuse_recycling": [
+      {
+        "investment_amount_billions_usd": 0.01,
+        "year": 2018,
+        "initiatives": [
+          "Closed Loop Fund investment to boost recycling infrastructure"
+        ],
+        "notes": "Amazon committed $10M to the Closed Loop Infrastructure Fund (2018) to help U.S. cities expand recycling, aiming to divert 1M tons from landfills and cut 2M tons CO2 by 2028.",
+        "source_figure": "$10M investment to expand municipal recycling infrastructure.",
+        "links": [
+          "https://techcrunch.com/2018/10/16/amazon-puts-10m-in-closed-loop-fund-to-make-recycling-easier-in-more-american-cities/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "satellite_and_subsea_infrastructure": [
+      {
+        "investment_amount_billions_usd": 10.0,
+        "year": null,
+        "initiatives": [
+          "Project Kuiper LEO satellite constellation (3,236 satellites)"
+        ],
+        "notes": "Planned investment to build satellite broadband infrastructure competing with SpaceX Starlink.",
+        "source_figure": ">$10B planned investment in Project Kuiper",
+        "links": [
+          "https://www.reuters.com/business/taking-on-spacex-amazon-to-invest-10-billion-in-satellite-broadband-plan-idUSKCN24W0E1/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.14,
+        "year": 2024,
+        "initiatives": [
+          "Project Kuiper Florida payload processing facility",
+          "Ground segment build-out at Kennedy Space Center"
+        ],
+        "notes": "Expanding payload processing facility at Space Florida\u2019s Launch and Landing Facility; new $19.5M expansion brings site capex to nearly $140M for Kuiper ground ops (facility-specific, not constellation total).",
+        "source_figure": "Project Kuiper investing $19.5M expansion, bringing Florida site to nearly $140M total.",
+        "links": [
+          "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-investment-expansion-florida",
+          "https://spaceflightnow.com/2025/07/24/amazon-says-139-5-million-investment-in-florida-is-key-to-ramping-up-launch-cadence-with-project-kuiper/"
+        ],
+        "orig_domain": "satellite_and_subsea_infrastructure",
+        "spend_type": "capex",
+        "timeframe": null,
+        "amount_basis": "project_cost",
+        "certainty": "company_guidance",
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.57,
+        "year": 2025,
+        "initiatives": [
+          "Project Kuiper Vietnam ground stations",
+          "Terminal manufacturing facilities in Bac Ninh province"
+        ],
+        "notes": "Amazon plans to invest $570M by 2030 via Amazon Kuiper Vietnam to build up to six ground stations and local terminal manufacturing; separate from satellite build/launch capex.",
+        "source_figure": "Amazon will invest about $570M by 2030 in ground stations and terminal manufacturing for Project Kuiper in Vietnam.",
+        "links": [
+          "https://www.reuters.com/business/retail-consumer/amazon-aiming-deploy-kuiper-satellite-services-vietnam-2025-08-27/"
+        ],
+        "orig_domain": "satellite_and_subsea_infrastructure",
+        "spend_type": "capex",
+        "timeframe": {
+          "start": 2025,
+          "end": 2030
+        },
+        "amount_basis": "multi_year_commitment",
+        "certainty": "press_report",
+        "is_rollup": false
+      }
+    ],
+    "digital_health_devices": [
+      {
+        "investment_amount_billions_usd": 3.9,
+        "year": 2023,
+        "initiatives": [
+          "Acquisition of One Medical primary care provider network"
+        ],
+        "notes": "Amazon acquired One Medical in 2023 for $3.9B to expand clinics and telehealth as part of its health services push.",
+        "source_figure": "Closed its $3.9B acquisition of One Medical.",
+        "links": [
+          "https://apnews.com/article/technology-amazoncom-inc-1life-healthcare-business-8440ff249f2af796d7b74b654eb86130"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "sci_fi_consumer_devices": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2021,
+        "initiatives": [
+          "Astro home robot with Alexa integration"
+        ],
+        "notes": "Introduced Astro, a wheeled home robot with cameras, sensors, and Alexa; sold initially by invitation around $1,000\u2013$1,500. Development costs not public but part of devices/robotics R&D.",
+        "source_figure": "Astro launched at an introductory price of $999.99 for early customers.",
+        "links": [
+          "https://www.aboutamazon.com/news/devices/meet-astro-a-home-robot-unlike-any-other"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "diversity_equity_inclusion": [
+      {
+        "investment_amount_billions_usd": 0.15,
+        "year": 2021,
+        "initiatives": [
+          "Black Business Accelerator (grants, mentorship, marketing support)"
+        ],
+        "notes": "Four-year $150M commitment to empower Black entrepreneurs on Amazon via cash grants, AWS credits, mentorship, and marketing support for third-party sellers.",
+        "source_figure": "$150 million commitment over four years for Black entrepreneurs.",
+        "links": [
+          "https://www.aboutamazon.com/news/small-business/amazon-commits-150-million-to-empower-black-entrepreneurs"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_foundation_models": [
+      {
+        "investment_amount_billions_usd": 85.62,
+        "year": 2023,
+        "initiatives": [
+          "Company-wide R&D spanning AWS AI services, logistics tech, and devices"
+        ],
+        "notes": "Macrotrends reports Amazon R&D (technology & content) at $85.62B in 2023, continuing a multi-year growth trend.",
+        "source_figure": "Amazon R&D (tech & content) $85.62B (2023)",
+        "links": [
+          "https://www.macrotrends.net/stocks/charts/AMZN/amazon/research-development-expenses"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 4.0,
+        "year": 2024,
+        "initiatives": [
+          "Additional investment in Anthropic (total $8B commitment)"
+        ],
+        "notes": "Invested an additional $4B in Anthropic in Nov 2024, bringing total commitment to $8B and cementing AWS as primary cloud provider.",
+        "source_figure": "Amazon invests an additional $4 billion in Anthropic.",
+        "links": [
+          "https://www.aboutamazon.com/news/company-news/amazon-anthropic-additional-4-billion-investment"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "robotics_autonomy": [
+      {
+        "investment_amount_billions_usd": 0.4,
+        "year": 2024,
+        "initiatives": [
+          "Acqui-hire/licensing deal with Covariant"
+        ],
+        "notes": "Paid about $400M ($380M upfront + $20M deferred) to hire Covariant\u2019s founders and license its robotic foundation models.",
+        "source_figure": "Amazon paid $400 million for Covariant talent and tech licenses.",
+        "links": [
+          "https://www.geekwire.com/2024/amazon-hires-covariant-founders-inks-licensing-deal-with-ai-startup-in-latest-reverse-acquihire/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 1.0,
+        "year": 2022,
+        "initiatives": [
+          "Amazon Industrial Innovation Fund launch"
+        ],
+        "notes": "Launched a $1B venture fund to invest in supply chain robotics; portfolio includes Agility Robotics, Mantis Robotics, and BionicHIVE.",
+        "source_figure": "Launched $1 billion Amazon Industrial Innovation Fund.",
+        "links": [
+          "https://www.aboutamazon.com/news/innovation-at-amazon/amazon-industrial-innovation-fund-investment-announcement"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "industrial_automation_supply_chain": [
+      {
+        "investment_amount_billions_usd": 1.0,
+        "year": 2025,
+        "initiatives": [
+          "Autonomous delivery systems and AI-powered logistics",
+          "Automation of warehouses and last-mile delivery"
+        ],
+        "notes": "Investor analysis reports Amazon has invested about $1B in autonomous delivery and AI-powered logistics systems to cut costs and speed up deliveries, with research citing ~30% faster delivery times and ~10% higher customer satisfaction.",
+        "source_figure": "Amazon has invested $1 billion in autonomous delivery and AI-powered logistics systems.",
+        "links": [
+          "https://investors.catenaa.com/analysis/technological-innovations-and-contributions-of-the-magnificent-seven/"
+        ],
+        "orig_domain": "industrial_automation_supply_chain",
+        "spend_type": "capex",
+        "timeframe": null,
+        "amount_basis": "undisclosed",
+        "certainty": "third_party_estimate",
+        "is_rollup": false
+      }
+    ]
+  },
+  "NVIDIA": {
+    "quantum_computing": [
+      {
+        "investment_amount_billions_usd": 1.6,
+        "year": 2025,
+        "initiatives": [
+          "NVentures strategic investments in quantum hardware startups (Quantinuum, QuEra, PsiQuantum, etc.)",
+          "CUDA-Q and NVLink/NVQLink integrations to couple GPUs with quantum processors"
+        ],
+        "notes": "NVentures invested approximately $600M in Quantinuum, $1B in PsiQuantum, and undisclosed amount in QuEra Computing in September 2025. Total estimated at $1.6B+ across the three companies. NVIDIA also ships CUDA-Q plus interconnects to integrate GPU supercomputers with external quantum systems.",
+        "source_figure": "NVIDIA invested $600M in Quantinuum, $1B in PsiQuantum, plus QuEra Computing in September 2025.",
+        "links": [
+          "https://www.spinquanta.com/news-detail/quantum-computing-funding-explosive-growth-strategic-investment-2025",
+          "https://developer.nvidia.com/cuda-q",
+          "https://blogs.nvidia.com/blog/quantum-computing-cuda-q/",
+          "https://nvidianews.nvidia.com/news/nventures-invests-in-quantum-computing-startups"
+        ],
+        "spend_type": "equity",
+        "timeframe": {
+          "start": 2025,
+          "end": 2025
+        },
+        "amount_basis": "valuation_or_stake",
+        "certainty": "press_report",
+        "is_rollup": false
+      }
+    ],
+    "security_cryptography": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "cuPQC post-quantum cryptography SDK",
+          "Confidential computing and memory encryption on Hopper (H100) and Blackwell GPUs"
+        ],
+        "notes": "Introduced cuPQC and expanded confidential computing (encrypted HBM and links) on Hopper/Blackwell GPUs; funded within NVIDIA\u2019s core data-center R&D rather than a separate security line.",
+        "source_figure": "NVIDIA positions cuPQC and confidential computing as core data center features.",
+        "links": [
+          "https://developer.nvidia.com",
+          "https://www.nvidia.com/en-us/data-center/h100/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "robotics_autonomy": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "Project GR00T foundation model for humanoid robots",
+          "Expansion of NVIDIA Isaac robotics platform for sim/perception/control"
+        ],
+        "notes": "Announced at GTC 2024; GR00T aims to enable general-purpose humanoid robots, built atop the Isaac robotics stack. Spending is part of NVIDIA\u2019s multi-billion-dollar annual R&D.",
+        "source_figure": "Project GR00T and Isaac platform updates announced at GTC 2024.",
+        "links": [
+          "https://nvidianews.nvidia.com/news/nvidia-unveils-project-gr00t-foundation-model-for-humanoid-robots",
+          "https://nvidianews.nvidia.com/news/nvidia-expands-isaac-robotics-platform"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.05,
+        "year": 2024,
+        "initiatives": [
+          "Investment in Figure AI"
+        ],
+        "notes": "Invested $50M in Figure AI\u2019s $675M Series B to advance humanoid robotics on NVIDIA hardware/software.",
+        "source_figure": "Nvidia invested $50 million in Figure AI.",
+        "links": [
+          "https://www.bloomberg.com/news/articles/2024-02-23/jeff-bezos-nvidia-join-openai-in-funding-humanoid-robot-startup-figure-ai"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_efficiency_methods": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2023,
+        "initiatives": [
+          "NVIDIA NeMo framework for parameter-efficient fine-tuning (LoRA, P-Tuning) of LLMs",
+          "NVIDIA AI Enterprise RAG microservices and NeMo Retriever"
+        ],
+        "notes": "NeMo and NIM provide production RAG pipelines and parameter-efficient fine-tuning across DGX and cloud partners; funded as part of NVIDIA\u2019s expanding AI software/platform R&D.",
+        "source_figure": "NeMo and NVIDIA AI Enterprise emphasize RAG, vector search, and parameter-efficient fine-tuning as core capabilities.",
+        "links": [
+          "https://developer.nvidia.com/nvidia-nemo",
+          "https://developer.nvidia.com/nvidia-ai-enterprise"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 1.3,
+        "year": 2023,
+        "initiatives": [
+          "Inflection AI mega-funding (personal AI, 22k-GPU cluster)"
+        ],
+        "notes": "Co-led Inflection AI\u2019s $1.3B raise in 2023 (with Microsoft and others) to fund a massive H100 GPU cluster for the Pi AI assistant and future foundation models.",
+        "source_figure": "$1.3B raised (NVIDIA and others; ~$4B valuation).",
+        "links": [
+          "https://www.reuters.com/technology/inflection-ai-raises-13-bln-funding-microsoft-others-2023-06-29/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "renewable_energy_generation": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2025,
+        "initiatives": [
+          "Contracts for 100% renewable electricity for offices and data centers",
+          "PPAs and RECs supporting GPU data center growth"
+        ],
+        "notes": "Reports 100% renewable electricity for offices and data centers by FY25 through PPAs, RECs, and grid programs as AI data center capacity expands.",
+        "source_figure": "FY25 corporate responsibility report cites 100% renewable electricity for NVIDIA offices and data centers.",
+        "links": [
+          "https://www.nvidia.com/en-us/sustainability/environmental-impact/",
+          "https://www.nvidia.com/en-us/csr/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "cloud_data_centers_ai_infra": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2023,
+        "initiatives": [
+          "Sovereign AI supercomputer partnerships with governments (Japan, India, EU states)",
+          "Large GPU clusters with cloud/telecom partners to build national AI infrastructure"
+        ],
+        "notes": "Multiple sovereign AI collaborations deploying NVIDIA GPU supercomputers and software stacks for national AI capabilities; described as multi-billion-dollar programs, but per-country spend not itemized.",
+        "source_figure": "NVIDIA blogs and partner announcements reference multi-billion-dollar sovereign AI infrastructure.",
+        "links": [
+          "https://blogs.nvidia.com/blog/sovereign-ai/",
+          "https://blogs.nvidia.com/blog/japan-sovereign-ai-supercomputer/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.1,
+        "year": 2023,
+        "initiatives": [
+          "Investment in CoreWeave (GPU cloud provider)"
+        ],
+        "notes": "Invested $100M in CoreWeave; by late 2025 NVIDIA\u2019s stake (~24M shares) was valued around $3B as the GPU cloud scaled.",
+        "source_figure": "NVIDIA invested $100 million in CoreWeave.",
+        "links": [
+          "https://www.cnbc.com/2023/05/31/nvidia-backed-coreweave-raises-200-million-at-2-billion-valuation.html"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "bio_ai_and_drug_discovery": [
+      {
+        "investment_amount_billions_usd": 0.1,
+        "year": 2021,
+        "initiatives": [
+          "Cambridge-1 AI supercomputer for healthcare R&D (UK)"
+        ],
+        "notes": "NVIDIA built Cambridge-1 (UK\u2019s most powerful supercomputer) in 2021 for healthcare AI research across drug discovery and medical imaging, representing a ~$100M investment.",
+        "source_figure": "Cambridge-1 represents a $100 million investment by NVIDIA.",
+        "links": [
+          "https://nvidianews.nvidia.com/news/nvidia-launches-uk-s-most-powerful-supercomputer-for-research"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "semiconductor_ai_hardware": [
+      {
+        "investment_amount_billions_usd": 7.34,
+        "year": 2023,
+        "initiatives": [
+          "GPU, AI accelerator, and CUDA platform R&D"
+        ],
+        "notes": "Macrotrends series shows NVIDIA R&D at $7.34B in 2023 with continued ramp toward data-center and AI platforms.",
+        "source_figure": "NVIDIA R&D $7.34B (2023)",
+        "links": [
+          "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/research-development-expenses"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_foundation_models": [
+      {
+        "investment_amount_billions_usd": 8.68,
+        "year": 2024,
+        "initiatives": [
+          "Next-generation AI/data-center platforms and software"
+        ],
+        "notes": "Follow-on data point confirming NVIDIA R&D growth to $8.68B in FY2024, up from $7.34B in 2023.",
+        "source_figure": "NVIDIA R&D $8.68B (FY2024)",
+        "links": [
+          "https://analyzify.com/statsup/nvidia"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 1.0,
+        "year": 2024,
+        "initiatives": [
+          "External startup investments in AI, robotics, and med-tech"
+        ],
+        "notes": "FT reports NVIDIA invested about $1B across ~50 AI startup rounds in 2024, complementing in-house R&D.",
+        "source_figure": "\u2248$1B invested across ~50 AI startup funding rounds in 2024",
+        "links": [
+          "https://www.ft.com/content/f8acce90-9c4d-4433-b189-e79cad29f74e"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.235,
+        "year": 2023,
+        "initiatives": [
+          "Hugging Face Series D (open-source ML platform)"
+        ],
+        "notes": "Joined a $235M Series D in 2023 valuing Hugging Face at $4.5B, backing open-source ML tooling (LoRA fine-tuning, RAG workflows).",
+        "source_figure": "$235M round valued Hugging Face at $4.5B (NVIDIA among participants).",
+        "links": [
+          "https://www.reuters.com/technology/ai-startup-hugging-face-valued-45-bln-latest-round-funding-2023-08-24/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "circularity_reuse_recycling": [
+      {
+        "investment_amount_billions_usd": 0.35,
+        "year": 2025,
+        "initiatives": [
+          "Series E investment in Redwood Materials (battery recycling and grid-scale storage)",
+          "Support for second-life EV battery energy-storage systems to power AI data centers",
+          "Series E investment in Redwood Materials to expand battery recycling and materials recovery",
+          "Scaling domestic recycling of lithium, cobalt, nickel, and copper for EV and grid batteries"
+        ],
+        "notes": "NVentures joined Redwood Materials\u2019 $350M Series E round; Redwood recycles batteries and repurposes cells into grid-scale storage that can power AI data centers. $0.35B reflects the total round size, not NVIDIA\u2019s individual check.",
+        "source_figure": "$350M Series E round for Redwood Materials including NVentures as a strategic investor.",
+        "links": [
+          "https://www.redwoodmaterials.com/news/redwood-announces-350-million-series-e-funding/",
+          "https://www.reuters.com/business/battery-recycling-firm-redwood-raises-350-million-eclipse-ventures-nvidia-2025-10-23/",
+          "https://www.businessinsider.com/nvidia-backs-redwood-materials-battery-recycling-power-ai-boom-2025-10"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "autonomous_mobility": [
+      {
+        "investment_amount_billions_usd": 0.5,
+        "year": 2025,
+        "initiatives": [
+          "Planned investment in Wayve (autonomous driving startup)"
+        ],
+        "notes": "Signed LOI to invest $500M in UK-based Wayve to advance AV models on NVIDIA platforms.",
+        "source_figure": "NVIDIA eyes $500 million investment in Wayve.",
+        "links": [
+          "https://www.reuters.com/technology/nvidia-eyes-500-mln-investment-softbank-backed-wayve-2025-09-19/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ]
+  },
+  "Tesla": {
+    "autonomous_mobility": [
+      {
+        "investment_amount_billions_usd": 3.97,
+        "year": 2023,
+        "initiatives": [
+          "R&D for EVs, FSD, Dojo, Optimus, and energy products"
+        ],
+        "notes": "Macrotrends lists Tesla R&D at $3.97B in 2023 (+29% YoY), covering autonomy, robotics, and energy software.",
+        "source_figure": "Tesla R&D $3.97B (2023)",
+        "links": [
+          "https://www.macrotrends.net/stocks/charts/TSLA/tesla/research-development-expenses"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 4.5,
+        "year": 2024,
+        "initiatives": [
+          "R&D for Full Self-Driving (FSD) technology",
+          "Optimus humanoid robot development",
+          "AI-driven autonomous systems"
+        ],
+        "notes": "Tesla's R&D spending rose to $4.5B in 2024, up 29% YoY from 2023, with focus shifting from traditional vehicle development to AI-driven autonomous systems including FSD and robotics.",
+        "source_figure": "Tesla R&D $4.5B in 2024, up 29% YoY focusing on autonomy and AI.",
+        "links": [
+          "https://www.globaldata.com/media/business-fundamentals/magnificent-7-ramp-up-rd-and-capex-as-ai-shift-drives-2-trillion-revenue-surge-reveals-globaldata/"
+        ],
+        "spend_type": "r_and_d",
+        "timeframe": null,
+        "amount_basis": "single_year_spend",
+        "certainty": "audited_filing",
+        "is_rollup": true
+      }
+    ],
+    "ai_efficiency_methods": [
+      {
+        "investment_amount_billions_usd": 1.0,
+        "year": 2023,
+        "initiatives": [
+          "Dojo supercomputer for autonomous-driving model training"
+        ],
+        "notes": "Guidance to spend over $1B on Dojo between 2023 and 2024 to train FSD and vision models; overlaps with the AI infrastructure spend captured under machine_learning_ai.",
+        "source_figure": "Plans to invest more than $1B in Dojo over roughly two years.",
+        "links": [
+          "https://www.reuters.com",
+          "https://www.tesla.com/blog"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "batteries_and_storage": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": null,
+        "initiatives": [
+          "Scaling in-house 4680 cell production"
+        ],
+        "notes": "Production milestones hit 100M 4680 cells by 2025 (20M in Oct 2023; 50M in June 2024), underscoring heavy battery R&D and manufacturing spend though no clear dollar figure given.",
+        "source_figure": "100M 4680 cells produced as of 2025 (no explicit spend reported)",
+        "links": [
+          "https://www.teslarati.com/tesla-milestone-4680-battery-cell/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2026,
+        "initiatives": [
+          "Roadmap for four new 4680-based battery variants including robotaxi pack"
+        ],
+        "notes": "Reuters reports Tesla plans NC05 and other 4680 variants by 2026 to support robotaxis and energy density gains; no spend disclosed.",
+        "source_figure": "Plans four new 4680-based battery variants by 2026 (no spend disclosed)",
+        "links": [
+          "https://www.reuters.com/technology/tesla-plans-four-new-batteries-2026-including-robotaxi-information-reports-2024-10-03/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 5.0,
+        "year": 2023,
+        "initiatives": [
+          "Gigafactory Mexico (Monterrey, Nuevo Le\u00f3n) EV plant"
+        ],
+        "notes": "Initial investment >$5B (potentially up to $10B) for Tesla\u2019s first Mexican Gigafactory to build up to ~1M EVs annually for global markets.",
+        "source_figure": "Investment worth in excess of $5B for the Mexico Gigafactory.",
+        "links": [
+          "https://www.reuters.com/business/autos-transportation/mexican-president-says-tesla-will-build-major-plant-northern-city-2023-02-28/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 11.3,
+        "year": 2024,
+        "initiatives": [
+          "Gigafactory expansion (Texas, Berlin, Shanghai)",
+          "4680 battery cell production scaling",
+          "Energy storage manufacturing capacity (Megapack)"
+        ],
+        "notes": "Tesla's capital expenditure reached $11.3B in 2024, reflecting Gigafactory expansion and investments in battery production and renewable energy solutions including Megapack manufacturing.",
+        "source_figure": "Tesla capex $11.3B in 2024 for Gigafactory expansion and battery technology.",
+        "links": [
+          "https://www.globaldata.com/media/business-fundamentals/magnificent-7-ramp-up-rd-and-capex-as-ai-shift-drives-2-trillion-revenue-surge-reveals-globaldata/"
+        ],
+        "spend_type": "capex",
+        "timeframe": null,
+        "amount_basis": "single_year_spend",
+        "certainty": "audited_filing",
+        "is_rollup": true
+      }
+    ],
+    "renewable_energy_generation": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2023,
+        "initiatives": [
+          "Utility-scale battery storage (Megapack) and solar installations"
+        ],
+        "notes": "Tesla Energy deployed 6.5 GWh of storage in 2022 (+64% YoY) and 14.7 GWh in 2023 (+126% YoY), enabled by a 40 GWh/yr Megapack factory; solar deployments grew modestly. No dollar spend disclosed.",
+        "source_figure": "Deployed 14.7 GWh of energy products in 2023; 6.5 GWh in 2022.",
+        "links": [
+          "https://www.teslarati.com/tesla-energy-over-20-gwh-by-q3-2024-one-more-quarter/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "circularity_reuse_recycling": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2021,
+        "initiatives": [
+          "In-house battery recycling at Gigafactory Nevada and Shanghai",
+          "Closed-loop recovery of nickel, cobalt, copper, and other materials"
+        ],
+        "notes": "Tesla reports recycling 100% of manufacturing scrap batteries with recovery rates above 90% for key metals, avoiding landfill and reducing new mining as 4680 and other lines scale. No explicit spend disclosed.",
+        "source_figure": "Tesla reports 100% of scrapped batteries recycled with key material recovery rates above 90%.",
+        "links": [
+          "https://www.tesla.com/impact",
+          "https://www.tesla.com/blog/teslas-approach-to-battery-materials-recycling"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "diversity_equity_inclusion": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "Removal of explicit DEI and minority-worker language from Tesla\u2019s 10-K",
+          "Shift away from formal DEI programs"
+        ],
+        "notes": "2024 filings removed prior DEI references, reflecting a deemphasis of formal diversity programs rather than new investment; included for completeness despite no spend.",
+        "source_figure": "Media analysis notes DEI language present in earlier filings was removed in Tesla\u2019s 2024 10-K.",
+        "links": [
+          "https://www.bloomberg.com/news/articles/2024-01-30/tesla-removes-dei-references-from-annual-report"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "semiconductor_ai_hardware": [
+      {
+        "investment_amount_billions_usd": 1.0,
+        "year": 2024,
+        "initiatives": [
+          "Dojo supercomputer build-out for autonomy/robotics AI training"
+        ],
+        "notes": "Musk signaled Tesla will spend well over $1B on Dojo by end-2024; includes ~$0.5B Buffalo, NY cluster build-out.",
+        "source_figure": "Will spend well over $1B on Dojo by end-2024; $500M Buffalo factory cluster",
+        "links": [
+          "https://www.marketwatch.com/story/elon-musk-says-tesla-will-spend-well-over-1-billion-on-dojo-supercomputer-21f0a6f0",
+          "https://techcrunch.com/2024/01/26/tesla-dojo-supercomputer-buffalo-factory-500-million/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "robotics_autonomy": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2025,
+        "initiatives": [
+          "Optimus humanoid robot mass production ramp"
+        ],
+        "notes": "Musk floated a $500B training-compute value for Optimus long term, implying substantial internal resource allocation as production ramps; capex blended with broader AI/auto spend.",
+        "source_figure": "Tesla targeting high-volume Optimus production; hinted at massive compute value.",
+        "links": [
+          "https://electrek.co/2024/06/13/elon-musk-tesla-optimus-robots-make-company-worth-25-trillion/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ]
+  },
+  "Meta": {
+    "security_cryptography": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "WhatsApp passkey-protected, end-to-end-encrypted cloud backups",
+          "Architecture for interoperable third-party end-to-end-encrypted messaging (EU DMA)"
+        ],
+        "notes": "WhatsApp deployed passkey-protected encrypted backups and designed third-party chat interoperability while preserving end-to-end encryption to comply with EU DMA; spend embedded in Meta\u2019s product/security engineering budgets.",
+        "source_figure": "WhatsApp engineering blogs (2024) describe passkey-protected backups and third-party encrypted chat interoperability.",
+        "links": [
+          "https://engineering.fb.com/2024/03/06/security/whatsapp-third-party-chats/",
+          "https://blog.whatsapp.com/protecting-your-account-with-passkeys"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "robotics_autonomy": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2023,
+        "initiatives": [
+          "FAIR robotics research (tactile sensing, dexterous manipulation)",
+          "Partnr project for socially aware collaborative robots"
+        ],
+        "notes": "FAIR explores embodied AI, touch sensing, and human-robot interaction, including Partnr for socially intelligent robots; funded within Meta\u2019s AI research budgets.",
+        "source_figure": "Meta AI publications highlight tactile and socially aware robotics (e.g., Partnr).",
+        "links": [
+          "https://ai.meta.com/research/publications/partnr-efficient-tactile-modeling-for-robotic-manipulation/",
+          "https://ai.meta.com/research/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_efficiency_methods": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2020,
+        "initiatives": [
+          "Retrieval-Augmented Generation (RAG) for knowledge-intensive NLP",
+          "Dense Passage Retrieval (DPR) pretraining and infrastructure"
+        ],
+        "notes": "Meta AI introduced RAG and Dense Passage Retrieval in 2020 for knowledge-intensive NLP; foundational to modern RAG systems. Spend sits within broader AI research budgets rather than a distinct line item.",
+        "source_figure": "Original RAG paper and DPR models from Meta AI (2020).",
+        "links": [
+          "https://arxiv.org/abs/2005.11401",
+          "https://huggingface.co/facebook/dpr-reader-multiset-base"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "circularity_reuse_recycling": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2020,
+        "initiatives": [
+          "Data center construction practices targeting 90%+ waste diversion",
+          "Asset reuse and recycling programs for servers and networking gear"
+        ],
+        "notes": "Meta sustainability disclosures cite high waste-diversion in data center construction and reuse/recycling of retired IT hardware; dollar amounts not broken out.",
+        "source_figure": "Reports targeting ~90% construction waste diversion and ongoing IT asset recycling.",
+        "links": [
+          "https://sustainability.fb.com/innovation-for-our-world/sustainable-data-centers/",
+          "https://sustainability.fb.com/data-center-design/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "High waste-diversion and circularity programs for data centers and hardware",
+          "91% construction waste diversion from landfills in 2024"
+        ],
+        "notes": "Meta reports all data centers are LEED Gold or higher and around 91% of construction waste was diverted from landfills in 2024; spending is embedded in data-center capex/opex.",
+        "source_figure": "Reported >90% construction waste diversion and 100% renewable energy for data centers.",
+        "links": [
+          "https://sustainability.atmeta.com/data-centers/",
+          "https://sustainability.atmeta.com"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "digital_inclusion_and_economy": [
+      {
+        "investment_amount_billions_usd": 5.7,
+        "year": 2020,
+        "initiatives": [
+          "Jio Platforms (India digitization) minority stake"
+        ],
+        "notes": "Invested $5.7B for a 9.99% stake in Jio Platforms in 2020, leveraging WhatsApp to digitize small businesses via JioMart.",
+        "source_figure": "Spent $5.7B for a 9.99% stake in Jio Platforms (Reliance Industries\u2019 digital unit).",
+        "links": [
+          "https://www.reuters.com/article/technology/facebook-bets-on-india-with-57-billion-reliance-deal-idUSKCN22404E/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "wellness_vr_and_behavioral": [
+      {
+        "investment_amount_billions_usd": 0.4,
+        "year": 2023,
+        "initiatives": [
+          "Acquisition of Within (Supernatural VR fitness app)"
+        ],
+        "notes": "Acquired Within in 2023 (reported ~$400M) to expand VR health and fitness offerings after overcoming an FTC challenge.",
+        "source_figure": "Within deal reportedly worth about $400 million.",
+        "links": [
+          "https://www.reuters.com/legal/us-formally-ends-fight-against-metas-purchase-vr-content-maker-2023-02-24/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "xr_metaverse_and_spatial_computing": [
+      {
+        "investment_amount_billions_usd": 68.9,
+        "year": 2024,
+        "initiatives": [
+          "Reality Labs XR/metaverse platform build-out",
+          "Quest headsets, Horizon Worlds, AR glasses"
+        ],
+        "notes": "Reality Labs accumulated ~68.9B in operating losses 2020\u20132024 across XR/metaverse platforms (Quest, Horizon Worlds, AR glasses); losses represent long-horizon investment mixing opex/capex.",
+        "source_figure": "By end-2024, Reality Labs accumulated approximately $68.9B in operating losses tied to XR/metaverse initiatives.",
+        "links": [
+          "https://www.statista.com/chart/29236/operating-loss-of-metas-reality-labs-division/",
+          "https://finance.yahoo.com/news/metas-reality-check-inside-the-45-billion-cash-burn-at-reality-labs-125717347.html",
+          "https://www.computerweekly.com/news/252526581/Meta-tightens-purse-strings-as-it-spends-on-Reality-Labs"
+        ],
+        "spend_type": "opex",
+        "timeframe": {
+          "start": 2020,
+          "end": 2024
+        },
+        "amount_basis": "multi_year_commitment",
+        "certainty": "press_report",
+        "is_rollup": true
+      },
+      {
+        "investment_amount_billions_usd": 3.5,
+        "year": 2025,
+        "initiatives": [
+          "Equity stake in EssilorLuxottica (Ray-Ban parent)"
+        ],
+        "notes": "Acquired an estimated 3\u20135% stake for about $3.5B to secure the Ray-Ban partnership for future smart glasses hardware.",
+        "source_figure": "Meta buys 3-5% stake in EssilorLuxottica for approx $3.5 billion.",
+        "links": [
+          "https://www.reuters.com/technology/meta-platforms-discussion-buy-stake-essilorluxottica-wsj-reports-2024-07-18/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "diversity_equity_inclusion": [
+      {
+        "investment_amount_billions_usd": 0.2,
+        "year": 2020,
+        "initiatives": [
+          "Grants and investments for Black-owned SMBs and creators",
+          "Supplier diversity program ($100M/yr spend goal)"
+        ],
+        "notes": "Pledged $200M to support Black-owned businesses, creators, and nonprofits, including $100M in grants/credits and $100M in annual supplier contracts.",
+        "source_figure": "$200 million commitment to support Black businesses and communities.",
+        "links": [
+          "https://www.theverge.com/2020/6/18/21296110/facebook-200-million-lift-black-voices-businesses-creators-diversity"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "ai_foundation_models": [
+      {
+        "investment_amount_billions_usd": 43.6,
+        "year": 2024,
+        "initiatives": [
+          "Llama AI model development and deployment",
+          "AI infrastructure for mixed-reality platforms",
+          "Generative AI research and product integration"
+        ],
+        "notes": "Meta's R&D spending reached $43.6B in 2024, underscoring its pivot to AI and mixed-reality platforms with significant investment in Llama models and AI infrastructure.",
+        "source_figure": "Meta R&D $43.6B in 2024 for AI and mixed-reality platform development.",
+        "links": [
+          "https://www.globaldata.com/media/business-fundamentals/magnificent-7-ramp-up-rd-and-capex-as-ai-shift-drives-2-trillion-revenue-surge-reveals-globaldata/"
+        ],
+        "spend_type": "r_and_d",
+        "timeframe": null,
+        "amount_basis": "single_year_spend",
+        "certainty": "audited_filing",
+        "is_rollup": true
+      },
+      {
+        "investment_amount_billions_usd": 14.3,
+        "year": 2025,
+        "initiatives": [
+          "49% stake in Scale AI (data labeling) to advance superintelligence efforts"
+        ],
+        "notes": "Meta invested $14.3B for a 49% stake in Scale AI in 2025 to boost AI capabilities and bring Scale\u2019s CEO to lead a new superintelligence unit.",
+        "source_figure": "Meta will take a 49% stake for $14.3B.",
+        "links": [
+          "https://www.reuters.com/business/finance/meta-finalizes-investment-scale-ai-valuing-startup-29-billion-2025-06-13/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "semiconductor_ai_hardware": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2025,
+        "initiatives": [
+          "MTIA (Meta Training and Inference Accelerator) chip production"
+        ],
+        "notes": "Accelerating custom MTIA silicon production to reduce dependence on NVIDIA; part of a reported $65B AI infrastructure capex plan for 2025.",
+        "source_figure": "Meta ramping up MTIA chip production; $65B total AI infra spend.",
+        "links": [
+          "https://engineering.fb.com/2024/04/10/data-center-engineering/meta-mtia-silicon-v2/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "cloud_data_centers_ai_infra": [
+      {
+        "investment_amount_billions_usd": 600.0,
+        "year": 2025,
+        "initiatives": [
+          "Nationwide AI supercomputing data centers build-out (2025\u20132028)"
+        ],
+        "notes": "Plan to front-load AI infra with at least $600B US spend over three years, including multiple large AI data centers (e.g., $27B Louisiana facility financing) to pursue AGI.",
+        "source_figure": "Meta will invest at least $600 billion in U.S. infrastructure (including AI data centers) over the next three years.",
+        "links": [
+          "https://www.reuters.com/business/meta-plans-600-billion-us-spend-ai-data-centers-expand-2025-11-07/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "renewable_energy_generation": [
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2025,
+        "initiatives": [
+          "Global clean power purchase agreements (~15 GW contracted)"
+        ],
+        "notes": "Contracts for >15 GW of solar/wind PPAs to keep operations 100% renewable; 3 GW of solar deals in 2025 alone; PPAs are commitments, not capex disclosed.",
+        "source_figure": "Meta has contracted for over 15 GW of new clean and renewable energy capacity globally in the past decade.",
+        "links": [
+          "https://pv-magazine-usa.com/2025/11/03/meta-extends-datacenter-energy-investment-boom-with-385-mw-louisiana-solar-ppa/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "sci_fi_consumer_devices": [
+      {
+        "investment_amount_billions_usd": 0.5,
+        "year": 2019,
+        "initiatives": [
+          "Acquisition of CTRL-Labs (BCI wristband)"
+        ],
+        "notes": "Acquired CTRL-Labs to accelerate neural interface devices for AR/VR; deal reportedly $500M\u2013$1B, largest hardware-related acquisition since Oculus.",
+        "source_figure": "CTRL-Labs acquisition reportedly worth between $500 million and $1 billion.",
+        "links": [
+          "https://www.theverge.com/2019/9/23/20881032/facebook-ctrl-labs-acquisition-neural-interface-armband-ar-vr-deal"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      }
+    ],
+    "responsible_ai_safety_governance": [
+      {
+        "investment_amount_billions_usd": 0.008,
+        "year": 2019,
+        "initiatives": [
+          "Funding of independent AI ethics research institute (TUM Munich)"
+        ],
+        "notes": "Provided $7.5M grant over five years to endow TUM\u2019s Institute for Ethics in AI, supporting research on AI safety, fairness, and governance.",
+        "source_figure": "Facebook supported the new AI ethics center with a $7.5 million grant over five years.",
+        "links": [
+          "https://about.fb.com/news/2019/01/facebook-tum-ai-ethics-center/"
+        ],
+        "spend_type": null,
+        "timeframe": null,
+        "amount_basis": null,
+        "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": null,
+        "year": 2024,
+        "initiatives": [
+          "Llama Guard and CyberSecEval safety tooling",
+          "Purple Llama project for open trust and safety"
+        ],
+        "notes": "Meta invests in 'Purple Teaming' and open-source safety models (Llama Guard) to support its Llama ecosystem.",
+        "source_figure": "Release of Purple Llama and Llama Guard safety benchmarks.",
+        "links": [
+          "https://ai.meta.com/llama/purple-llama/"
+        ],
+        "spend_type": "r_and_d",
+        "amount_basis": "undisclosed",
+        "certainty": "company_guidance",
+        "is_rollup": false
+      }
+    ]
+  }
+}
