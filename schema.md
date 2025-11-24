@@ -42,6 +42,8 @@ The JSON file is a single object mapping **company name** to a nested object of 
 
 Domains are grouped conceptually into pillars, but the JSON only stores the **domain key**. Pillar information is for your analysis layer.
 
+**Current dataset contains 30 active domains across 8 pillars.**
+
 ### 2.1 Core AI & Compute
 
 - `ai_foundation_models`  
@@ -111,8 +113,7 @@ Domains are grouped conceptually into pillars, but the JSON only stores the **do
   Encryption, post-quantum crypto, zero-trust and security-by-design programs.
 
 - `responsible_ai_safety_governance`  
-  AI safety, red-teaming, AI governance, and principles.  
-  (Note: the current dataset does not yet include records tagged here.)
+  AI safety, red-teaming, AI governance, and principles.
 
 - `diversity_equity_inclusion`  
   DEI-related investments and structural changes (including rollback/removal of DEI language where relevant).
@@ -125,15 +126,7 @@ Domains are grouped conceptually into pillars, but the JSON only stores the **do
 - `sci_fi_consumer_devices`  
   Futuristic consumer devices such as home robots, BCI-style devices, etc.
 
-### 2.9 Manufacturing & Supply Chain Innovation
-
-- `advanced_manufacturing_materials`  
-  Next-generation manufacturing techniques, advanced materials R&D (carbon fiber, ceramics, novel alloys), additive manufacturing (3D printing at scale), and manufacturing process innovation.
-
-- `supply_chain_digitization`  
-  Digital twins, supply chain visibility platforms, blockchain for provenance, and IoT-enabled logistics beyond pure robotics.
-
-### 2.10 Edge Computing & 5G/6G
+### 2.9 Edge Computing, Network & Supply Chain
 
 - `edge_computing_infrastructure`  
   Edge data centers, CDN expansions, edge AI compute nodes, and distributed computing infrastructure.
@@ -141,7 +134,10 @@ Domains are grouped conceptually into pillars, but the JSON only stores the **do
 - `5g_6g_network_infrastructure`  
   Investments in 5G/6G network equipment, private 5G networks, Open RAN, spectrum acquisitions, and next-gen wireless R&D.
 
-### 2.11 Content, Media & Gaming
+- `supply_chain_digitization`  
+  Digital twins, supply chain visibility platforms, blockchain for provenance, and IoT-enabled logistics beyond pure robotics.
+
+### 2.10 Content, Media & Gaming
 
 - `content_production_studios`  
   Acquisitions of game studios, film/TV production companies, content creation tools, and original content investments.
@@ -149,42 +145,12 @@ Domains are grouped conceptually into pillars, but the JSON only stores the **do
 - `gaming_platforms_engines`  
   Game engines, cloud gaming infrastructure, metaverse gaming platforms, and esports investments.
 
-- `media_streaming_infrastructure`  
-  Video streaming platforms, music streaming services, podcast networks, and content delivery infrastructure.
-
-### 2.12 Financial Services & Fintech
-
-- `payments_financial_services`  
-  Digital payment platforms (Apple Pay, Google Pay), buy-now-pay-later services, banking partnerships, and financial infrastructure.
-
-- `blockchain_web3`  
-  Blockchain infrastructure, cryptocurrency initiatives, NFT platforms, and Web3 investments (excluding pure speculation).
-
-### 2.13 Education & Workforce Development
-
-- `education_technology_platforms`  
-  Educational software, online learning platforms, coding bootcamps, and digital literacy programs.
+### 2.11 Workforce Development
 
 - `workforce_training_reskilling`  
   Internal and external workforce development programs, apprenticeships, certification programs, and skills training initiatives.
 
-### 2.14 Real Estate & Physical Infrastructure
-
-- `corporate_real_estate_campuses`  
-  Major campus expansions, headquarters construction, office space investments, and significant real estate acquisitions.
-
-- `retail_physical_infrastructure`  
-  Retail store buildouts, experiential retail spaces, fulfillment centers (non-robotics aspects), and physical distribution networks.
-
-### 2.15 Acquisitions & Strategic Investments
-
-- `major_acquisitions`  
-  Significant M&A activity (typically >$500M) that doesn't fit cleanly into other domains or represents platform/capability acquisitions.
-
-- `venture_capital_funds`  
-  Corporate VC arms, innovation funds, and strategic investment vehicles (e.g., Google Ventures, Microsoft Climate Innovation Fund).
-
-### 2.16 Legal, Regulatory & Compliance
+### 2.12 Legal, Regulatory & Compliance
 
 - `regulatory_compliance_investments`  
   Major investments in compliance infrastructure, privacy engineering, content moderation systems, and regulatory response programs.
@@ -204,7 +170,6 @@ Each **record** in a domain array has the fields:
   "notes": "Plain-language context and caveats.",
   "source_figure": "Quote or paraphrase of the key numerical claim.",
   "links": ["https://primary-source-1", "https://secondary-source-2"],
-  "orig_domain": "transfer_learning_rag_lora",
   "spend_type": "capex",
   "timeframe": {"start": 2023, "end": 2025},
   "amount_basis": "multi_year_commitment",
@@ -240,19 +205,20 @@ Field definitions:
   - Useful for tracing how records were remapped; **do not** use for new grouping going forward.
 
 - `spend_type` *(optional, recommended)*  
-  - One of `r_and_d`, `capex`, `equity`, `fund`, `ppa`, `pledge`, `opex`, or `other`.  
+  - One of: `r_and_d`, `capex`, `equity`, `fund`, `ppa`, `opex`, `other`, `M&A`, `Venture`, `CapEx`.  
   - Indicates the nature of the spend to reduce mixing incomparable flows.
+  - Note: Use lowercase variants for consistency (e.g., `capex` not `CapEx`).
 
 - `timeframe` *(optional)*  
   - Object with `start` and `end` years for multi-year commitments.  
   - Use `null` for open-ended; omit entirely for single-year events.
 
 - `amount_basis` *(optional)*  
-  - One of `single_year_spend`, `multi_year_commitment`, `project_cost`, `valuation_or_stake`, `pledge`, `undisclosed`.  
+  - One of: `single_year_spend`, `multi_year_commitment`, `project_cost`, `valuation_or_stake`, `undisclosed`, `acquisition_cost`, `actual`, `company_guidance`, `cumulative`, `cumulative_estimate`, `program_budget`, `program_total`, `round_total`, `single_event_cost`, `up to`.  
   - Clarifies whether the headline number is a yearly spend, multi-year pledge, project cost, or equity valuation.
 
 - `certainty` *(optional)*  
-  - One of `audited_filing`, `company_guidance`, `press_report`, `third_party_estimate`.  
+  - One of: `audited_filing`, `company_guidance`, `press_report`, `third_party_estimate`, `approx`, `certain`, `regulatory_filing`.  
   - Signals evidence strength.
 
 - `is_rollup` *(optional, boolean)*  
@@ -268,7 +234,9 @@ Field definitions:
 
 ## 5. Domain coverage expectations by company
 
-This matrix indicates which domains are **expected** to have substantial activity for each MAG7 company. Use this to guide research prioritization:
+This matrix indicates which domains are **expected** to have substantial activity for each MAG7 company. Use this to guide research prioritization.
+
+**30 active domains** are tracked in the current dataset.
 
 | Domain | AAPL | MSFT | GOOGL | AMZN | NVDA | TSLA | META |
 |--------|------|------|-------|------|------|------|------|
@@ -283,7 +251,7 @@ This matrix indicates which domains are **expected** to have substantial activit
 | **Automation & Robotics** |
 | robotics_autonomy | ● | ● | ●● | ●● | ●● | ●●● | ● |
 | autonomous_mobility | ●● | ● | ●●● | ●● | ● | ●●● | ○ |
-| industrial_automation_supply_chain | ○ | ○ | ○ | ●●● | ○ | ●● | ○ |
+| industrial_automation_supply_chain | ○ | ○ | ○ | ●●● | ● | ●● | ○ |
 | **Energy, Climate & Materials** |
 | batteries_and_storage | ● | ○ | ● | ● | ● | ●●● | ○ |
 | renewable_energy_generation | ●● | ●● | ●● | ●●● | ● | ●●● | ●● |
@@ -302,28 +270,15 @@ This matrix indicates which domains are **expected** to have substantial activit
 | **Experiential / Sci-Fi Products** |
 | xr_metaverse_and_spatial_computing | ●●● | ●● | ●● | ○ | ○ | ○ | ●●● |
 | sci_fi_consumer_devices | ●● | ● | ● | ●● | ○ | ● | ●● |
-| **Manufacturing & Supply Chain** |
-| advanced_manufacturing_materials | ●● | ○ | ○ | ● | ○ | ●●● | ○ |
-| supply_chain_digitization | ● | ● | ● | ●●● | ○ | ● | ○ |
-| **Edge & Network** |
+| **Edge, Network & Supply Chain** |
 | edge_computing_infrastructure | ● | ●● | ●● | ●●● | ● | ○ | ●● |
 | 5g_6g_network_infrastructure | ●● | ● | ●● | ● | ● | ○ | ○ |
+| supply_chain_digitization | ● | ● | ● | ●●● | ○ | ● | ○ |
 | **Content, Media & Gaming** |
 | content_production_studios | ●● | ●●● | ● | ●● | ○ | ○ | ●● |
 | gaming_platforms_engines | ●● | ●●● | ● | ●● | ●● | ○ | ●● |
-| media_streaming_infrastructure | ●● | ○ | ●● | ●●● | ○ | ○ | ●● |
-| **Financial Services** |
-| payments_financial_services | ●●● | ● | ●● | ●● | ○ | ○ | ● |
-| blockchain_web3 | ○ | ● | ○ | ○ | ● | ○ | ● |
-| **Education & Workforce** |
-| education_technology_platforms | ●● | ●● | ●● | ●● | ● | ○ | ● |
+| **Workforce Development** |
 | workforce_training_reskilling | ●● | ●●● | ●● | ●●● | ● | ○ | ●● |
-| **Real Estate & Infrastructure** |
-| corporate_real_estate_campuses | ●●● | ●● | ●●● | ●●● | ●● | ●● | ●● |
-| retail_physical_infrastructure | ●●● | ● | ● | ●●● | ○ | ●● | ○ |
-| **Strategic Investments** |
-| major_acquisitions | ●● | ●●● | ●●● | ●●● | ●● | ○ | ●●● |
-| venture_capital_funds | ● | ●● | ●●● | ●● | ●● | ○ | ● |
 | **Legal & Regulatory** |
 | regulatory_compliance_investments | ●● | ●● | ●●● | ●● | ● | ● | ●●● |
 | litigation_settlements_fines | ●● | ●● | ●●● | ●● | ○ | ● | ●●● |

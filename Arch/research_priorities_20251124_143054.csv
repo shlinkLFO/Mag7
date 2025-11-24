@@ -1,0 +1,17 @@
+priority,reason,domain,records,doc_rate,action,company
+HIGH,"High activity, low documentation",security_cryptography,8.0,37.5,Find dollar amounts for 5 records,
+HIGH,"High activity, low documentation",circularity_reuse_recycling,9.0,44.4,Find dollar amounts for 5 records,
+MEDIUM,Company missing many domains,Multiple (11 domains),,,"Research Apple's activity in: bio_ai_and_drug_discovery, edge_computing_infrastructure, gaming_platforms_engines...",Apple
+MEDIUM,Company missing many domains,Multiple (12 domains),,,"Research Microsoft's activity in: bio_ai_and_drug_discovery, content_production_studios, edge_computing_infrastructure...",Microsoft
+MEDIUM,Company missing many domains,Multiple (15 domains),,,"Research Alphabet's activity in: 5g_6g_network_infrastructure, cloud_data_centers_ai_infra, content_production_studios...",Alphabet
+MEDIUM,Company missing many domains,Multiple (11 domains),,,"Research Amazon's activity in: 5g_6g_network_infrastructure, bio_ai_and_drug_discovery, digital_inclusion_and_economy...",Amazon
+MEDIUM,Company missing many domains,Multiple (18 domains),,,"Research NVIDIA's activity in: 5g_6g_network_infrastructure, batteries_and_storage, content_production_studios...",NVIDIA
+MEDIUM,Company missing many domains,Multiple (22 domains),,,"Research Tesla's activity in: 5g_6g_network_infrastructure, ai_foundation_models, bio_ai_and_drug_discovery...",Tesla
+MEDIUM,Company missing many domains,Multiple (13 domains),,,"Research Meta's activity in: 5g_6g_network_infrastructure, autonomous_mobility, batteries_and_storage...",Meta
+LOW,Only 1 company in domain,wellness_vr_and_behavioral,,,"Check if Tesla, Apple, NVIDIA have activity here",
+LOW,Only 1 company in domain,gaming_platforms_engines,,,"Check if Tesla, Meta, Apple have activity here",
+LOW,Only 1 company in domain,regulatory_compliance_investments,,,"Check if Tesla, Apple, NVIDIA have activity here",
+LOW,Only 1 company in domain,supply_chain_digitization,,,"Check if Tesla, Meta, NVIDIA have activity here",
+LOW,Only 1 company in domain,edge_computing_infrastructure,,,"Check if Tesla, Meta, Apple have activity here",
+LOW,Only 1 company in domain,superconducting_devices_squids,,,"Check if Tesla, Meta, Apple have activity here",
+LOW,Only 1 company in domain,litigation_settlements_fines,,,"Check if Tesla, Apple, NVIDIA have activity here",

@@ -56,6 +56,8 @@ The working dataset is a JSON file with the structure documented in `schema.md`.
 
 The JSON is organized by **company**, then by **domain key**. Each domain belongs conceptually to a pillar, but only the domain key is stored in the JSON.
 
+**Current dataset tracks 30 active domains across 8 major pillars.**
+
 ### 2.1 Core AI & Compute
 
 - `ai_foundation_models`  
@@ -151,15 +153,7 @@ The JSON is organized by **company**, then by **domain key**. Each domain belong
 - `sci_fi_consumer_devices`  
   Futuristic consumer hardware like home robots, BCI-style devices, and other "sci-fi" products.
 
-### 2.9 Manufacturing & Supply Chain Innovation
-
-- `advanced_manufacturing_materials`  
-  Next-generation manufacturing techniques, advanced materials R&D, additive manufacturing, and process innovation.
-
-- `supply_chain_digitization`  
-  Digital twins, supply chain visibility platforms, blockchain for provenance, IoT-enabled logistics.
-
-### 2.10 Edge Computing & 5G/6G
+### 2.9 Edge Computing, Network & Supply Chain
 
 - `edge_computing_infrastructure`  
   Edge data centers, CDN expansions, edge AI compute nodes, distributed computing infrastructure.
@@ -167,7 +161,10 @@ The JSON is organized by **company**, then by **domain key**. Each domain belong
 - `5g_6g_network_infrastructure`  
   5G/6G network equipment, private 5G networks, Open RAN, spectrum acquisitions, next-gen wireless R&D.
 
-### 2.11 Content, Media & Gaming
+- `supply_chain_digitization`  
+  Digital twins, supply chain visibility platforms, blockchain for provenance, IoT-enabled logistics.
+
+### 2.10 Content, Media & Gaming
 
 - `content_production_studios`  
   Game studios, film/TV production companies, content creation tools, original content investments.
@@ -175,42 +172,12 @@ The JSON is organized by **company**, then by **domain key**. Each domain belong
 - `gaming_platforms_engines`  
   Game engines, cloud gaming infrastructure, metaverse gaming platforms, esports investments.
 
-- `media_streaming_infrastructure`  
-  Video/music streaming platforms, podcast networks, content delivery infrastructure.
-
-### 2.12 Financial Services & Fintech
-
-- `payments_financial_services`  
-  Digital payment platforms, BNPL services, banking partnerships, financial infrastructure.
-
-- `blockchain_web3`  
-  Blockchain infrastructure, cryptocurrency initiatives, NFT platforms, Web3 investments.
-
-### 2.13 Education & Workforce Development
-
-- `education_technology_platforms`  
-  Educational software, online learning platforms, coding bootcamps, digital literacy programs.
+### 2.11 Workforce Development
 
 - `workforce_training_reskilling`  
   Workforce development programs, apprenticeships, certification programs, skills training.
 
-### 2.14 Real Estate & Physical Infrastructure
-
-- `corporate_real_estate_campuses`  
-  Campus expansions, headquarters construction, office space investments, real estate acquisitions.
-
-- `retail_physical_infrastructure`  
-  Retail store buildouts, experiential retail spaces, fulfillment centers, distribution networks.
-
-### 2.15 Acquisitions & Strategic Investments
-
-- `major_acquisitions`  
-  Significant M&A activity (>$500M) that doesn't fit cleanly into other domains.
-
-- `venture_capital_funds`  
-  Corporate VC arms, innovation funds, strategic investment vehicles.
-
-### 2.16 Legal, Regulatory & Compliance
+### 2.12 Legal, Regulatory & Compliance
 
 - `regulatory_compliance_investments`  
   Compliance infrastructure, privacy engineering, content moderation systems, regulatory response.
@@ -279,15 +246,16 @@ Each record in a domain array should have:
      - Set to the **most similar old domain label** from the previous schema if applicable (e.g. `"robotics"`, `"lithium_ion_battery_technology"`).  
      - If not applicable (purely new record), set `orig_domain` to the new domain name (e.g. `"ai_foundation_models"`).
    - `spend_type` *(optional but recommended when clear)*  
-     - One of: `r_and_d`, `capex`, `equity`, `fund`, `ppa`, `pledge`, `opex`, `other`.  
+     - One of: `r_and_d`, `capex`, `equity`, `fund`, `ppa`, `opex`, `other`, `M&A`, `Venture`, `CapEx`.  
      - Helps separate equity stakes/pledges from capex or internal R&D.
+     - Note: Prefer lowercase variants for consistency (e.g., `capex` not `CapEx`).
    - `timeframe` *(optional)*  
      - Object with `start` and `end` years for multi-year commitments; use `null` for open-ended; omit for single-year events.
    - `amount_basis` *(optional)*  
-     - One of: `single_year_spend`, `multi_year_commitment`, `project_cost`, `valuation_or_stake`, `pledge`, `undisclosed`.  
+     - One of: `single_year_spend`, `multi_year_commitment`, `project_cost`, `valuation_or_stake`, `undisclosed`, `acquisition_cost`, `actual`, `company_guidance`, `cumulative`, `cumulative_estimate`, `program_budget`, `program_total`, `round_total`, `single_event_cost`, `up to`.  
      - Clarifies whether the headline number is a pledge/valuation vs actual spend.
    - `certainty` *(optional)*  
-     - One of: `audited_filing`, `company_guidance`, `press_report`, `third_party_estimate`.  
+     - One of: `audited_filing`, `company_guidance`, `press_report`, `third_party_estimate`, `approx`, `certain`, `regulatory_filing`.  
      - Signals evidence strength.
    - `is_rollup` *(optional)*  
      - Boolean, default `false`. Set `true` for aggregates like annual R&D totals or multi-year program roll-ups to avoid double counting.
@@ -503,24 +471,19 @@ This section provides term families and query templates for the most important d
 - `{company} home robot {device_name} development`
 - `{company} brain computer interface research`
 
-### 4.13 `advanced_manufacturing_materials` / `supply_chain_digitization`
+### 4.13 `supply_chain_digitization`
 
-**Core terms (advanced_manufacturing):**
-
-- `"additive manufacturing"`, `"3D printing"`, `"advanced materials"`,
-- `"carbon fiber"`, `"manufacturing automation"`, `"smart factory"`
-
-**Core terms (supply_chain_digitization):**
+**Core terms:**
 
 - `"digital twin"`, `"supply chain visibility"`, `"blockchain provenance"`,
 - `"IoT logistics"`, `"predictive supply chain"`
 
 **Query templates:**
 
-- `{company} advanced manufacturing facility investment`
-- `{company} 3D printing factory cost`
 - `{company} digital twin supply chain investment`
 - `{company} blockchain supply chain pilot`
+- `{company} supply chain visibility platform cost`
+- `{company} IoT logistics investment`
 
 ### 4.14 `edge_computing_infrastructure` / `5g_6g_network_infrastructure`
 
@@ -565,83 +528,21 @@ This section provides term families and query templates for the most important d
 - `{company} cloud gaming infrastructure investment`
 - `{company} streaming platform capex`
 
-### 4.16 `payments_financial_services` / `blockchain_web3`
+### 4.16 `workforce_training_reskilling`
 
-**Core terms (payments/fintech):**
-
-- `"digital payments"`, `"Apple Pay"`, `"Google Pay"`,
-- `"buy now pay later"`, `"BNPL"`, `"financial services"`, `"banking partnership"`
-
-**Core terms (blockchain/Web3):**
-
-- `"blockchain infrastructure"`, `"cryptocurrency"`, `"NFT platform"`,
-- `"Web3"`, `"decentralized"`, `"smart contracts"`
-
-**Query templates:**
-
-- `{company} payment processing infrastructure investment`
-- `{company} fintech partnership deal value`
-- `{company} blockchain project investment`
-- `{company} Web3 initiative funding`
-
-### 4.17 `education_technology_platforms` / `workforce_training_reskilling`
-
-**Core terms (education technology):**
-
-- `"online learning"`, `"educational software"`, `"coding bootcamp"`,
-- `"digital literacy"`, `"edtech platform"`
-
-**Core terms (workforce training):**
+**Core terms:**
 
 - `"workforce development"`, `"apprenticeship program"`, `"reskilling"`,
 - `"certification program"`, `"skills training"`, `"talent development"`
 
 **Query templates:**
 
-- `{company} education platform investment`
 - `{company} workforce training program budget`
 - `{company} apprenticeship program {amount} commitment`
 - `{company} digital skills initiative funding`
+- `{company} employee development fund`
 
-### 4.18 `corporate_real_estate_campuses` / `retail_physical_infrastructure`
-
-**Core terms (corporate real estate):**
-
-- `"headquarters construction"`, `"campus expansion"`, `"office space"`,
-- `"real estate acquisition"`, `"corporate campus"`
-
-**Core terms (retail infrastructure):**
-
-- `"retail store"`, `"Apple Store"`, `"Amazon Go"`,
-- `"fulfillment center"`, `"distribution center"`, `"warehouse facility"`
-
-**Query templates:**
-
-- `{company} new headquarters cost {location}`
-- `{company} campus expansion {amount} investment`
-- `{company} retail store expansion plan budget`
-- `{company} fulfillment center construction {location} cost`
-
-### 4.19 `major_acquisitions` / `venture_capital_funds`
-
-**Core terms (acquisitions):**
-
-- `"acquisition"`, `"acquires"`, `"merger"`, `"M&A"`,
-- `"deal value"`, `"purchase price"`, `"takeover"`
-
-**Core terms (VC funds):**
-
-- `"venture capital"`, `"innovation fund"`, `"strategic investment"`,
-- `"corporate VC"`, `"investment arm"`, `"fund commitment"`
-
-**Query templates:**
-
-- `{company} acquires {target} for {amount} billion`
-- `{company} M&A spending {year}`
-- `{company} launches {amount} innovation fund`
-- `{company} venture capital portfolio investments`
-
-### 4.20 `regulatory_compliance_investments` / `litigation_settlements_fines`
+### 4.17 `regulatory_compliance_investments` / `litigation_settlements_fines`
 
 **Core terms (compliance):**
 
@@ -971,35 +872,35 @@ Periodically review and upgrade:
 1. `cloud_data_centers_ai_infra` - Hyperscale data center buildout
 2. `ai_foundation_models` - LLM development and partnerships
 3. `semiconductor_ai_hardware` - Custom chip development
-4. `major_acquisitions` - M&A activity
-5. `corporate_real_estate_campuses` - Campus expansions and HQs
+4. `content_production_studios` - Gaming and media content
+5. `xr_metaverse_and_spatial_computing` - Reality Labs, Vision Pro
 
 **Tier 2: $10B-$100B total**
 6. `renewable_energy_generation` - Clean energy commitments
 7. `autonomous_mobility` - Self-driving programs (Waymo, FSD, Cruise)
 8. `satellite_and_subsea_infrastructure` - Kuiper, 2Africa, etc.
-9. `xr_metaverse_and_spatial_computing` - Reality Labs, Vision Pro
-10. `content_production_studios` - Gaming and media acquisitions
+9. `batteries_and_storage` - EV and grid storage
+10. `security_cryptography` - Cybersecurity programs
 
 **Tier 3: $1B-$10B total**
 11. `robotics_autonomy` - Humanoid and warehouse robots
-12. `batteries_and_storage` - EV and grid storage
-13. `digital_health_devices` - Wearables and health services
-14. `security_cryptography` - Cybersecurity programs
-15. `quantum_computing` - Quantum labs and hardware
+12. `digital_health_devices` - Wearables and health services
+13. `quantum_computing` - Quantum labs and hardware
+14. `gaming_platforms_engines` - Game engines and cloud gaming
+15. `litigation_settlements_fines` - Regulatory penalties
 
 ### 10.2 Most under-documented domains (research gaps)
 
-Based on current dataset analysis, prioritize:
+Based on current dataset analysis (30 active domains), prioritize:
 
-1. **`5g_6g_network_infrastructure`** - Limited data across all companies
-2. **`supply_chain_digitization`** - Mostly qualitative, need quantification
-3. **`workforce_training_reskilling`** - Large programs but sparse dollar figures
-4. **`regulatory_compliance_investments`** - Significant but rarely disclosed
-5. **`edge_computing_infrastructure`** - Conflated with cloud, needs separation
-6. **`blockchain_web3`** - Mixed with other domains, needs clarity
-7. **`bio_ai_and_drug_discovery`** - Alphabet/NVIDIA strong, others weak
-8. **`litigation_settlements_fines`** - Incomplete historical record
+1. **`edge_computing_infrastructure`** - Only 1 record; conflated with cloud
+2. **`supply_chain_digitization`** - Only 2 records; mostly qualitative
+3. **`wellness_vr_and_behavioral`** - Only 1 record; Meta-focused
+4. **`bio_ai_and_drug_discovery`** - Only 3 records; Alphabet/NVIDIA strong, others weak
+5. **`superconducting_devices_squids`** - Only 1 record; highly specialized
+6. **`5g_6g_network_infrastructure`** - Only 2 records; limited data
+7. **`sci_fi_consumer_devices`** - Only 3 records; emerging category
+8. **`responsible_ai_safety_governance`** - Only 3 records; growing importance
 
 ### 10.3 Company-specific research priorities
 

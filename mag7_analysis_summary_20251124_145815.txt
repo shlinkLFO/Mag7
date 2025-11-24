@@ -1,0 +1,141 @@
+================================================================================
+MAG7 SPENDING DATA - COMPREHENSIVE ANALYSIS SUMMARY
+Generated: 2025-11-24 14:58:15
+================================================================================
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total Companies: 7
+Total Domains: 30
+Total Records: 154
+Total Documented Spending: $1485.42B
+Average Documentation Rate: 71.9%
+
+
+1. SPENDING BY COMPANY
+--------------------------------------------------------------------------------
+           total_billions  records_with_amount  records_null_amount  percent_documented
+Apple              625.60                 15.0                  8.0                65.2
+Amazon             268.44                 24.0                  4.0                85.7
+Meta               221.58                 15.0                  8.0                65.2
+Alphabet           161.52                 17.0                  8.0                68.0
+Microsoft          154.75                 19.0                  3.0                86.4
+Tesla               30.63                 10.0                  6.0                62.5
+NVIDIA              22.90                 12.0                  5.0                70.6
+
+2. TOP 20 DOMAINS BY SPENDING
+--------------------------------------------------------------------------------
+                             domain  total_billions  total_records  with_amount  null_amount  companies_count  documentation_rate
+      digital_inclusion_and_economy          515.80              4            4            0                4               100.0
+        cloud_data_centers_ai_infra          279.70             10            8            2                5                80.0
+               ai_foundation_models          220.18             13           12            1                6                92.3
+ xr_metaverse_and_spatial_computing          122.40              5            4            1                3                80.0
+         content_production_studios           68.90              3            3            0                3               100.0
+                autonomous_mobility           57.27              8            8            0                6               100.0
+              security_cryptography           35.40              8            3            5                6                37.5
+        renewable_energy_generation           34.00             10            6            4                7                60.0
+       litigation_settlements_fines           32.74              4            4            0                3               100.0
+satellite_and_subsea_infrastructure           25.96              9            9            0                4               100.0
+             digital_health_devices           23.60              3            2            1                3                66.7
+              batteries_and_storage           19.56             10            5            5                5                50.0
+          semiconductor_ai_hardware           10.95              6            5            1                6                83.3
+          supply_chain_digitization           10.00              1            1            0                1               100.0
+              ai_efficiency_methods            8.80             10            5            5                7                50.0
+      edge_computing_infrastructure            4.50              1            1            0                1               100.0
+ industrial_automation_supply_chain            2.64              2            2            0                2               100.0
+       5g_6g_network_infrastructure            2.35              2            2            0                2               100.0
+                  robotics_autonomy            2.26             10            6            4                7                60.0
+                  quantum_computing            1.80              6            3            3                4                50.0
+
+3. SPENDING BY TYPE (AGGREGATE)
+--------------------------------------------------------------------------------
+             total_billions  record_count
+spend_type                               
+r_and_d              782.56            39
+capex                284.02            37
+opex                 157.69            19
+equity                99.05            34
+CapEx                 62.00             2
+unspecified           34.90             9
+other                 32.74             4
+ppa                   13.70             5
+fund                  10.05             2
+M&A                    8.00             2
+Venture                0.70             1
+
+4. SPENDING BY YEAR
+--------------------------------------------------------------------------------
+ year  total_billions  record_count
+ 2016            2.60             1
+ 2017            0.00             1
+ 2018           10.01             2
+ 2019            2.81             8
+ 2020           49.28            13
+ 2021           39.40            17
+ 2022           27.60            10
+ 2023          266.60            28
+ 2024          208.84            39
+ 2025          762.08            24
+ 2026            0.00             1
+Records with missing year: 10
+
+
+5. DOMAIN COVERAGE MATRIX
+--------------------------------------------------------------------------------
+Format: (records_with_amount / total_records)
+
+                             domain Alphabet Amazon Apple Meta Microsoft NVIDIA Tesla
+       5g_6g_network_infrastructure      0/0    0/0   1/1  0/0       1/1    0/0   0/0
+              ai_efficiency_methods      1/2    1/1   0/1  0/1       0/1    1/2   2/2
+               ai_foundation_models      2/2    2/2   0/1  2/2       3/3    3/3   0/0
+                autonomous_mobility      2/2    1/1   1/1  0/0       1/1    1/1   2/2
+              batteries_and_storage      0/1    1/1   0/1  0/0       0/1    0/0   4/6
+          bio_ai_and_drug_discovery      1/1    0/0   0/0  0/0       0/0    1/1   0/0
+        circularity_reuse_recycling      0/1    2/2   0/1  0/2       1/1    1/1   0/1
+        cloud_data_centers_ai_infra      0/0    3/3   1/2  1/1       2/2    1/2   0/0
+         content_production_studios      1/1    1/1   1/1  0/0       0/0    0/0   0/0
+             digital_health_devices      0/0    1/1   0/1  0/0       1/1    0/0   0/0
+      digital_inclusion_and_economy      1/1    0/0   1/1  1/1       1/1    0/0   0/0
+         diversity_equity_inclusion      1/1    1/1   1/1  1/1       1/1    0/0   0/1
+      edge_computing_infrastructure      0/0    1/1   0/0  0/0       0/0    0/0   0/0
+           gaming_platforms_engines      0/0    0/0   0/0  0/0       1/1    0/0   0/0
+ industrial_automation_supply_chain      0/0    1/1   0/0  0/0       0/0    1/1   0/0
+       litigation_settlements_fines      1/1    0/0   1/1  2/2       0/0    0/0   0/0
+                  quantum_computing      0/2    1/2   0/0  0/0       1/1    1/1   0/0
+  regulatory_compliance_investments      0/0    0/0   0/0  1/1       0/0    0/0   0/0
+        renewable_energy_generation      1/1    1/2   1/1  0/1       2/2    0/1   1/2
+   responsible_ai_safety_governance      0/0    0/0   0/0  1/2       0/1    0/0   0/0
+                  robotics_autonomy      2/2    2/2   0/1  0/1       1/1    1/2   0/1
+satellite_and_subsea_infrastructure      2/2    3/3   2/2  2/2       0/0    0/0   0/0
+            sci_fi_consumer_devices      0/0    0/1   0/0  1/1       0/0    0/0   0/0
+              security_cryptography      2/3    0/1   0/1  0/1       1/1    0/1   0/0
+          semiconductor_ai_hardware      0/0    1/1   1/1  0/1       1/1    1/1   1/1
+     superconducting_devices_squids      0/1    0/0   0/0  0/0       0/0    0/0   0/0
+          supply_chain_digitization      0/0    0/0   1/1  0/0       0/0    0/0   0/0
+         wellness_vr_and_behavioral      0/0    0/0   0/0  1/1       0/0    0/0   0/0
+      workforce_training_reskilling      0/0    1/1   1/1  0/0       1/1    0/0   0/0
+ xr_metaverse_and_spatial_computing      0/1    0/0   2/2  2/2       0/0    0/0   0/0
+
+6. GAP ANALYSIS - DOMAINS WITH NO AMOUNTS
+--------------------------------------------------------------------------------
+  - superconducting_devices_squids: 1 records
+
+
+7. RESEARCH PRIORITIES
+--------------------------------------------------------------------------------
+priority                           reason                            domain  records  doc_rate                                                                                                                    action   company
+    HIGH High activity, low documentation             security_cryptography      8.0      37.5                                                                                         Find dollar amounts for 5 records       NaN
+    HIGH High activity, low documentation       circularity_reuse_recycling      9.0      44.4                                                                                         Find dollar amounts for 5 records       NaN
+  MEDIUM     Company missing many domains             Multiple (12 domains)      NaN       NaN Research Microsoft's activity in: bio_ai_and_drug_discovery, content_production_studios, edge_computing_infrastructure... Microsoft
+  MEDIUM     Company missing many domains             Multiple (13 domains)      NaN       NaN     Research Alphabet's activity in: 5g_6g_network_infrastructure, cloud_data_centers_ai_infra, digital_health_devices...  Alphabet
+  MEDIUM     Company missing many domains             Multiple (11 domains)      NaN       NaN  Research Amazon's activity in: 5g_6g_network_infrastructure, bio_ai_and_drug_discovery, digital_inclusion_and_economy...    Amazon
+  MEDIUM     Company missing many domains             Multiple (18 domains)      NaN       NaN         Research NVIDIA's activity in: 5g_6g_network_infrastructure, batteries_and_storage, content_production_studios...    NVIDIA
+  MEDIUM     Company missing many domains             Multiple (22 domains)      NaN       NaN            Research Tesla's activity in: 5g_6g_network_infrastructure, ai_foundation_models, bio_ai_and_drug_discovery...     Tesla
+  MEDIUM     Company missing many domains             Multiple (13 domains)      NaN       NaN                  Research Meta's activity in: 5g_6g_network_infrastructure, autonomous_mobility, batteries_and_storage...      Meta
+     LOW         Only 1 company in domain        wellness_vr_and_behavioral      NaN       NaN                                                                          Check if Tesla, Apple, NVIDIA have activity here       NaN
+     LOW         Only 1 company in domain          gaming_platforms_engines      NaN       NaN                                                                            Check if Tesla, Meta, Apple have activity here       NaN
+     LOW         Only 1 company in domain regulatory_compliance_investments      NaN       NaN                                                                          Check if Tesla, Apple, NVIDIA have activity here       NaN
+     LOW         Only 1 company in domain         supply_chain_digitization      NaN       NaN                                                                           Check if Tesla, Meta, NVIDIA have activity here       NaN
+     LOW         Only 1 company in domain     edge_computing_infrastructure      NaN       NaN                                                                            Check if Tesla, Meta, Apple have activity here       NaN
+     LOW         Only 1 company in domain    superconducting_devices_squids      NaN       NaN                                                                            Check if Tesla, Meta, Apple have activity here       NaN
+
