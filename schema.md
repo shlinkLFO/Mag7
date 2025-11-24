@@ -125,6 +125,73 @@ Domains are grouped conceptually into pillars, but the JSON only stores the **do
 - `sci_fi_consumer_devices`  
   Futuristic consumer devices such as home robots, BCI-style devices, etc.
 
+### 2.9 Manufacturing & Supply Chain Innovation
+
+- `advanced_manufacturing_materials`  
+  Next-generation manufacturing techniques, advanced materials R&D (carbon fiber, ceramics, novel alloys), additive manufacturing (3D printing at scale), and manufacturing process innovation.
+
+- `supply_chain_digitization`  
+  Digital twins, supply chain visibility platforms, blockchain for provenance, and IoT-enabled logistics beyond pure robotics.
+
+### 2.10 Edge Computing & 5G/6G
+
+- `edge_computing_infrastructure`  
+  Edge data centers, CDN expansions, edge AI compute nodes, and distributed computing infrastructure.
+
+- `5g_6g_network_infrastructure`  
+  Investments in 5G/6G network equipment, private 5G networks, Open RAN, spectrum acquisitions, and next-gen wireless R&D.
+
+### 2.11 Content, Media & Gaming
+
+- `content_production_studios`  
+  Acquisitions of game studios, film/TV production companies, content creation tools, and original content investments.
+
+- `gaming_platforms_engines`  
+  Game engines, cloud gaming infrastructure, metaverse gaming platforms, and esports investments.
+
+- `media_streaming_infrastructure`  
+  Video streaming platforms, music streaming services, podcast networks, and content delivery infrastructure.
+
+### 2.12 Financial Services & Fintech
+
+- `payments_financial_services`  
+  Digital payment platforms (Apple Pay, Google Pay), buy-now-pay-later services, banking partnerships, and financial infrastructure.
+
+- `blockchain_web3`  
+  Blockchain infrastructure, cryptocurrency initiatives, NFT platforms, and Web3 investments (excluding pure speculation).
+
+### 2.13 Education & Workforce Development
+
+- `education_technology_platforms`  
+  Educational software, online learning platforms, coding bootcamps, and digital literacy programs.
+
+- `workforce_training_reskilling`  
+  Internal and external workforce development programs, apprenticeships, certification programs, and skills training initiatives.
+
+### 2.14 Real Estate & Physical Infrastructure
+
+- `corporate_real_estate_campuses`  
+  Major campus expansions, headquarters construction, office space investments, and significant real estate acquisitions.
+
+- `retail_physical_infrastructure`  
+  Retail store buildouts, experiential retail spaces, fulfillment centers (non-robotics aspects), and physical distribution networks.
+
+### 2.15 Acquisitions & Strategic Investments
+
+- `major_acquisitions`  
+  Significant M&A activity (typically >$500M) that doesn't fit cleanly into other domains or represents platform/capability acquisitions.
+
+- `venture_capital_funds`  
+  Corporate VC arms, innovation funds, and strategic investment vehicles (e.g., Google Ventures, Microsoft Climate Innovation Fund).
+
+### 2.16 Legal, Regulatory & Compliance
+
+- `regulatory_compliance_investments`  
+  Major investments in compliance infrastructure, privacy engineering, content moderation systems, and regulatory response programs.
+
+- `litigation_settlements_fines`  
+  Significant legal settlements, antitrust fines, and regulatory penalties (for completeness in spend tracking).
+
 ## 3. Record-level structure
 
 Each **record** in a domain array has the fields:
@@ -195,6 +262,79 @@ Field definitions:
 
 ## 4. Usage tips
 
-- Treat `investment_amount_billions_usd = null` as **“qualitative evidence only”**.  
+- Treat `investment_amount_billions_usd = null` as **"qualitative evidence only"**.  
 - Use `year` to build time series but be cautious with multi-year commitments where only a single headline year is present.  
 - When in doubt, rely on `links` and `notes` in your Mathematica/Wolfram code to perform manual or semi-automated validation.
+
+## 5. Domain coverage expectations by company
+
+This matrix indicates which domains are **expected** to have substantial activity for each MAG7 company. Use this to guide research prioritization:
+
+| Domain | AAPL | MSFT | GOOGL | AMZN | NVDA | TSLA | META |
+|--------|------|------|-------|------|------|------|------|
+| **Core AI & Compute** |
+| ai_foundation_models | ● | ●● | ●● | ●● | ●● | ● | ●● |
+| ai_efficiency_methods | ● | ●● | ●● | ●● | ●● | ● | ●● |
+| semiconductor_ai_hardware | ●● | ○ | ●● | ● | ●●● | ●● | ● |
+| cloud_data_centers_ai_infra | ● | ●●● | ●●● | ●●● | ● | ○ | ●● |
+| **Quantum & Advanced Physics** |
+| quantum_computing | ○ | ●● | ●●● | ● | ●● | ○ | ○ |
+| superconducting_devices_squids | ○ | ● | ●● | ○ | ● | ○ | ○ |
+| **Automation & Robotics** |
+| robotics_autonomy | ● | ● | ●● | ●● | ●● | ●●● | ● |
+| autonomous_mobility | ●● | ● | ●●● | ●● | ● | ●●● | ○ |
+| industrial_automation_supply_chain | ○ | ○ | ○ | ●●● | ○ | ●● | ○ |
+| **Energy, Climate & Materials** |
+| batteries_and_storage | ● | ○ | ● | ● | ● | ●●● | ○ |
+| renewable_energy_generation | ●● | ●● | ●● | ●●● | ● | ●●● | ●● |
+| circularity_reuse_recycling | ●● | ● | ● | ● | ● | ●● | ● |
+| **Health, Bio & Wellbeing** |
+| digital_health_devices | ●●● | ● | ● | ●● | ○ | ○ | ○ |
+| bio_ai_and_drug_discovery | ○ | ● | ●● | ○ | ●● | ○ | ○ |
+| wellness_vr_and_behavioral | ○ | ● | ○ | ○ | ○ | ○ | ●● |
+| **Connectivity & Digital Economy** |
+| satellite_and_subsea_infrastructure | ●● | ● | ●● | ●●● | ○ | ○ | ●● |
+| digital_inclusion_and_economy | ●● | ●● | ●●● | ●● | ○ | ○ | ●● |
+| **Trust, Governance & Society** |
+| security_cryptography | ●●● | ●●● | ●● | ●● | ●● | ● | ●● |
+| responsible_ai_safety_governance | ● | ●● | ●● | ● | ● | ○ | ● |
+| diversity_equity_inclusion | ●● | ●● | ●● | ●● | ● | ○ | ●● |
+| **Experiential / Sci-Fi Products** |
+| xr_metaverse_and_spatial_computing | ●●● | ●● | ●● | ○ | ○ | ○ | ●●● |
+| sci_fi_consumer_devices | ●● | ● | ● | ●● | ○ | ● | ●● |
+| **Manufacturing & Supply Chain** |
+| advanced_manufacturing_materials | ●● | ○ | ○ | ● | ○ | ●●● | ○ |
+| supply_chain_digitization | ● | ● | ● | ●●● | ○ | ● | ○ |
+| **Edge & Network** |
+| edge_computing_infrastructure | ● | ●● | ●● | ●●● | ● | ○ | ●● |
+| 5g_6g_network_infrastructure | ●● | ● | ●● | ● | ● | ○ | ○ |
+| **Content, Media & Gaming** |
+| content_production_studios | ●● | ●●● | ● | ●● | ○ | ○ | ●● |
+| gaming_platforms_engines | ●● | ●●● | ● | ●● | ●● | ○ | ●● |
+| media_streaming_infrastructure | ●● | ○ | ●● | ●●● | ○ | ○ | ●● |
+| **Financial Services** |
+| payments_financial_services | ●●● | ● | ●● | ●● | ○ | ○ | ● |
+| blockchain_web3 | ○ | ● | ○ | ○ | ● | ○ | ● |
+| **Education & Workforce** |
+| education_technology_platforms | ●● | ●● | ●● | ●● | ● | ○ | ● |
+| workforce_training_reskilling | ●● | ●●● | ●● | ●●● | ● | ○ | ●● |
+| **Real Estate & Infrastructure** |
+| corporate_real_estate_campuses | ●●● | ●● | ●●● | ●●● | ●● | ●● | ●● |
+| retail_physical_infrastructure | ●●● | ● | ● | ●●● | ○ | ●● | ○ |
+| **Strategic Investments** |
+| major_acquisitions | ●● | ●●● | ●●● | ●●● | ●● | ○ | ●●● |
+| venture_capital_funds | ● | ●● | ●●● | ●● | ●● | ○ | ● |
+| **Legal & Regulatory** |
+| regulatory_compliance_investments | ●● | ●● | ●●● | ●● | ● | ● | ●●● |
+| litigation_settlements_fines | ●● | ●● | ●●● | ●● | ○ | ● | ●●● |
+
+**Legend:**
+- ●●● = Core strategic domain; expect multiple large investments (>$1B cumulative)
+- ●● = Significant activity; expect several investments ($100M-$1B+ range)
+- ● = Moderate activity; expect some investments or R&D programs
+- ○ = Limited/no expected activity; search but don't prioritize
+
+**Usage:**
+- Prioritize research on ●●● and ●● domains for each company
+- For ○ domains, perform cursory search but don't invest extensive time
+- Empty cells indicate uncertainty; conduct exploratory research
