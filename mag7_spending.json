@@ -19,6 +19,44 @@
         "is_rollup": false
       }
     ],
+    "digital_health_devices": [
+      {
+        "investment_amount_billions_usd": 2.1,
+        "year": 2019,
+        "initiatives": [
+          "Acquisition of Fitbit (wearable fitness trackers and health data)"
+        ],
+        "notes": "Agreed to acquire Fitbit for $2.1B to expand wearables and health data capabilities, challenging Apple Watch and bolstering Google’s health services.",
+        "source_figure": "Google will buy Fitbit for $2.1 billion.",
+        "links": [
+          "https://www.reuters.com/business/google-taps-fitness-tracker-market-with-21-billion-bid-for-fitbit-2019-11-01/"
+        ],
+        "spend_type": "M&A",
+        "timeframe": null,
+        "amount_basis": "enterprise_value",
+        "certainty": "press_report",
+        "is_rollup": false
+      }
+    ],
+    "5g_6g_network_infrastructure": [
+      {
+        "investment_amount_billions_usd": 1.0,
+        "year": 2019,
+        "initiatives": [
+          "Acquisition of Intel’s smartphone modem division (in-house 5G chip development)"
+        ],
+        "notes": "Apple purchased the majority of Intel’s smartphone modem business in 2019, bringing over 2,200 Intel employees and wireless patents to accelerate in-house 5G modem development.",
+        "source_figure": "Apple’s agreement to acquire Intel’s modem division was valued at $1 billion.",
+        "links": [
+          "https://www.apple.com/newsroom/2019/07/apple-to-acquire-the-majority-of-intels-smartphone-modem-business/"
+        ],
+        "spend_type": "equity",
+        "timeframe": null,
+        "amount_basis": "acquisition_cost",
+        "certainty": "company_guidance",
+        "is_rollup": false
+      }
+    ],
     "autonomous_mobility": [
       {
         "investment_amount_billions_usd": 10.0,
@@ -32,9 +70,12 @@
           "https://www.macrumors.com/2024/02/28/apple-car-10-billion-spent/"
         ],
         "spend_type": "r_and_d",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "timeframe": {
+          "start": 2014,
+          "end": 2024
+        },
+        "amount_basis": "cumulative_spend_estimate",
+        "certainty": "press_report",
         "is_rollup": false
       }
     ],
@@ -116,9 +157,12 @@
           "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2025.pdf"
         ],
         "spend_type": "capex",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "timeframe": {
+          "start": 2019,
+          "end": 2023
+        },
+        "amount_basis": "multi_year_bond_issuances",
+        "certainty": "audited_report",
         "is_rollup": false
       }
     ],
@@ -142,6 +186,26 @@
       }
     ],
     "digital_inclusion_and_economy": [
+      {
+        "investment_amount_billions_usd": 350.0,
+        "year": 2018,
+        "initiatives": [
+          "Five-year US investment plan (2018–2023, create 20k jobs, new campuses and manufacturing)"
+        ],
+        "notes": "In early 2018, Apple announced a plan to contribute $350B to the U.S. economy over five years, including 20k jobs and major capital projects—largely repackaging ongoing data center, manufacturing, and employment expansions.",
+        "source_figure": "Apple announced a $350 billion contribution to the U.S. economy over five years in January 2018.",
+        "links": [
+          "https://qz.com/apple-us-investment-trump-tech-jobs-ai-campus-1851767013"
+        ],
+        "spend_type": "r_and_d",
+        "timeframe": {
+          "start": 2018,
+          "end": 2023
+        },
+        "amount_basis": "multi_year_commitment",
+        "certainty": "company_guidance",
+        "is_rollup": true
+      },
       {
         "investment_amount_billions_usd": 500.0,
         "year": 2025,
@@ -240,20 +304,20 @@
     ],
     "ai_foundation_models": [
       {
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 1.0,
         "year": 2023,
         "initiatives": [
           "Building in-house large language models ('Ajax GPT')"
         ],
-        "notes": "Media reports claim Apple spent “millions of dollars per day” in 2023 to train generative AI models for Siri and related projects; no explicit total given.",
-        "source_figure": "Apple is spending millions of dollars per day training its language models.",
+        "notes": "Media reports describe Apple spending “millions of dollars per day” to train Ajax GPT and related models, implying roughly a $1B annual run rate for training compute and data.",
+        "source_figure": "Reports peg Apple’s AI training spend at roughly $1B per year ('millions per day')",
         "links": [
           "https://www.macrumors.com/2023/09/06/apple-conversational-ai-spending/"
         ],
-        "spend_type": null,
+        "spend_type": "r_and_d",
         "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "amount_basis": "estimated_annual_run_rate",
+        "certainty": "press_report",
         "is_rollup": false
       }
     ],
@@ -272,9 +336,12 @@
           "https://www.sec.gov/ix?doc=/Archives/edgar/data/1366868/000136686824000055/gsat-20241029.htm"
         ],
         "spend_type": "equity",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "timeframe": {
+          "start": 2024,
+          "end": 2024
+        },
+        "amount_basis": "program_total",
+        "certainty": "sec_filing",
         "is_rollup": false
       },
       {
@@ -492,9 +559,12 @@
           "https://www.cybersecuritydive.com/news/biden-white-house-cyber-security-google-microsoft-apple-summit/605617/"
         ],
         "spend_type": "r_and_d",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "timeframe": {
+          "start": 2021,
+          "end": 2026
+        },
+        "amount_basis": "multi_year_commitment",
+        "certainty": "company_guidance",
         "is_rollup": false
       }
     ],
@@ -538,20 +608,20 @@
     ],
     "batteries_and_storage": [
       {
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 0.214,
         "year": 2022,
         "initiatives": [
           "Group14 Technologies silicon–carbon anode materials (Climate Innovation Fund)"
         ],
-        "notes": "Participated via the Climate Innovation Fund in Group14’s large Series C to scale next-gen silicon-based lithium-ion materials; round totaled hundreds of millions (reported $400M–$600M+), but Microsoft’s specific check wasn’t disclosed.",
-        "source_figure": "Group14 raised over $400M in its 2022 Series C with Microsoft Climate Innovation Fund participation.",
+        "notes": "Climate Innovation Fund participated in Group14’s $614M Series C, allocating about $214M of the round to accelerate silicon–carbon anode production for EV and grid batteries.",
+        "source_figure": "Group14 Series C included ~$214M allocation with Microsoft Climate Innovation Fund participation (within $614M total)",
         "links": [
           "https://group14technologies.com/news/group14-closes-614m-series-c-round-to-power-the-ev-and-broad-electrification-markets"
         ],
         "spend_type": "equity",
         "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "amount_basis": "allocation_within_round",
+        "certainty": "press_report",
         "is_rollup": false
       }
     ],
@@ -718,6 +788,23 @@
         "is_rollup": false
       },
       {
+        "investment_amount_billions_usd": 1.0,
+        "year": 2019,
+        "initiatives": [
+          "Strategic investment in OpenAI (Azure AI supercomputing partnership)"
+        ],
+        "notes": "Invested $1B in OpenAI to co-develop advanced AI supercomputing on Azure and commercialize AGI research.",
+        "source_figure": "Microsoft announced a $1 billion investment in OpenAI in 2019.",
+        "links": [
+          "https://www.reuters.com/technology/microsoft-to-invest-1-billion-in-openai-idUSKCN1UH1H8"
+        ],
+        "spend_type": "equity",
+        "timeframe": null,
+        "amount_basis": "single_payment",
+        "certainty": "company_guidance",
+        "is_rollup": false
+      },
+      {
         "investment_amount_billions_usd": 1.5,
         "year": 2024,
         "initiatives": [
@@ -743,11 +830,11 @@
         "notes": "Invested €15M (~$16M) in French AI startup Mistral AI, converting to equity alongside a multi-year Azure hosting partnership.",
         "source_figure": "Microsoft made a €15 million investment in Mistral AI.",
         "links": [
-          "https://techcrunch.com/2024/02/26/microsoft-invests-in-mistral-ai/"
+          "https://www.reuters.com/technology/microsoft-invests-16-mln-mistral-ai-partnership-2024-02-26/"
         ],
         "spend_type": "equity",
         "timeframe": null,
-        "amount_basis": null,
+        "amount_basis": "convertible_in_next_round",
         "certainty": null,
         "is_rollup": false
       }
@@ -806,6 +893,40 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 26.2,
+        "year": 2016,
+        "initiatives": [
+          "Acquisition of LinkedIn (professional network and learning platform)"
+        ],
+        "notes": "Microsoft acquired LinkedIn for $26.2B in cash, adding a global professional network and learning platform to bolster productivity, hiring, and cloud offerings.",
+        "source_figure": "Microsoft bought LinkedIn for $26.2 billion in 2016.",
+        "links": [
+          "https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/"
+        ],
+        "spend_type": "M&A",
+        "timeframe": null,
+        "amount_basis": "enterprise_value",
+        "certainty": "certain",
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 7.5,
+        "year": 2018,
+        "initiatives": [
+          "Acquisition of GitHub (developer collaboration platform)"
+        ],
+        "notes": "Microsoft acquired GitHub for $7.5B in stock to deepen its developer ecosystem and align open-source collaboration with Azure.",
+        "source_figure": "Microsoft agreed to acquire GitHub for $7.5 billion in 2018.",
+        "links": [
+          "https://blogs.microsoft.com/blog/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/"
+        ],
+        "spend_type": "M&A",
+        "timeframe": null,
+        "amount_basis": "equity_value",
+        "certainty": "company_guidance",
         "is_rollup": false
       }
     ],
@@ -909,9 +1030,9 @@
           "start": 2021,
           "end": 2029
         },
-        "amount_basis": "multi_year_commitment",
-        "certainty": "press_report",
-        "is_rollup": false
+        "amount_basis": "guidance_multi_billion",
+        "certainty": "company_guidance",
+        "is_rollup": true
       },
       {
         "investment_amount_billions_usd": null,
@@ -952,24 +1073,6 @@
         "is_rollup": false
       },
       {
-        "investment_amount_billions_usd": null,
-        "year": 2025,
-        "initiatives": [
-          "Acquisition of ID Quantique (Swiss quantum encryption provider)",
-          "Quantum-safe security solutions deployment"
-        ],
-        "notes": "Alphabet acquired ID Quantique to enhance quantum-safe encryption capabilities across its services. Deal value not disclosed but positions Google to capture multiple quantum security market segments.",
-        "source_figure": "Google acquired ID Quantique to strengthen quantum encryption portfolio.",
-        "links": [
-          "https://www.futuremarketsinc.com/the-global-quantum-technology-industry-2025-technologies-markets-investments-and-opportunities/"
-        ],
-        "spend_type": "equity",
-        "timeframe": null,
-        "amount_basis": "undisclosed",
-        "certainty": "press_report",
-        "is_rollup": false
-      },
-      {
         "investment_amount_billions_usd": 5.4,
         "year": 2022,
         "initiatives": [
@@ -984,6 +1087,62 @@
         "timeframe": null,
         "amount_basis": "actual",
         "certainty": "certain",
+        "is_rollup": false
+      }
+    ],
+    "cloud_data_centers_ai_infra": [
+      {
+        "investment_amount_billions_usd": 0.625,
+        "year": 2016,
+        "initiatives": [
+          "Acquisition of Apigee (API management platform for cloud services)"
+        ],
+        "notes": "Acquired Apigee for ~$625M to strengthen Google Cloud’s API management and enterprise integration capabilities.",
+        "source_figure": "Google to buy Apigee in a deal valued at about $625 million in cash.",
+        "links": [
+          "https://www.reuters.com/article/business/google-to-buy-software-developer-apigee-in-625-mln-deal-idUSL3N1BK3YP"
+        ],
+        "spend_type": "M&A",
+        "timeframe": null,
+        "amount_basis": "enterprise_value",
+        "certainty": "certain",
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 2.6,
+        "year": 2019,
+        "initiatives": [
+          "Acquisition of Looker (cloud business intelligence and analytics)"
+        ],
+        "notes": "Bought Looker for $2.6B to bolster Google Cloud’s analytics and BI stack alongside BigQuery.",
+        "source_figure": "Google to buy Looker for $2.6 billion in cash.",
+        "links": [
+          "https://www.reuters.com/world/google-to-buy-analytics-software-firm-looker-for-26-billion-idUSKCN1T71Q9"
+        ],
+        "spend_type": "M&A",
+        "timeframe": null,
+        "amount_basis": "cash_purchase",
+        "certainty": "certain",
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 13.0,
+        "year": 2019,
+        "initiatives": [
+          "U.S. data center and office expansion across 14 states"
+        ],
+        "notes": "Announced >$13B 2019 capex for new data centers and offices in at least 14 states, Google’s largest annual U.S. infrastructure build to date.",
+        "source_figure": "Google said it would spend more than $13 billion on U.S. data centers and offices in 2019.",
+        "links": [
+          "https://www.reuters.com/technology/google-to-spend-over-13-billion-on-us-data-centers-offices-idUSKCN1Q22FT"
+        ],
+        "spend_type": "capex",
+        "timeframe": {
+          "start": 2019,
+          "end": 2019
+        },
+        "amount_basis": "single_year_spend",
+        "certainty": "company_guidance",
         "is_rollup": false
       }
     ],
@@ -1102,6 +1261,23 @@
         "amount_basis": null,
         "certainty": null,
         "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.05,
+        "year": 2021,
+        "initiatives": [
+          "Malta Inc. Series B for molten-salt long-duration storage commercialization"
+        ],
+        "notes": "Alphabet’s X spin-out Malta Inc. raised a $50M Series B (after a $26M Series A) to scale its molten-salt long-duration energy storage technology.",
+        "source_figure": "Malta Inc. raised $50M Series B following its initial $26M Series A.",
+        "links": [
+          "https://www.energylivenews.com/2021/02/25/google-spin-off-malta-raises-50m-for-long-duration-energy-storage-system/"
+        ],
+        "spend_type": "equity",
+        "timeframe": null,
+        "amount_basis": "round_total",
+        "certainty": "press_report",
+        "is_rollup": false
       }
     ],
     "renewable_energy_generation": [
@@ -1197,9 +1373,12 @@
           "https://www.reuters.com/article/business/alphabet-s-google-commits-10-billion-to-accelerate-digitization-in-india-idUSKCN24E16M"
         ],
         "spend_type": "equity",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "timeframe": {
+          "start": 2020,
+          "end": 2027
+        },
+        "amount_basis": "multi_year_fund",
+        "certainty": "company_guidance",
         "is_rollup": false
       }
     ],
@@ -1664,7 +1843,7 @@
     "satellite_and_subsea_infrastructure": [
       {
         "investment_amount_billions_usd": 10.0,
-        "year": null,
+        "year": 2020,
         "initiatives": [
           "Project Kuiper LEO satellite constellation (3,236 satellites)"
         ],
@@ -1674,23 +1853,25 @@
           "https://www.reuters.com/business/taking-on-spacex-amazon-to-invest-10-billion-in-satellite-broadband-plan-idUSKCN24W0E1/"
         ],
         "spend_type": "capex",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "timeframe": {
+          "start": 2020,
+          "end": 2029
+        },
+        "amount_basis": "regulatory_license_requirement",
+        "certainty": "regulatory_filing",
         "is_rollup": false
       },
       {
-        "investment_amount_billions_usd": 0.14,
+        "investment_amount_billions_usd": 0.12,
         "year": 2024,
         "initiatives": [
           "Project Kuiper Florida payload processing facility",
           "Ground segment build-out at Kennedy Space Center"
         ],
-        "notes": "Expanding payload processing facility at Space Florida’s Launch and Landing Facility; new $19.5M expansion brings site capex to nearly $140M for Kuiper ground ops (facility-specific, not constellation total).",
-        "source_figure": "Project Kuiper investing $19.5M expansion, bringing Florida site to nearly $140M total.",
+        "notes": "Investing $120M to build a Kuiper satellite processing facility at NASA’s Kennedy Space Center (facility-specific, not constellation total).",
+        "source_figure": "$120M Kuiper satellite processing facility at KSC",
         "links": [
-          "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-investment-expansion-florida",
-          "https://spaceflightnow.com/2025/07/24/amazon-says-139-5-million-investment-in-florida-is-key-to-ramping-up-launch-cadence-with-project-kuiper/"
+          "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-processing-facility-florida"
         ],
         "orig_domain": "satellite_and_subsea_infrastructure",
         "spend_type": "capex",
@@ -2084,6 +2265,24 @@
     ],
     "cloud_data_centers_ai_infra": [
       {
+        "investment_amount_billions_usd": 6.9,
+        "year": 2020,
+        "initiatives": [
+          "Acquisition of Mellanox Technologies (InfiniBand/Ethernet networking for data centers)"
+        ],
+        "notes": "NVIDIA purchased Mellanox to bolster its data-center and AI networking capabilities, marking NVIDIA’s largest acquisition to date. The $6.9B all-cash deal strengthens NVIDIA’s position in high-performance computing by integrating Mellanox’s high-speed interconnect chips and systems.",
+        "source_figure": "NVIDIA’s $6.9 billion acquisition of Mellanox (closed April 2020)",
+        "links": [
+          "https://www.reuters.com/article/world/nvidia-gets-chinas-go-ahead-for-69-billion-mellanox-deal-idUSKBN21Z071",
+          "https://www.reuters.com/article/technology/nvidia-outbids-intel-to-buy-israels-mellanox-in-data-centre-push-idUSKBN1QS197"
+        ],
+        "spend_type": "M&A",
+        "timeframe": null,
+        "amount_basis": "enterprise_value",
+        "certainty": "certain",
+        "is_rollup": false
+      },
+      {
         "investment_amount_billions_usd": null,
         "year": 2023,
         "initiatives": [
@@ -2100,6 +2299,45 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.2,
+        "year": 2024,
+        "initiatives": [
+          "AI center build in Surakarta, Indonesia with Indosat Ooredoo Hutchison"
+        ],
+        "notes": "Committed $200M to develop an AI center in Surakarta (Solo), Indonesia, supporting sovereign AI infrastructure with local telco partner Indosat Ooredoo Hutchison.",
+        "source_figure": "NVIDIA to invest $200M in an AI center in Indonesia",
+        "links": [
+          "https://www.reuters.com/technology/nvidia-indosat-plan-200-mln-ai-centre-indonesia-minister-says-2024-04-05/"
+        ],
+        "spend_type": "capex",
+        "timeframe": null,
+        "amount_basis": "project_cost",
+        "certainty": "press_report",
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.92,
+        "year": 2022,
+        "initiatives": [
+          "Construction of NVIDIA’s Santa Clara headquarters campus (Voyager and Endeavor) with LEED-oriented design and on-site solar capacity"
+        ],
+        "notes": "NVIDIA’s two-building Santa Clara headquarters campus, Voyager and Endeavor, is reported to have cost about $920M. The Star Trek–themed campus emphasizes sustainability with natural light, energy-efficient systems, biophilic elements, and rooftop/trellis solar, showcasing NVIDIA’s green workplace strategy.",
+        "source_figure": "Press reports cite the combined cost of NVIDIA’s Voyager and Endeavor headquarters buildings at approximately $920 million.",
+        "links": [
+          "https://venturebeat.com/ai/nvidia-became-a-1-trillion-company-thanks-to-ai-look-inside-their-lavish-star-trek-inspired-hq-the-ai-beat/",
+          "https://fortune.com/2025/08/19/nvidia-hq-triangles-symbolism-history-graphics/",
+          "https://www.ainvest.com/news/nvidia-920-million-santa-clara-headquarters-tale-innovation-identity-2508/"
+        ],
+        "spend_type": "capex",
+        "timeframe": {
+          "start": 2016,
+          "end": 2022
+        },
+        "amount_basis": "project_cost",
+        "certainty": "press_report",
         "is_rollup": false
       },
       {
@@ -2209,6 +2447,23 @@
         "amount_basis": null,
         "certainty": null,
         "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 0.137,
+        "year": 2024,
+        "initiatives": [
+          "Investment in Sakana AI (foundation model startup)"
+        ],
+        "notes": "Participated in/led Sakana AI’s Series A round totaling about ¥20B (~$137M) to back new foundation model research and products.",
+        "source_figure": "Sakana AI Series A approximately $137M (¥20B) with NVIDIA participation",
+        "links": [
+          "https://www.reuters.com/technology/ai-startup-sakana-raises-137-million-nvidia-backed-round-2024-09-12/"
+        ],
+        "spend_type": "equity",
+        "timeframe": null,
+        "amount_basis": "round_total",
+        "certainty": "press_report",
+        "is_rollup": false
       }
     ],
     "circularity_reuse_recycling": [
@@ -2240,17 +2495,18 @@
         "investment_amount_billions_usd": 0.5,
         "year": 2025,
         "initiatives": [
-          "Planned investment in Wayve (autonomous driving startup)"
+          "Planned investment in Wayve (autonomous driving startup)",
+          "Participation in Wayve Series C to accelerate AV foundation models"
         ],
-        "notes": "Signed LOI to invest $500M in UK-based Wayve to advance AV models on NVIDIA platforms.",
-        "source_figure": "NVIDIA eyes $500 million investment in Wayve.",
+        "notes": "Signed LOI to invest $500M and participate in Wayve’s Series C to advance AV foundation models on NVIDIA platforms.",
+        "source_figure": "NVIDIA eyes $500 million investment in Wayve (Series C and LOI).",
         "links": [
           "https://www.reuters.com/technology/nvidia-eyes-500-mln-investment-softbank-backed-wayve-2025-09-19/"
         ],
-        "spend_type": null,
+        "spend_type": "equity",
         "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "amount_basis": "planned_investment",
+        "certainty": "press_report",
         "is_rollup": false
       }
     ],
@@ -2275,6 +2531,25 @@
     ]
   },
   "Tesla": {
+    "litigation_settlements_fines": [
+      {
+        "investment_amount_billions_usd": 0.02,
+        "year": 2018,
+        "initiatives": [
+          "Settlement of SEC fraud charges over Elon Musk’s 'funding secured' tweet"
+        ],
+        "notes": "Tesla paid a $20M fine in 2018 to settle SEC claims related to Musk’s take-private tweet (with Musk also paying $20M personally) and agreed that Musk would step down as chairman for three years.",
+        "source_figure": "Musk and Tesla each paid $20M in the 2018 SEC settlement.",
+        "links": [
+          "https://www.reuters.com/legal/litigation/us-judge-approves-sec-payout-elon-musk-tesla-settlements-2022-03-25/"
+        ],
+        "spend_type": "other",
+        "timeframe": null,
+        "amount_basis": "single_event_cost",
+        "certainty": "regulatory_filing",
+        "is_rollup": false
+      }
+    ],
     "autonomous_mobility": [
       {
         "investment_amount_billions_usd": 3.97,
@@ -2350,22 +2625,62 @@
         "is_rollup": false
       }
     ],
+    "industrial_automation_supply_chain": [
+      {
+        "investment_amount_billions_usd": 0.135,
+        "year": 2017,
+        "initiatives": [
+          "Acquisition of Grohmann Engineering (automated manufacturing systems, now Tesla Advanced Automation Germany)"
+        ],
+        "notes": "Tesla acquired Germany’s Grohmann Engineering in January 2017 to advance factory automation for the Model 3 ramp. The deal was valued at roughly $135 million (approximately $109.5M cash plus $25.8M in incentives), and Grohmann’s expertise was integrated to speed up Tesla’s production processes.",
+        "source_figure": "Tesla bought Grohmann for ~$135 million to boost manufacturing automation",
+        "links": [
+          "https://electrek.co/2017/05/10/tesla-acquisition-grohmann-engineering/",
+          "https://www.reuters.com/article/markets/tesla-buys-germanys-grohmann-engineering-to-help-ramp-up-electric-car-productio-idUSKBN13322B"
+        ],
+        "spend_type": "M&A",
+        "timeframe": null,
+        "amount_basis": "actual",
+        "certainty": "certain",
+        "is_rollup": false
+      }
+    ],
     "batteries_and_storage": [
       {
-        "investment_amount_billions_usd": null,
-        "year": null,
+        "investment_amount_billions_usd": 0.218,
+        "year": 2019,
+        "initiatives": [
+          "Acquisition of Maxwell Technologies (ultracapacitors and dry-electrode battery tech)"
+        ],
+        "notes": "Tesla agreed in 2019 to acquire Maxwell Technologies for $218 million in an all-stock deal. Maxwell’s patented dry-electrode technology and ultracapacitors promised to increase battery energy density and longevity, helping Tesla lower EV battery costs and improve performance amid growing competition in electric vehicles.",
+        "source_figure": "Tesla acquired Maxwell Technologies for $218 million in 2019",
+        "links": [
+          "https://www.reuters.com/technology/tesla-to-buy-battery-tech-maker-maxwell-technologies-for-218-million-idUSKCN1PT1C7"
+        ],
+        "spend_type": "M&A",
+        "timeframe": null,
+        "amount_basis": "actual",
+        "certainty": "certain",
+        "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 3.6,
+        "year": 2023,
         "initiatives": [
           "Scaling in-house 4680 cell production"
         ],
-        "notes": "Production milestones hit 100M 4680 cells by 2025 (20M in Oct 2023; 50M in June 2024), underscoring heavy battery R&D and manufacturing spend though no clear dollar figure given.",
-        "source_figure": "100M 4680 cells produced as of 2025 (no explicit spend reported)",
+        "notes": "Announced a $3.6B expansion at Gigafactory Nevada (Jan 2023) to build a 100 GWh 4680 cell factory and a high-volume Semi truck factory, supporting Tesla’s in-house cell ramp.",
+        "source_figure": "$3.6B investment to expand Gigafactory Nevada with 100 GWh 4680 capacity and Semi production",
         "links": [
-          "https://www.teslarati.com/tesla-milestone-4680-battery-cell/"
+          "https://www.teslarati.com/tesla-milestone-4680-battery-cell/",
+          "https://www.tesla.com/blog/tesla-invests-3-6-billion-gigafactory-nevada"
         ],
-        "spend_type": "r_and_d",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "spend_type": "capex",
+        "timeframe": {
+          "start": 2023
+        },
+        "amount_basis": "project_cost",
+        "certainty": "company_guidance",
         "is_rollup": false
       },
       {
@@ -2397,9 +2712,12 @@
           "https://www.reuters.com/business/autos-transportation/mexican-president-says-tesla-will-build-major-plant-northern-city-2023-02-28/"
         ],
         "spend_type": "capex",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "timeframe": {
+          "start": 2023,
+          "end": 2026
+        },
+        "amount_basis": "project_cost",
+        "certainty": "press_report",
         "is_rollup": false
       },
       {
@@ -2548,9 +2866,12 @@
           "https://techcrunch.com/2024/01/26/tesla-dojo-supercomputer-buffalo-factory-500-million/"
         ],
         "spend_type": "capex",
-        "timeframe": null,
-        "amount_basis": "program_total",
-        "certainty": null,
+        "timeframe": {
+          "start": 2023,
+          "end": 2024
+        },
+        "amount_basis": "planned_spend",
+        "certainty": "company_guidance",
         "is_rollup": true
       }
     ],
@@ -2695,6 +3016,23 @@
         "amount_basis": null,
         "certainty": null,
         "is_rollup": false
+      },
+      {
+        "investment_amount_billions_usd": 3.0,
+        "year": 2016,
+        "initiatives": [
+          "Expansion of e-commerce and cloud operations in India"
+        ],
+        "notes": "Announced an additional $3B investment in India (bringing commitment to >$5B) to scale marketplace logistics, AWS data centers, and the Hyderabad engineering hub.",
+        "source_figure": "Amazon would invest an additional $3B in India, boosting its commitment to over $5B.",
+        "links": [
+          "https://www.reuters.com/world/bezos-says-amazon-to-up-india-investment-to-5-billion-idUSKCN0YU019"
+        ],
+        "spend_type": "capex",
+        "timeframe": null,
+        "amount_basis": "multi_year_commitment",
+        "certainty": "company_guidance",
+        "is_rollup": false
       }
     ],
     "wellness_vr_and_behavioral": [
@@ -2736,8 +3074,8 @@
           "start": 2020,
           "end": 2024
         },
-        "amount_basis": "multi_year_commitment",
-        "certainty": "press_report",
+        "amount_basis": "cumulative_operating_loss",
+        "certainty": "audited_filing",
         "is_rollup": true
       },
       {
@@ -2873,49 +3211,54 @@
           "https://subtelforum.com/metas-10b-global-subsea-cable-initiative/"
         ],
         "spend_type": "capex",
-        "timeframe": null,
+        "timeframe": {
+          "start": 2024,
+          "end": 2029
+        },
         "amount_basis": "project_cost",
         "certainty": "press_report",
         "is_rollup": false
       },
       {
-        "investment_amount_billions_usd": 1.3,
-        "year": 2024,
+        "investment_amount_billions_usd": 1.0,
+        "year": 2020,
         "initiatives": [
           "2Africa subsea cable system (40,000 km, 30+ countries)"
         ],
-        "notes": "Meta helped finance the ~$1.3B 2Africa cable to improve connectivity across Africa, Europe, and the Middle East.",
-        "source_figure": "2Africa cable project estimated at about $1.3B with Meta as a key backer.",
+        "notes": "Meta-backed 2Africa cable estimated around $1B to boost connectivity across Africa, Europe, and the Middle East via a 40,000 km subsea system.",
+        "source_figure": "2Africa subsea cable project estimated at ≈$1B with Meta as a key backer.",
         "links": [
-          "https://www.ainvest.com/news/2africa-cable-set-add-36-9b-africa-economy-boosting-global-connectivity-2511/",
-          "https://tech.facebook.com/engineering/2022/2/economic-impact-subsea-cables/"
+          "https://engineering.fb.com/2020/05/13/connectivity/2africa/",
+          "https://www.bloomberg.com/news/articles/2020-05-14/facebook-group-to-build-1-billion-undersea-internet-cable"
         ],
         "spend_type": "capex",
         "timeframe": {
           "start": 2020,
-          "end": 2024
+          "end": 2025
         },
         "amount_basis": "project_cost",
-        "certainty": "press_report",
+        "certainty": "company_announcement",
         "is_rollup": false
       }
     ],
     "renewable_energy_generation": [
       {
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 14.2,
         "year": 2025,
         "initiatives": [
           "Global clean power purchase agreements (~15 GW contracted)"
         ],
-        "notes": "Contracts for >15 GW of solar/wind PPAs to keep operations 100% renewable; 3 GW of solar deals in 2025 alone; PPAs are commitments, not capex disclosed.",
-        "source_figure": "Meta has contracted for over 15 GW of new clean and renewable energy capacity globally in the past decade.",
+        "notes": "Meta’s US clean power PPAs and related projects are projected to support $14.2B in capital investment by 2025, tied to >15 GW of contracted solar and wind capacity.",
+        "source_figure": "$14.2B projected capital investment linked to Meta’s US clean energy projects by 2025",
         "links": [
           "https://pv-magazine-usa.com/2025/11/03/meta-extends-datacenter-energy-investment-boom-with-385-mw-louisiana-solar-ppa/"
         ],
         "spend_type": "ppa",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
+        "timeframe": {
+          "end": 2025
+        },
+        "amount_basis": "capital_investment_projection",
+        "certainty": "third_party_estimate",
         "is_rollup": false
       }
     ],
