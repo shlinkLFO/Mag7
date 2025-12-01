@@ -1,0 +1,122 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "MAG7 Quarterly Core Spending Dataset",
+    "description": "Minimal quarterly dataset for the Magnificent 7 with 5 core spending metrics.",
+    "type": "object",
+    "properties": {
+      "schema_version": {
+        "type": "string",
+        "description": "Version of this schema, e.g. '1.0.0'."
+      },
+      "records": {
+        "type": "array",
+        "description": "One record per company per fiscal quarter.",
+        "items": {
+          "type": "object",
+          "required": [
+            "company",
+            "ticker",
+            "fiscal_year",
+            "fiscal_quarter",
+            "currency",
+            "value_unit",
+            "revenue_total",
+            "rd_expense",
+            "sg_and_a_expense",
+            "operating_expense_total",
+            "capex_total",
+            "source_url"
+          ],
+          "properties": {
+            "company": {
+              "type": "string",
+              "enum": [
+                "Apple",
+                "Microsoft",
+                "Alphabet",
+                "Amazon",
+                "Meta",
+                "Tesla",
+                "NVIDIA"
+              ]
+            },
+            "ticker": {
+              "type": "string",
+              "enum": [
+                "AAPL",
+                "MSFT",
+                "GOOGL",
+                "AMZN",
+                "META",
+                "TSLA",
+                "NVDA"
+              ]
+            },
+            "fiscal_year": {
+              "type": "integer",
+              "description": "Fiscal year for the quarter, e.g. 2024."
+            },
+            "fiscal_quarter": {
+              "type": "string",
+              "enum": ["Q1", "Q2", "Q3", "Q4"],
+              "description": "Fiscal quarter label."
+            },
+            "currency": {
+              "type": "string",
+              "description": "ISO 4217 currency code, e.g. 'USD'."
+            },
+            "value_unit": {
+              "type": "string",
+              "enum": ["actuals", "thousands", "millions", "billions"],
+              "description": "Scale used in the source table."
+            },
+  
+            "revenue_total": {
+              "type": "number",
+              "description": "Total revenue for the quarter."
+            },
+            "rd_expense": {
+              "type": "number",
+              "description": "Research and development expense for the quarter."
+            },
+            "sg_and_a_expense": {
+              "type": "number",
+              "description": "Selling, general and administrative expense for the quarter."
+            },
+            "operating_expense_total": {
+              "type": "number",
+              "description": "Total operating expenses for the quarter."
+            },
+            "capex_total": {
+              "type": "number",
+              "description": "Capital expenditures for the quarter (from cash flow statement)."
+            },
+  
+            "source_url": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL of the filing or earnings document used."
+            },
+            "source_type": {
+              "type": "string",
+              "enum": [
+                "10-Q",
+                "10-K",
+                "earnings_press_release",
+                "earnings_presentation",
+                "other"
+              ],
+              "description": "Type of source document.",
+              "default": "10-Q"
+            },
+            "source_notes": {
+              "type": "string",
+              "description": "Optional notes on how numbers were extracted or mapped."
+            }
+          }
+        }
+      }
+    },
+    "required": ["schema_version", "records"]
+  }
+  

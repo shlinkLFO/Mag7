@@ -1,0 +1,22 @@
+{
+    "schema_version": "1.1.0",
+    "records": [
+      {
+        "company": "string",                       // e.g., "Apple"
+        "ticker": "string",                        // e.g., "AAPL"
+        "fiscal_year": 2020,                       // 4-digit integer
+        "fiscal_quarter": "Q1",                    // "Q1", "Q2", "Q3", or "Q4"
+        "currency": "USD",                         // Fixed to USD
+  
+        "market_cap_usd": 2300.45,                 // Market cap in billions of USD (float)
+        "share_price_usd": 182.35,                 // Share price in USD (float)
+        "shares_outstanding_m": 15710,             // Shares outstanding in millions (int or float)
+        "avg_daily_volume_m": 68.34,               // Average daily volume in millions of shares (float)
+  
+        "source_url": "string",                    // URL to Yahoo Finance, Nasdaq, Bloomberg, or SEC
+        "source_type": "string",                   // e.g., "yahoo_finance", "sec_10q", "nasdaq"
+        "source_notes": "string"                   // Optional notes, e.g., "snapshot from April 2021"
+      }
+    ]
+  }
+  

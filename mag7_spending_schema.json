@@ -1,0 +1,134 @@
+{
+  "Apple": {
+    "cloud_data_centers_ai_infra": [
+      {
+        "type": "cloud_data_centers_ai_infra",
+        "investment_amount_billions_usd": "number | null",
+        "year": "integer | null",
+        "initiatives": ["string"],
+        "notes": "string",
+        "source_figure": "string",
+        "links": ["string"],
+        "spend_type": "string (r_and_d, opex, capex, equity, M&A, debt, licensing, partnership, other)",
+        "timeframe": {
+          "start": "integer | null",
+          "end": "integer | null"
+        },
+        "amount_basis": "string | null",
+        "certainty": "string | null",
+        "is_rollup": "boolean"
+      },
+      {
+        "type": "cloud_data_centers_ai_infra",
+        "investment_amount_billions_usd": "number | null",
+        "year": "integer | null",
+        "initiatives": ["string"],
+        "notes": "string",
+        "source_figure": "string",
+        "links": ["string"],
+        "spend_type": "string",
+        "timeframe": {
+          "start": "integer | null",
+          "end": "integer | null"
+        },
+        "amount_basis": "string | null",
+        "certainty": "string | null",
+        "is_rollup": "boolean"
+      }
+    ],
+
+    "ai_foundation_models": [
+      {
+        "type": "ai_foundation_models",
+        "investment_amount_billions_usd": "number | null",
+        "year": "integer | null",
+        "initiatives": ["string"],
+        "notes": "string",
+        "source_figure": "string",
+        "links": ["string"],
+        "spend_type": "string",
+        "timeframe": {
+          "start": "integer | null",
+          "end": "integer | null"
+        },
+        "amount_basis": "string | null",
+        "certainty": "string | null",
+        "is_rollup": "boolean"
+      }
+    ],
+
+    "ai_efficiency_methods": [
+      {
+        "type": "ai_efficiency_methods",
+        "investment_amount_billions_usd": "number | null",
+        "year": "integer | null",
+        "initiatives": ["string"],
+        "notes": "string",
+        "source_figure": "string",
+        "links": ["string"],
+        "spend_type": "string",
+        "timeframe": {
+          "start": "integer | null",
+          "end": "integer | null"
+        },
+        "amount_basis": "string | null",
+        "certainty": "string | null",
+        "is_rollup": "boolean"
+      }
+    ],
+
+    "autonomous_mobility": [{}],
+    "batteries_and_storage": [{}],
+    "bio_ai_and_drug_discovery": [{}],
+    "circularity_reuse_recycling": [{}],
+    "content_production_studios": [{}],
+    "digital_health_devices": [{}],
+    "digital_inclusion_and_economy": [{}],
+    "diversity_equity_inclusion": [{}],
+    "edge_computing_infrastructure": [{}],
+    "gaming_platforms_engines": [{}],
+    "industrial_automation_supply_chain": [{}],
+    "litigation_settlements_fines": [{}],
+    "quantum_computing": [{}],
+    "regulatory_compliance_investments": [{}],
+    "renewable_energy_generation": [{}],
+    "responsible_ai_safety_governance": [{}],
+    "robotics_autonomy": [{}],
+    "satellite_and_subsea_infrastructure": [{}],
+    "sci_fi_consumer_devices": [{}],
+    "security_cryptography": [{}],
+    "semiconductor_ai_hardware": [{}],
+    "superconducting_devices_squids": [{}],
+    "supply_chain_digitization": [{}],
+    "wellness_vr_and_behavioral": [{}],
+    "workforce_training_reskilling": [{}],
+    "xr_metaverse_and_spatial_computing": [{}],
+    "5g_6g_network_infrastructure": [{}]
+  },
+
+  "Microsoft": {
+    "cloud_data_centers_ai_infra": [
+      {
+        "type": "cloud_data_centers_ai_infra",
+        "investment_amount_billions_usd": "number | null",
+        "year": "integer | null",
+        "initiatives": ["string"],
+        "notes": "string",
+        "source_figure": "string",
+        "links": ["string"],
+        "spend_type": "string",
+        "timeframe": {
+          "start": "integer | null",
+          "end": "integer | null"
+        },
+        "amount_basis": "string | null",
+        "certainty": "string | null",
+        "is_rollup": "boolean"
+      }
+    ]
+
+    // ... repeat all 30 domains for Microsoft
+  }
+
+  // ... repeat for Alphabet, Amazon, Meta, Tesla, NVIDIA
+}
