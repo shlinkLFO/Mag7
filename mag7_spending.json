@@ -16,7 +16,8 @@
         "timeframe": null,
         "amount_basis": "company_guidance",
         "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 25.9,
@@ -36,7 +37,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 21.1,
@@ -56,7 +58,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 104.2,
@@ -76,7 +79,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 77.55,
@@ -97,7 +101,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 89.4,
@@ -117,7 +122,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 86.0,
@@ -137,7 +143,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 72.4,
@@ -157,7 +164,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 66.9,
@@ -177,7 +185,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 72.7,
@@ -197,7 +206,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 32.9,
@@ -217,7 +227,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       }
     ],
     "strategic_investments": [
@@ -236,7 +247,8 @@
         "timeframe": null,
         "amount_basis": "stake_value",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -256,7 +268,8 @@
         },
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -273,7 +286,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "gaming_platforms_engines": [
@@ -352,11 +366,12 @@
         "links": [
           "https://techhq.com/news/fortifying-apple-imessage-defense-against-quantum-threats/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "litigation_settlements_fines": [
@@ -376,14 +391,15 @@
           "https://www.theverge.com/news/627522/apple-meta-eu-dma-antitrust-fines",
           "https://www.reuters.com/technology/french-antitrust-regulator-fines-apple-150-million-euros-over-privacy-tool-2025-03-31/"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": {
           "start": 2016,
           "end": 2025
         },
         "amount_basis": "multi_event_total",
         "certainty": "press_report",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "Legal Settlement"
       }
     ],
     "workforce_training_reskilling": [
@@ -398,11 +414,12 @@
         "links": [
           "https://www.apple.com/newsroom/2022/03/apple-launches-50-million-supplier-employee-development-fund/"
         ],
-        "spend_type": "fund",
+        "spend_type": "equity",
         "timeframe": null,
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Fund"
       },
       {
         "investment_amount_billions_usd": 0.9,
@@ -422,7 +439,8 @@
         },
         "amount_basis": "company_guidance",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       }
     ],
     "xr_metaverse_and_spatial_computing": [
@@ -437,11 +455,12 @@
         "links": [
           "https://humanprogress.org/apple-vision-pro-is-half-the-price-of-the-apple-ii/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 30.0,
@@ -454,37 +473,15 @@
         "links": [
           "https://www.matthewball.co/all/applevision2024"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
-    "r_and_d": [
-      {
-        "investment_amount_billions_usd": 29.92,
-        "year": 2023,
-        "initiatives": [
-          "Generative AI",
-          "Apple Vision Pro",
-          "Apple Silicon (M3)"
-        ],
-        "notes": "Fiscal Year 2023 (ended Sept 30) total R&D spend. Tim Cook confirmed spending increase was driven by 'Generative AI' work and the Vision Pro launch preparation.",
-        "source_figure": "$29.92 billion",
-        "links": [
-          "https://www.appleinsider.com/articles/23/08/03/tim-cook-confirms-that-apple-has-been-working-on-generative-ai-for-years"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": {
-          "start": 2023,
-          "end": 2023
-        },
-        "amount_basis": "actual",
-        "certainty": "actual",
-        "is_rollup": true
-      }
-    ],
+    "r_and_d": [],
     "digital_health_devices": [
       {
         "investment_amount_billions_usd": null,
@@ -501,11 +498,12 @@
           "https://www.apple.com/newsroom/2019/09/apple-announces-three-groundbreaking-health-studies/",
           "https://www.diabetes.co.uk/news/2023/mar/non-invasive-blood-glucose-monitoring-closer-as-apple-hits-major-milestone.html"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "5g_6g_network_infrastructure": [
@@ -520,7 +518,7 @@
         "links": [
           "https://www.apple.com/newsroom/2019/07/apple-to-acquire-the-majority-of-intels-smartphone-modem-business/"
         ],
-        "spend_type": "equity",
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": "acquisition_cost",
         "certainty": "audited_filing",
@@ -539,14 +537,15 @@
         "links": [
           "https://www.macrumors.com/2024/02/28/apple-car-10-billion-spent/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": {
           "start": 2014,
           "end": 2024
         },
         "amount_basis": "cumulative_spend_estimate",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -563,7 +562,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "content_production_studios": [
@@ -585,7 +585,8 @@
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "third_party_estimate",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 6.0,
@@ -605,7 +606,8 @@
         },
         "amount_basis": "program_budget",
         "certainty": "third_party_estimate",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.4,
@@ -662,11 +664,12 @@
           "https://machinelearning.apple.com/research/context-tuning-retrieval",
           "https://machinelearning.apple.com/research/retrieval-asr"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": null,
@@ -706,7 +709,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       }
     ],
     "renewable_energy_generation": [
@@ -730,7 +735,9 @@
         },
         "amount_basis": "multi_year_bond_issuances",
         "certainty": "audited_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": 0.6,
@@ -875,14 +882,15 @@
         "links": [
           "https://www.apple.com/newsroom/2015/10/apple-launches-new-clean-energy-programs-in-china/"
         ],
-        "spend_type": "fund",
+        "spend_type": "equity",
         "timeframe": {
           "start": 2015,
           "end": 2020
         },
         "amount_basis": "capacity_target",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Fund"
       }
     ],
     "circularity_reuse_recycling": [
@@ -897,34 +905,15 @@
         "links": [
           "https://www.apple.com/newsroom/2022/04/apple-expands-the-use-of-recycled-materials-across-its-products/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "digital_inclusion_and_economy": [
-      {
-        "investment_amount_billions_usd": 350.0,
-        "year": 2018,
-        "initiatives": [
-          "Five-year US investment plan (2018\u20132023, create 20k jobs, new campuses and manufacturing)"
-        ],
-        "notes": "In early 2018, Apple announced a plan to contribute $350B to the U.S. economy over five years, including 20k jobs and major capital projects\u2014largely repackaging ongoing data center, manufacturing, and employment expansions.",
-        "source_figure": "Apple announced a $350 billion contribution to the U.S. economy over five years in January 2018.",
-        "links": [
-          "https://qz.com/apple-us-investment-trump-tech-jobs-ai-campus-1851767013"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": {
-          "start": 2018,
-          "end": 2023
-        },
-        "amount_basis": "multi_year_commitment",
-        "certainty": "company_guidance",
-        "is_rollup": true
-      },
       {
         "investment_amount_billions_usd": 500.0,
         "year": 2025,
@@ -936,11 +925,13 @@
         "links": [
           "https://www.reuters.com/technology/artificial-intelligence/apple-plans-texas-factory-ai-servers-20000-research-jobs-2025-02-24/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "capex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       },
       {
         "investment_amount_billions_usd": 430.0,
@@ -960,7 +951,8 @@
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "R&D"
       }
     ],
     "diversity_equity_inclusion": [
@@ -979,7 +971,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "ai_foundation_models": [
@@ -994,33 +987,13 @@
         "links": [
           "https://www.macrumors.com/2023/09/06/apple-conversational-ai-spending/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "capex",
         "timeframe": null,
         "amount_basis": "estimated_annual_run_rate",
         "certainty": "press_report",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 34.6,
-        "year": 2025,
-        "initiatives": [
-          "Generative AI (Apple Intelligence)",
-          "Custom Silicon R&D",
-          "Product innovation"
-        ],
-        "notes": "Total R&D expenses for Fiscal Year 2025, up ~10% YoY, reflecting heavy investment in generative AI integration across iOS/macOS.",
-        "source_figure": "$34.6 billion",
-        "links": [
-          "https://www.futunn.com/apple-10k-fy2025-annual-report"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": {
-          "start": 2025,
-          "end": 2025
-        },
-        "amount_basis": "actual",
-        "certainty": "actual",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Corporate Facilities"
       },
       {
         "investment_amount_billions_usd": null,
@@ -1054,7 +1027,7 @@
           "https://www.cnbc.com/2024/11/01/apple-to-invest-1point5-billion-in-satellite-company-globalstar.html",
           "https://www.sec.gov/ix?doc=/Archives/edgar/data/1366868/000136686824000055/gsat-20241029.htm"
         ],
-        "spend_type": "equity",
+        "spend_type": "M&A",
         "timeframe": {
           "start": 2024,
           "end": 2024
@@ -1078,7 +1051,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Maintenance",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "cloud_data_centers_ai_infra": [
@@ -1097,29 +1072,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 12.7,
-        "year": 2025,
-        "initiatives": [
-          "Private Cloud Compute servers",
-          "Data Center facilities",
-          "Manufacturing tooling"
-        ],
-        "notes": "Total capital expenditures for Fiscal Year 2025 (ended Sept 30, 2025), largely driven by AI server infrastructure ('Private Cloud Compute').",
-        "source_figure": "$12.715 billion",
-        "links": [
-          "https://financecharts.com/stocks/AAPL/capital-expenditures"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2025,
-          "end": 2025
-        },
-        "amount_basis": "actual",
-        "certainty": "actual",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -1136,7 +1091,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Corporate Facilities"
       }
     ],
     "semiconductor_ai_hardware": [
@@ -1151,11 +1108,12 @@
         "links": [
           "https://www.reuters.com/technology/apple-set-up-silicon-design-centre-germany-invest-1-bln-euros-2021-03-10/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 0.6,
@@ -1189,11 +1147,12 @@
           "https://www.bloomberg.com/news/articles/2024-08-14/apple-moves-ahead-with-tabletop-robot-device-aiming-for-2026-release"
         ],
         "orig_domain": "robotics_autonomy",
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "undisclosed",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "supply_chain_digitization": [
@@ -1208,11 +1167,12 @@
         "links": [
           "https://www.apple.com/newsroom/2025/02/apple-announces-plans-to-invest-500-billion-in-us-workforce-and-innovation/"
         ],
-        "spend_type": "fund",
+        "spend_type": "equity",
         "timeframe": null,
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Fund"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -1225,11 +1185,12 @@
         "links": [
           "https://www.apple.com/newsroom/2017/05/apple-awards-corning-first-investment-from-advanced-manufacturing-fund/"
         ],
-        "spend_type": "fund",
+        "spend_type": "equity",
         "timeframe": null,
         "amount_basis": "fund_size",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Fund"
       }
     ]
   },
@@ -1253,7 +1214,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 10.7,
@@ -1273,7 +1235,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 8.4,
@@ -1293,7 +1256,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 16.0,
@@ -1313,7 +1277,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 14.4,
@@ -1333,7 +1298,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 32.7,
@@ -1353,7 +1319,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 27.4,
@@ -1373,7 +1340,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 23.0,
@@ -1393,7 +1361,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 22.25,
@@ -1413,7 +1382,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 17.25,
@@ -1433,7 +1403,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 18.42,
@@ -1453,7 +1424,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 60.0,
@@ -1470,7 +1442,8 @@
         "timeframe": null,
         "amount_basis": "company_guidance",
         "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       }
     ],
     "quantum_computing": [
@@ -1491,7 +1464,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       }
     ],
     "security_cryptography": [
@@ -1506,14 +1481,15 @@
         "links": [
           "https://www.cybersecuritydive.com/news/biden-white-house-cyber-security-google-microsoft-apple-summit/605617/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": {
           "start": 2021,
           "end": 2026
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "autonomous_mobility": [
@@ -1532,7 +1508,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "ai_efficiency_methods": [
@@ -1547,11 +1524,12 @@
         "links": [
           "https://arxiv.org/abs/2106.09685"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "batteries_and_storage": [
@@ -1570,7 +1548,8 @@
         "timeframe": null,
         "amount_basis": "allocation_within_round",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "renewable_energy_generation": [
@@ -1592,7 +1571,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 10.0,
@@ -1841,7 +1821,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "cloud_data_centers_ai_infra": [
@@ -1860,29 +1842,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 80.0,
-        "year": 2025,
-        "initiatives": [
-          "AI Data Center buildout",
-          "GPU/CPU procurement"
-        ],
-        "notes": "Planned total capital expenditure of ~$80B for fiscal 2025 (ending June 2025) to support AI. Calendar Q3 2025 (FY26 Q1) spend alone was $34.9B.",
-        "source_figure": "$80 billion",
-        "links": [
-          "https://geekwire.com/2025/microsoft-plans-record-30-billion-capital-spending",
-          "https://investopedia.com/microsoft-q1-2026-earnings-capex"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2025,
-          "end": 2025
-        },
-        "amount_basis": "company_guidance",
-        "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 7.0,
@@ -1902,7 +1864,9 @@
         },
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 3.3,
@@ -1922,7 +1886,9 @@
         },
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 3.2,
@@ -1939,7 +1905,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 4.3,
@@ -1956,7 +1924,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 2.9,
@@ -1976,7 +1946,9 @@
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 1.7,
@@ -1993,7 +1965,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "digital_health_devices": [
@@ -2008,7 +1982,7 @@
         "links": [
           "https://www.geekwire.com/2022/microsofts-19-7b-nuance-deal-is-finally-final-nearly-a-year-after-it-was-announced/"
         ],
-        "spend_type": "equity",
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
@@ -2032,7 +2006,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       }
     ],
     "ai_foundation_models": [
@@ -2052,7 +2027,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 0.65,
@@ -2089,7 +2065,8 @@
         "timeframe": null,
         "amount_basis": "planned_investment",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -2106,7 +2083,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 10.0,
@@ -2126,7 +2104,8 @@
         },
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 2.0,
@@ -2143,7 +2122,8 @@
         "timeframe": null,
         "amount_basis": "estimated",
         "certainty": "third_party_estimate",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 1.5,
@@ -2160,7 +2140,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 0.016,
@@ -2177,7 +2158,8 @@
         "timeframe": null,
         "amount_basis": "convertible_in_next_round",
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 1.9,
@@ -2197,7 +2179,8 @@
         },
         "amount_basis": "acquisition_cost",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "semiconductor_ai_hardware": [
@@ -2216,7 +2199,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 1.5,
@@ -2236,7 +2220,8 @@
         },
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 0.016,
@@ -2253,7 +2238,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "robotics_autonomy": [
@@ -2272,7 +2258,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "digital_inclusion_and_economy": [
@@ -2287,11 +2274,12 @@
         "links": [
           "https://www.geekwire.com/2019/microsoft-will-spend-100m-open-first-development-center-africa/"
         ],
-        "spend_type": null,
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 26.2,
@@ -2344,7 +2332,8 @@
         "spend_type": "opex",
         "amount_basis": "undisclosed",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "workforce_training_reskilling": [
@@ -2363,7 +2352,8 @@
         "timeframe": null,
         "amount_basis": "program_budget",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       }
     ],
     "5g_6g_network_infrastructure": [
@@ -2378,7 +2368,7 @@
         "links": [
           "https://www.crn.com/news/cloud/microsoft-unveils-5g-telco-playbook-with-azure-for-operators-"
         ],
-        "spend_type": "equity",
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": "acquisition_cost",
         "certainty": "third_party_estimate",
@@ -2404,7 +2394,8 @@
         },
         "amount_basis": "single_year_spend",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "COR/COGS"
       },
       {
         "investment_amount_billions_usd": 7.5,
@@ -2468,28 +2459,6 @@
     "quantum_computing": [
       {
         "investment_amount_billions_usd": null,
-        "year": 2021,
-        "initiatives": [
-          "Quantum AI campus in Santa Barbara",
-          "Plan for error-corrected quantum computer by 2029"
-        ],
-        "notes": "Quantum AI campus serves as hub for in-house quantum data center, labs, and fab; plans call for several-billion-dollar investment to build a useful error-corrected quantum computer by 2029.",
-        "source_figure": "Alphabet plans to spend several billion dollars on a commercial-grade quantum computer by 2029, centered at its Quantum AI campus.",
-        "links": [
-          "https://blog.google/technology/ai/unveiling-our-new-quantum-ai-campus/",
-          "https://www.wsj.com/articles/google-aims-for-commercial-grade-quantum-computer-by-2029-11621359156"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": {
-          "start": 2021,
-          "end": 2029
-        },
-        "amount_basis": "guidance_multi_billion",
-        "certainty": "company_guidance",
-        "is_rollup": true
-      },
-      {
-        "investment_amount_billions_usd": null,
         "year": 2024,
         "initiatives": [
           "Willow quantum chip (105-qubit superconducting processor)",
@@ -2501,11 +2470,13 @@
           "https://www.fool.com/investing/2025/01/10/ai-quantum-computing-magnificent-seven-stock/",
           "https://markets.financialcontent.com/sandiego/article/marketminute-2025-8-27-tech-sectors-new-horizon-beyond-the-magnificent-7-diversified-growth-ignites-2025"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "capex",
         "timeframe": null,
         "amount_basis": "undisclosed",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Corporate Facilities"
       }
     ],
     "security_cryptography": [
@@ -2524,7 +2495,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 5.4,
@@ -2560,7 +2532,8 @@
         "timeframe": null,
         "amount_basis": "round_participation",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.9,
@@ -2577,7 +2550,8 @@
         "timeframe": null,
         "amount_basis": "stake_value",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 0.55,
@@ -2594,7 +2568,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "mergers_and_acquisitions": [
@@ -2708,7 +2683,9 @@
         },
         "amount_basis": "single_year_spend",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 9.5,
@@ -2728,7 +2705,9 @@
         },
         "amount_basis": "company_guidance",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -2748,30 +2727,8 @@
         },
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 92.0,
-        "year": 2025,
-        "initiatives": [
-          "Technical Infrastructure (TPUs/GPUs)",
-          "Data Center construction",
-          "Server deployment"
-        ],
-        "notes": "Full-year 2025 capital expenditure guidance raised to a range of $91B\u2013$93B (midpoint $92B) to support Cloud demand and AI products. Q3 2025 actual capex was ~$24B.",
-        "source_figure": "range of $91 billion to $93 billion",
-        "links": [
-          "https://www.q4cdn.com/alphabet-q3-2025-results",
-          "https://seekingalpha.com/news/alphabet-capex-guidance-2025"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2025,
-          "end": 2025
-        },
-        "amount_basis": "company_guidance",
-        "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "autonomous_mobility": [
@@ -2786,11 +2743,12 @@
         "links": [
           "https://www.roadtoautonomy.com/waymo-business-scaling-california/"
         ],
-        "spend_type": null,
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "cumulative_estimate",
         "certainty": null,
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 5.0,
@@ -2808,7 +2766,8 @@
         "timeframe": null,
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 2.25,
@@ -2829,7 +2788,8 @@
         },
         "amount_basis": "round_total",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 2.5,
@@ -2849,7 +2809,8 @@
         },
         "amount_basis": "round_total",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "share_repurchases": [
@@ -2871,7 +2832,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 9.1,
@@ -2891,7 +2853,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 4.8,
@@ -2911,7 +2874,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 3.7,
@@ -2931,7 +2895,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 59.3,
@@ -2951,7 +2916,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 50.3,
@@ -2971,7 +2937,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 31.1,
@@ -2991,7 +2958,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 61.5,
@@ -3012,7 +2980,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 62.2,
@@ -3033,7 +3002,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 15.07,
@@ -3053,7 +3023,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 13.6,
@@ -3073,7 +3044,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 70.0,
@@ -3090,7 +3062,8 @@
         "timeframe": null,
         "amount_basis": "company_guidance",
         "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       }
     ],
     "ai_efficiency_methods": [
@@ -3111,7 +3084,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": null,
@@ -3124,11 +3098,12 @@
         "links": [
           "https://arxiv.org/abs/2002.08909"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "superconducting_devices_squids": [
@@ -3145,11 +3120,12 @@
           "https://www.nature.com/articles/s41586-019-1666-5",
           "https://research.google/blog/quantum-supremacy-using-a-programmable-superconducting-processor/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "batteries_and_storage": [
@@ -3170,7 +3146,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 0.05,
@@ -3187,7 +3164,8 @@
         "timeframe": null,
         "amount_basis": "round_total",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "renewable_energy_generation": [
@@ -3356,26 +3334,6 @@
         "is_rollup": false
       },
       {
-        "investment_amount_billions_usd": 5.75,
-        "year": 2020,
-        "initiatives": [
-          "Sustainability Bond Issuance"
-        ],
-        "notes": "Issued $5.75 billion in sustainability bonds, the largest such issuance by any company at the time, to fund environmental and social projects including clean energy.",
-        "source_figure": "$5.75 billion sustainability bonds",
-        "links": [
-          "https://blog.google/alphabet/alphabet-issues-sustainability-bonds/"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2020,
-          "end": 2020
-        },
-        "amount_basis": "bond_issuance",
-        "certainty": "audited_filing",
-        "is_rollup": true
-      },
-      {
         "investment_amount_billions_usd": 2.0,
         "year": 2019,
         "initiatives": [
@@ -3433,27 +3391,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 1.0,
-        "year": 2021,
-        "initiatives": [
-          "Africa digital transformation including Equiano subsea cable"
-        ],
-        "notes": "Pledged $1B over five years for Africa digital infrastructure and connectivity (Equiano cable, cloud regions, startups).",
-        "source_figure": "Google to invest $1 billion in Africa over five years.",
-        "links": [
-          "https://blog.google/around-the-globe/google-africa/google-for-africa/"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2021,
-          "end": 2026
-        },
-        "amount_basis": "multi_year_commitment",
-        "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": null,
@@ -3471,7 +3411,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "circularity_reuse_recycling": [
@@ -3492,7 +3434,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": null,
@@ -3513,66 +3457,6 @@
         "amount_basis": "capacity_procurement",
         "certainty": "certain",
         "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 5.75,
-        "year": 2020,
-        "initiatives": [
-          "Sustainability bond issuance for environmental and social projects"
-        ],
-        "notes": "Issued $5.75B in sustainability bonds (largest at the time) to fund clean energy, green buildings, and social initiatives.",
-        "source_figure": "$5.75 billion sustainability bonds",
-        "links": [
-          "https://blog.google/alphabet/alphabet-issues-sustainability-bonds/"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2020,
-          "end": 2020
-        },
-        "amount_basis": "bond_issuance",
-        "certainty": "audited_filing",
-        "is_rollup": true
-      },
-      {
-        "investment_amount_billions_usd": 2.0,
-        "year": 2019,
-        "initiatives": [
-          "Largest corporate renewable purchase (1.6 GW package)"
-        ],
-        "notes": "Announced an 1,600 MW portfolio of 18 agreements across the US, Chile, and Europe, catalyzing over $2B in new energy infrastructure.",
-        "source_figure": "$2 billion infrastructure catalyzed from 1.6 GW deal",
-        "links": [
-          "https://blog.google/outreach-initiatives/sustainability/our-biggest-renewable-energy-purchase-ever/"
-        ],
-        "spend_type": "ppa",
-        "timeframe": {
-          "start": 2019,
-          "end": 2019
-        },
-        "amount_basis": "infrastructure_investment_catalyzed",
-        "certainty": "company_announcement",
-        "is_rollup": true
-      },
-      {
-        "investment_amount_billions_usd": 3.5,
-        "year": 2017,
-        "initiatives": [
-          "100% renewable energy milestone (2.6 GW contracted)"
-        ],
-        "notes": "Reached 100% renewable matching for global operations with 2.6 GW of contracts, driving $3.5B in capital investment.",
-        "source_figure": "$3.5 billion capital investment generated by 2.6 GW portfolio",
-        "links": [
-          "https://sustainability.google/projects/announcement-100/"
-        ],
-        "spend_type": "ppa",
-        "timeframe": {
-          "start": 2010,
-          "end": 2017
-        },
-        "amount_basis": "cumulative_investment_catalyzed",
-        "certainty": "company_report",
-        "is_rollup": true
       }
     ],
     "digital_inclusion_and_economy": [
@@ -3594,7 +3478,8 @@
         },
         "amount_basis": "multi_year_fund",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 4.5,
@@ -3611,7 +3496,8 @@
         "timeframe": null,
         "amount_basis": "stake_value",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "bio_ai_and_drug_discovery": [
@@ -3626,11 +3512,12 @@
         "links": [
           "https://www.fiercehealthcare.com/health-tech/alphabets-verily-banks-1b-double-down-precision-health"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "xr_metaverse_and_spatial_computing": [
@@ -3647,11 +3534,12 @@
           "https://blog.google/technology/research/project-starline-update/",
           "https://blog.google/technology/research/project-starline-hp-partnership/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "diversity_equity_inclusion": [
@@ -3671,27 +3559,11 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       }
     ],
     "ai_foundation_models": [
-      {
-        "investment_amount_billions_usd": 45.43,
-        "year": 2023,
-        "initiatives": [
-          "Aggregate R&D across AI (LLMs), Waymo autonomy stack, and experimental hardware including quantum"
-        ],
-        "notes": "Macrotrends series shows Alphabet R&D at $45.43B in 2023; headline figure before allocating to AI and robotics sub-domains.",
-        "source_figure": "Alphabet R&D $45.43B (2023) with multi-year series",
-        "links": [
-          "https://www.macrotrends.net/stocks/charts/GOOGL/alphabet/research-development-expenses"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
-        "is_rollup": false
-      },
       {
         "investment_amount_billions_usd": 2.0,
         "year": 2023,
@@ -3703,11 +3575,12 @@
         "links": [
           "https://www.reuters.com/technology/google-agrees-invest-up-2-bln-openai-rival-anthropic-wsj-2023-10-27/"
         ],
-        "spend_type": null,
+        "spend_type": "equity",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "robotics_autonomy": [
@@ -3722,11 +3595,13 @@
         "links": [
           "https://www.bloomberg.com/news/articles/2024-11-04/robotics-ai-startup-physical-intelligence-raises-400-million-from-bezos-openai"
         ],
-        "spend_type": null,
+        "spend_type": "capex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": 0.113,
@@ -3743,7 +3618,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "content_production_studios": [
@@ -3767,7 +3643,8 @@
         },
         "amount_basis": "cumulative",
         "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "COR/COGS"
       }
     ],
     "litigation_settlements_fines": [
@@ -3788,14 +3665,15 @@
           "https://www.reuters.com/legal/google-pay-700-mln-us-consumers-states-play-store-settlement-2023-12-19/",
           "https://apnews.com/article/8097e181cc7cb8522781db8a9a897eea"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": {
           "start": 2017,
           "end": 2025
         },
         "amount_basis": "multi_event_total",
         "certainty": "press_report",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "Legal Settlement"
       },
       {
         "investment_amount_billions_usd": 3.5,
@@ -3808,14 +3686,15 @@
         "links": [
           "https://www.q4cdn.com/alphabet-q3-2025-results"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": {
           "start": 2025,
           "end": 2025
         },
         "amount_basis": "single_event_cost",
         "certainty": "actual",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       },
       {
         "investment_amount_billions_usd": 0.7,
@@ -3828,14 +3707,15 @@
         "links": [
           "https://www.reuters.com/legal/google-pay-700-mln-us-consumers-states-play-store-settlement-2023-12-19/"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": {
           "start": 2023,
           "end": 2023
         },
         "amount_basis": "single_event_cost",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       },
       {
         "investment_amount_billions_usd": 0.35,
@@ -3848,11 +3728,12 @@
         "links": [
           "https://issgovernance.com/google-parent-alphabet-agrees-to-pay-shareholders-350-million-over-data-leak/"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "single_event_cost",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       },
       {
         "investment_amount_billions_usd": 5.0,
@@ -3865,11 +3746,12 @@
         "links": [
           "https://ec.europa.eu/commission/presscorner/detail/en/IP_18_4581"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "single_event_cost",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       },
       {
         "investment_amount_billions_usd": 2.7,
@@ -3882,11 +3764,12 @@
         "links": [
           "https://ec.europa.eu/commission/presscorner/detail/en/IP_17_1784"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "single_event_cost",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       }
     ]
   },
@@ -3910,7 +3793,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 6.0,
@@ -3930,7 +3814,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 0.0,
@@ -3950,47 +3835,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 0.0,
-        "year": 2020,
-        "initiatives": [
-          "Share Repurchase Program"
-        ],
-        "notes": "No share repurchases executed in 2020.",
-        "source_figure": "$0.00",
-        "links": [
-          "https://financecharts.com/stocks/AMZN/buybacks"
-        ],
-        "spend_type": "equity",
-        "timeframe": {
-          "start": 2020,
-          "end": 2020
-        },
-        "amount_basis": "actual",
-        "certainty": "audited_filing",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 0.0,
-        "year": 2019,
-        "initiatives": [
-          "Share Repurchase Program"
-        ],
-        "notes": "No share repurchases executed in 2019.",
-        "source_figure": "$0.00",
-        "links": [
-          "https://financecharts.com/stocks/AMZN/buybacks"
-        ],
-        "spend_type": "equity",
-        "timeframe": {
-          "start": 2019,
-          "end": 2019
-        },
-        "amount_basis": "actual",
-        "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 0.0,
@@ -4010,47 +3856,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 0.0,
-        "year": 2024,
-        "initiatives": [
-          "Share Repurchase Program"
-        ],
-        "notes": "No significant share repurchases in 2024; capital prioritized for network expansion and AI investments.",
-        "source_figure": "$0.00 buybacks",
-        "links": [
-          "https://financecharts.com/stocks/AMZN/buybacks"
-        ],
-        "spend_type": "equity",
-        "timeframe": {
-          "start": 2024,
-          "end": 2024
-        },
-        "amount_basis": "actual",
-        "certainty": "audited_filing",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 0.0,
-        "year": 2025,
-        "initiatives": [
-          "Share Repurchase Program"
-        ],
-        "notes": "No significant share repurchases reported for the first three quarters of 2025.",
-        "source_figure": "$0.00",
-        "links": [
-          "https://financecharts.com/stocks/AMZN/buybacks"
-        ],
-        "spend_type": "equity",
-        "timeframe": {
-          "start": 2025,
-          "end": 2025
-        },
-        "amount_basis": "actual",
-        "certainty": "actual",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       }
     ],
     "strategic_investments": [
@@ -4069,7 +3876,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.7,
@@ -4086,7 +3894,8 @@
         "timeframe": null,
         "amount_basis": "round_lead",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 2.75,
@@ -4103,7 +3912,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.05,
@@ -4120,7 +3930,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.575,
@@ -4137,7 +3948,8 @@
         "timeframe": null,
         "amount_basis": "round_total",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 0.131,
@@ -4154,7 +3966,8 @@
         "timeframe": null,
         "amount_basis": "actual",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": null,
@@ -4171,7 +3984,8 @@
         "timeframe": null,
         "amount_basis": "round_participation",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "quantum_computing": [
@@ -4190,7 +4004,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": null,
@@ -4205,10 +4020,11 @@
           "https://aws.amazon.com/braket/",
           "https://aws.amazon.com/blogs/quantum-computing/announcing-the-aws-center-for-quantum-networking/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "amount_basis": "undisclosed",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "content_production_studios": [
@@ -4232,7 +4048,8 @@
         },
         "amount_basis": "single_year_spend",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 8.5,
@@ -4264,7 +4081,7 @@
         "links": [
           "https://apnews.com/article/technology-amazoncom-inc-1life-healthcare-business-8440ff249f2af796d7b74b654eb86130"
         ],
-        "spend_type": "equity",
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
@@ -4285,11 +4102,13 @@
           "https://aws.amazon.com/clean-rooms/",
           "https://aws.amazon.com/about-aws/whats-new/2022/11/aws-clean-rooms-preview/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "capex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Corporate Facilities"
       }
     ],
     "cloud_data_centers_ai_infra": [
@@ -4309,7 +4128,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 18.3,
@@ -4326,30 +4147,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 125.0,
-        "year": 2025,
-        "initiatives": [
-          "AWS Infrastructure (Generative AI)",
-          "Data Center expansion",
-          "Logistics Network"
-        ],
-        "notes": "Projected total capital expenditure for 2025 raised to ~$125B. The 'vast majority' is allocated to AWS infrastructure for AI. Actual spend in Q3 2025 alone was ~$35.1B.",
-        "source_figure": "approximately $125 billion",
-        "links": [
-          "https://outlookbusiness.com/amazon-q3-2025-earnings-capex",
-          "https://www.zacks.com/stock/news/amazon-raises-capex-2025"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2025,
-          "end": 2025
-        },
-        "amount_basis": "company_guidance",
-        "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 15.0,
@@ -4366,7 +4166,9 @@
         "timeframe": null,
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 50.0,
@@ -4386,7 +4188,9 @@
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 0.65,
@@ -4403,7 +4207,9 @@
         "timeframe": null,
         "amount_basis": "acquisition_cost",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 15.0,
@@ -4423,7 +4229,9 @@
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 5.3,
@@ -4440,7 +4248,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "autonomous_mobility": [
@@ -4455,7 +4265,7 @@
         "links": [
           "https://www.reuters.com/business/autos-transportation/us-opens-probe-into-amazon-owned-zoox-cars-2024-05-13/"
         ],
-        "spend_type": "equity",
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
@@ -4480,7 +4290,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "batteries_and_storage": [
@@ -4499,7 +4310,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 1.3,
@@ -4519,7 +4331,8 @@
         },
         "amount_basis": "cumulative_stake",
         "certainty": "certain",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Venture"
       }
     ],
     "renewable_energy_generation": [
@@ -4551,14 +4364,16 @@
         "links": [
           "https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-portfolio-january-2024-update"
         ],
-        "spend_type": "CapEx",
+        "spend_type": "capex",
         "timeframe": {
           "start": 2014,
           "end": 2022
         },
         "amount_basis": "cumulative",
         "certainty": "approx",
-        "is_rollup": true
+        "is_rollup": true,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": null,
@@ -4572,7 +4387,7 @@
           "https://esgdive.com/news/microsoft-undo-carbon-removal-deal-enhanced-rock-weathering/731089/",
           "https://esgnews.com/microsoft-secures-7-million-tons-of-carbon-removal-credits-in-25-year-deal-with-chestnut-carbon/"
         ],
-        "spend_type": "opex",
+        "spend_type": "ppa",
         "timeframe": {
           "start": 2025,
           "end": 2035
@@ -4774,7 +4589,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": 0.7,
@@ -4788,11 +4605,12 @@
           "https://www.redwoodmaterials.com/news/series-c-funding-700-million/",
           "https://techcrunch.com/2020/09/17/amazons-first-five-climate-fund-investments-include-redwood-materials-rivian/"
         ],
-        "spend_type": "Venture",
+        "spend_type": "equity",
         "timeframe": null,
         "amount_basis": "round_total",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "satellite_and_subsea_infrastructure": [
@@ -4814,7 +4632,9 @@
         },
         "amount_basis": "regulatory_license_requirement",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 0.12,
@@ -4833,7 +4653,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 3.5,
@@ -4853,7 +4675,9 @@
         },
         "amount_basis": "annual_estimate",
         "certainty": "third_party_estimate",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 0.57,
@@ -4875,7 +4699,9 @@
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "sci_fi_consumer_devices": [
@@ -4890,11 +4716,12 @@
         "links": [
           "https://www.aboutamazon.com/news/devices/meet-astro-a-home-robot-unlike-any-other"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -4930,27 +4757,11 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "S&M"
       }
     ],
     "ai_foundation_models": [
-      {
-        "investment_amount_billions_usd": 85.62,
-        "year": 2023,
-        "initiatives": [
-          "Company-wide R&D spanning AWS AI services, logistics tech, and devices"
-        ],
-        "notes": "Macrotrends reports Amazon R&D (technology & content) at $85.62B in 2023, continuing a multi-year growth trend.",
-        "source_figure": "Amazon R&D (tech & content) $85.62B (2023)",
-        "links": [
-          "https://www.macrotrends.net/stocks/charts/AMZN/amazon/research-development-expenses"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": null,
-        "amount_basis": null,
-        "certainty": null,
-        "is_rollup": false
-      },
       {
         "investment_amount_billions_usd": 4.0,
         "year": 2024,
@@ -4966,7 +4777,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 1.25,
@@ -4986,7 +4798,8 @@
         },
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "semiconductor_ai_hardware": [
@@ -5001,11 +4814,12 @@
         "links": [
           "https://www.aboutamazon.com/news/technology/amazon-aws-build-on-trainium-ai-research-investment"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 0.08,
@@ -5040,7 +4854,7 @@
         "links": [
           "https://www.geekwire.com/2024/amazon-hires-covariant-founders-inks-licensing-deal-with-ai-startup-in-latest-reverse-acquihire/"
         ],
-        "spend_type": null,
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
@@ -5061,7 +4875,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "industrial_automation_supply_chain": [
@@ -5082,27 +4897,9 @@
         "timeframe": null,
         "amount_basis": "undisclosed",
         "certainty": "third_party_estimate",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 40.1,
-        "year": 2020,
-        "initiatives": [
-          "Fulfillment Network Expansion (COVID-19)"
-        ],
-        "notes": "Total capital expenditures in 2020 reached $40.1B to double the size of the fulfillment network in response to pandemic demand.",
-        "source_figure": "$40.1 billion capex",
-        "links": [
-          "https://ir.aboutamazon.com/quarterly-results"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2020,
-          "end": 2020
-        },
-        "amount_basis": "actual",
-        "certainty": "actual",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Logistics & Fulfillment"
       },
       {
         "investment_amount_billions_usd": 13.7,
@@ -5120,26 +4917,6 @@
         "amount_basis": "acquisition_cost",
         "certainty": "certain",
         "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 0.775,
-        "year": 2012,
-        "initiatives": [
-          "Acquisition of Kiva Systems (Robotics)"
-        ],
-        "notes": "Foundational $775M acquisition; by 2019 over 200k Kiva drive units were deployed, reflecting multi-year capex to automate fulfillment.",
-        "source_figure": "$775 million acquisition (2012); 200k robots deployed by 2019.",
-        "links": [
-          "https://www.aboutamazon.com/news/innovation-at-amazon/10-years-of-amazon-robotics"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2015,
-          "end": 2019
-        },
-        "amount_basis": "cumulative_deployment",
-        "certainty": "approx",
-        "is_rollup": true
       }
     ],
     "workforce_training_reskilling": [
@@ -5162,7 +4939,8 @@
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       }
     ],
     "edge_computing_infrastructure": [
@@ -5184,7 +4962,9 @@
         },
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ]
   },
@@ -5208,7 +4988,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 1.6,
@@ -5228,7 +5009,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 10.0,
@@ -5248,7 +5030,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 0.0,
@@ -5268,7 +5051,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 10.0,
@@ -5288,7 +5072,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 15.4,
@@ -5308,7 +5093,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 60.0,
@@ -5325,7 +5111,8 @@
         "timeframe": null,
         "amount_basis": "company_guidance",
         "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 24.3,
@@ -5345,7 +5132,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       }
     ],
     "quantum_computing": [
@@ -5371,7 +5159,8 @@
         },
         "amount_basis": "valuation_or_stake",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "security_cryptography": [
@@ -5388,11 +5177,12 @@
           "https://developer.nvidia.com",
           "https://www.nvidia.com/en-us/data-center/h100/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "robotics_autonomy": [
@@ -5409,11 +5199,12 @@
           "https://nvidianews.nvidia.com/news/nvidia-unveils-project-gr00t-foundation-model-for-humanoid-robots",
           "https://nvidianews.nvidia.com/news/nvidia-expands-isaac-robotics-platform"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 0.05,
@@ -5430,7 +5221,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "ai_efficiency_methods": [
@@ -5447,11 +5239,12 @@
           "https://developer.nvidia.com/nvidia-nemo",
           "https://developer.nvidia.com/nvidia-ai-enterprise"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 1.3,
@@ -5464,11 +5257,12 @@
         "links": [
           "https://www.reuters.com/technology/inflection-ai-raises-13-bln-funding-microsoft-others-2023-06-29/"
         ],
-        "spend_type": null,
+        "spend_type": "equity",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "renewable_energy_generation": [
@@ -5546,7 +5340,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 0.2,
@@ -5563,7 +5359,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": 0.92,
@@ -5585,7 +5383,9 @@
         },
         "amount_basis": "project_cost",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Corporate Facilities"
       },
       {
         "investment_amount_billions_usd": 0.1,
@@ -5602,7 +5402,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 0.369,
@@ -5620,7 +5421,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": 0.977,
@@ -5638,7 +5441,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Logistics & Fulfillment"
       },
       {
         "investment_amount_billions_usd": 0.813,
@@ -5656,7 +5461,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": 1.077,
@@ -5674,7 +5481,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       }
     ],
     "bio_ai_and_drug_discovery": [
@@ -5689,11 +5498,13 @@
         "links": [
           "https://nvidianews.nvidia.com/news/nvidia-launches-uk-s-most-powerful-supercomputer-for-research"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "capex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 0.05,
@@ -5710,7 +5521,8 @@
         "timeframe": null,
         "amount_basis": "single_payment",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "semiconductor_ai_hardware": [
@@ -5725,32 +5537,12 @@
         "links": [
           "https://www.macrotrends.net/stocks/charts/NVDA/nvidia/research-development-expenses"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 15.4,
-        "year": 2025,
-        "initiatives": [
-          "Blackwell platform R&D",
-          "Next-gen Rubin architecture"
-        ],
-        "notes": "R&D expenses for TTM ending July 2025 reached $15.4B, reflecting massive investment in Blackwell ramp and future silicon.",
-        "source_figure": "$15.384 billion TTM",
-        "links": [
-          "https://macrotrends.net/stocks/charts/NVDA/nvidia/research-development-expenses"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": {
-          "start": 2025,
-          "end": 2025
-        },
-        "amount_basis": "actual",
-        "certainty": "actual",
-        "is_rollup": true
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "ai_foundation_models": [
@@ -5765,11 +5557,12 @@
         "links": [
           "https://analyzify.com/statsup/nvidia"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -5782,11 +5575,12 @@
         "links": [
           "https://www.ft.com/content/f8acce90-9c4d-4433-b189-e79cad29f74e"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 0.235,
@@ -5803,7 +5597,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.137,
@@ -5820,7 +5615,8 @@
         "timeframe": null,
         "amount_basis": "round_total",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.305,
@@ -5837,7 +5633,8 @@
         "timeframe": null,
         "amount_basis": "round_total",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.48,
@@ -5854,7 +5651,8 @@
         "timeframe": null,
         "amount_basis": "round_total",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.141,
@@ -5871,7 +5669,8 @@
         "timeframe": null,
         "amount_basis": "round_total",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.25,
@@ -5908,7 +5707,8 @@
         "timeframe": null,
         "amount_basis": "planned_investment",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "circularity_reuse_recycling": [
@@ -5932,7 +5732,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 1.25,
@@ -5945,7 +5746,7 @@
         "links": [
           "https://nvidianews.nvidia.com/news/nvidia-and-softbank-group-announce-termination-of-nvidias-acquisition-of-arm-limited"
         ],
-        "spend_type": "other",
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": "single_event_cost",
         "certainty": "certain",
@@ -5969,7 +5770,8 @@
         "timeframe": null,
         "amount_basis": "planned_investment",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.5,
@@ -5986,27 +5788,8 @@
         "timeframe": null,
         "amount_basis": "round_participation",
         "certainty": "certain",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 2.0,
-        "year": 2015,
-        "initiatives": [
-          "DRIVE PX platform R&D"
-        ],
-        "notes": "Jensen Huang cited $2B of R&D invested in the DRIVE platform to power autonomous vehicles and ADAS.",
-        "source_figure": "$2 billion R&D investment",
-        "links": [
-          "https://nvidianews.nvidia.com/news/nvidia-launches-drive-px-2-world-s-most-powerful-engine-for-in-vehicle-artificial-intelligence"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": {
-          "start": 2015,
-          "end": 2016
-        },
-        "amount_basis": "cumulative_spend_estimate",
-        "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "industrial_automation_supply_chain": [
@@ -6025,7 +5808,8 @@
         "timeframe": null,
         "amount_basis": "single_year_spend",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 0.7,
@@ -6084,7 +5868,8 @@
         },
         "amount_basis": "actual",
         "certainty": "actual",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 0.0,
@@ -6104,27 +5889,8 @@
         },
         "amount_basis": "actual",
         "certainty": "actual",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 0.0,
-        "year": 2024,
-        "initiatives": [
-          "Share Buyback Program"
-        ],
-        "notes": "Tesla did not execute any corporate share repurchases in 2024.",
-        "source_figure": "$0.00 buybacks",
-        "links": [
-          "https://financecharts.com/stocks/TSLA/buybacks"
-        ],
-        "spend_type": "equity",
-        "timeframe": {
-          "start": 2024,
-          "end": 2024
-        },
-        "amount_basis": "actual",
-        "certainty": "actual",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 0.0,
@@ -6144,7 +5910,8 @@
         },
         "amount_basis": "actual",
         "certainty": "actual",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       }
     ],
     "litigation_settlements_fines": [
@@ -6159,34 +5926,15 @@
         "links": [
           "https://www.reuters.com/legal/litigation/us-judge-approves-sec-payout-elon-musk-tesla-settlements-2022-03-25/"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "single_event_cost",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       }
     ],
     "cloud_data_centers_ai_infra": [
-      {
-        "investment_amount_billions_usd": 10.0,
-        "year": 2024,
-        "initiatives": [
-          "AI Compute (NVIDIA H100s + Dojo + Cortex)"
-        ],
-        "notes": "Elon Musk stated Tesla would spend ~$10B in 2024 specifically on AI compute and infrastructure to train FSD and Optimus.",
-        "source_figure": "$10 billion cumulative AI spend for 2024",
-        "links": [
-          "https://www.cnbc.com/2024/04/28/musk-tesla-to-spend-10-billion-on-ai-training-inference-in-2024.html"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2024,
-          "end": 2024
-        },
-        "amount_basis": "company_guidance",
-        "certainty": "company_guidance",
-        "is_rollup": true
-      },
       {
         "investment_amount_billions_usd": 0.5,
         "year": 2024,
@@ -6202,27 +5950,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 1.0,
-        "year": 2023,
-        "initiatives": [
-          "Dojo Supercomputer R&D/Capex"
-        ],
-        "notes": "Elon Musk stated Tesla would spend 'north of $1 billion' on Dojo supercomputer efforts between July 2023 and mid-2024.",
-        "source_figure": "North of $1 billion investment in Dojo",
-        "links": [
-          "https://www.theverge.com/2023/7/19/23800830/tesla-dojo-supercomputer-billion-dollar-investment-elon-musk"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2023,
-          "end": 2024
-        },
-        "amount_basis": "company_guidance",
-        "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -6244,7 +5974,9 @@
         },
         "amount_basis": "company_guidance",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "autonomous_mobility": [
@@ -6259,30 +5991,12 @@
         "links": [
           "https://www.macrotrends.net/stocks/charts/TSLA/tesla/research-development-expenses"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 4.5,
-        "year": 2024,
-        "initiatives": [
-          "R&D for Full Self-Driving (FSD) technology",
-          "Optimus humanoid robot development",
-          "AI-driven autonomous systems"
-        ],
-        "notes": "Tesla's R&D spending rose to $4.5B in 2024, up 29% YoY from 2023, with focus shifting from traditional vehicle development to AI-driven autonomous systems including FSD and robotics.",
-        "source_figure": "Tesla R&D $4.5B in 2024, up 29% YoY focusing on autonomy and AI.",
-        "links": [
-          "https://www.globaldata.com/media/business-fundamentals/magnificent-7-ramp-up-rd-and-capex-as-ai-shift-drives-2-trillion-revenue-surge-reveals-globaldata/"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": null,
-        "amount_basis": "single_year_spend",
-        "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 8.5,
@@ -6339,7 +6053,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 0.5,
@@ -6356,7 +6072,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "industrial_automation_supply_chain": [
@@ -6393,7 +6111,9 @@
         "timeframe": null,
         "amount_basis": "project_estimate",
         "certainty": "third_party_estimate",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       },
       {
         "investment_amount_billions_usd": null,
@@ -6452,7 +6172,9 @@
         },
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       },
       {
         "investment_amount_billions_usd": null,
@@ -6469,7 +6191,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": 5.0,
@@ -6489,26 +6212,9 @@
         },
         "amount_basis": "project_cost",
         "certainty": "press_report",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 11.3,
-        "year": 2024,
-        "initiatives": [
-          "Gigafactory expansion (Texas, Berlin, Shanghai)",
-          "4680 battery cell production scaling",
-          "Energy storage manufacturing capacity (Megapack)"
-        ],
-        "notes": "Tesla's capital expenditure reached $11.3B in 2024, reflecting Gigafactory expansion and investments in battery production and renewable energy solutions including Megapack manufacturing.",
-        "source_figure": "Tesla capex $11.3B in 2024 for Gigafactory expansion and battery technology.",
-        "links": [
-          "https://www.globaldata.com/media/business-fundamentals/magnificent-7-ramp-up-rd-and-capex-as-ai-shift-drives-2-trillion-revenue-surge-reveals-globaldata/"
-        ],
-        "spend_type": "capex",
-        "timeframe": null,
-        "amount_basis": "single_year_spend",
-        "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       },
       {
         "investment_amount_billions_usd": 0.2,
@@ -6525,7 +6231,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       },
       {
         "investment_amount_billions_usd": 0.56,
@@ -6542,7 +6250,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": 0.1,
@@ -6601,7 +6311,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       },
       {
         "investment_amount_billions_usd": 2.6,
@@ -6636,7 +6348,9 @@
         "timeframe": null,
         "amount_basis": "project_estimate",
         "certainty": "third_party_estimate",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       },
       {
         "investment_amount_billions_usd": null,
@@ -6672,7 +6386,8 @@
         },
         "amount_basis": "undisclosed",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       },
       {
         "investment_amount_billions_usd": null,
@@ -6692,7 +6407,9 @@
         },
         "amount_basis": "project_capacity",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       }
     ],
     "circularity_reuse_recycling": [
@@ -6713,7 +6430,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       }
     ],
     "diversity_equity_inclusion": [
@@ -6733,32 +6452,11 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       }
     ],
-    "semiconductor_ai_hardware": [
-      {
-        "investment_amount_billions_usd": 1.0,
-        "year": 2024,
-        "initiatives": [
-          "Dojo supercomputer build-out for autonomy/robotics AI training"
-        ],
-        "notes": "Musk signaled Tesla will spend well over $1B on Dojo by end-2024; treat as total program capex (separate from the $500M Buffalo cluster itemized under ai_efficiency_methods).",
-        "source_figure": "Will spend well over $1B on Dojo by end-2024; $500M Buffalo factory cluster",
-        "links": [
-          "https://www.marketwatch.com/story/elon-musk-says-tesla-will-spend-well-over-1-billion-on-dojo-supercomputer-21f0a6f0",
-          "https://techcrunch.com/2024/01/26/tesla-dojo-supercomputer-buffalo-factory-500-million/"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2023,
-          "end": 2024
-        },
-        "amount_basis": "planned_spend",
-        "certainty": "company_guidance",
-        "is_rollup": true
-      }
-    ],
+    "semiconductor_ai_hardware": [],
     "digital_inclusion_and_economy": [
       {
         "investment_amount_billions_usd": 1.5,
@@ -6778,7 +6476,8 @@
         },
         "amount_basis": "single_payment",
         "certainty": "certain",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Other"
       }
     ],
     "robotics_autonomy": [
@@ -6797,7 +6496,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       }
     ]
   },
@@ -6821,7 +6522,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 44.8,
@@ -6841,7 +6543,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 6.3,
@@ -6861,7 +6564,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 12.9,
@@ -6881,7 +6585,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 4.2,
@@ -6901,7 +6606,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 2.0,
@@ -6921,7 +6627,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 20.03,
@@ -6941,7 +6648,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 30.1,
@@ -6961,7 +6669,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 13.3,
@@ -6981,7 +6690,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       },
       {
         "investment_amount_billions_usd": 9.8,
@@ -7001,7 +6711,8 @@
         },
         "amount_basis": "actual",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Buyback"
       }
     ],
     "renewable_energy_generation": [
@@ -7075,7 +6786,7 @@
         "links": [
           "https://www.about.fb.com/news/2019/08/investing-in-renewable-energy/"
         ],
-        "spend_type": "equity",
+        "spend_type": "ppa",
         "timeframe": null,
         "amount_basis": "capacity_procurement",
         "certainty": "certain",
@@ -7113,7 +6824,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "security_cryptography": [
@@ -7130,11 +6843,12 @@
           "https://engineering.fb.com/2024/03/06/security/whatsapp-third-party-chats/",
           "https://blog.whatsapp.com/protecting-your-account-with-passkeys"
         ],
-        "spend_type": null,
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "robotics_autonomy": [
@@ -7151,11 +6865,13 @@
           "https://ai.meta.com/research/publications/partnr-efficient-tactile-modeling-for-robotic-manipulation/",
           "https://ai.meta.com/research/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "capex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Corporate Facilities"
       }
     ],
     "ai_efficiency_methods": [
@@ -7172,11 +6888,13 @@
           "https://arxiv.org/abs/2005.11401",
           "https://huggingface.co/facebook/dpr-reader-multiset-base"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "capex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       }
     ],
     "circularity_reuse_recycling": [
@@ -7197,7 +6915,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": null,
@@ -7216,7 +6936,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "digital_inclusion_and_economy": [
@@ -7235,7 +6957,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": 3.0,
@@ -7252,7 +6975,9 @@
         "timeframe": null,
         "amount_basis": "multi_year_commitment",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "wellness_vr_and_behavioral": [
@@ -7267,7 +6992,7 @@
         "links": [
           "https://www.reuters.com/legal/us-formally-ends-fight-against-metas-purchase-vr-content-maker-2023-02-24/"
         ],
-        "spend_type": "equity",
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
@@ -7316,7 +7041,8 @@
         },
         "amount_basis": "cumulative_operating_loss",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 10.19,
@@ -7336,7 +7062,8 @@
         },
         "amount_basis": "annual_loss",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 13.72,
@@ -7356,7 +7083,8 @@
         },
         "amount_basis": "annual_loss",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 16.12,
@@ -7377,7 +7105,8 @@
         },
         "amount_basis": "annual_loss",
         "certainty": "audited_filing",
-        "is_rollup": true
+        "is_rollup": true,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 4.53,
@@ -7397,7 +7126,8 @@
         },
         "amount_basis": "quarterly_loss",
         "certainty": "actual",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": 3.5,
@@ -7414,7 +7144,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       }
     ],
     "diversity_equity_inclusion": [
@@ -7434,29 +7165,11 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Other"
       }
     ],
     "ai_foundation_models": [
-      {
-        "investment_amount_billions_usd": 43.6,
-        "year": 2024,
-        "initiatives": [
-          "Llama AI model development and deployment",
-          "AI infrastructure for mixed-reality platforms",
-          "Generative AI research and product integration"
-        ],
-        "notes": "Meta's R&D spending reached $43.6B in 2024, underscoring its pivot to AI and mixed-reality platforms with significant investment in Llama models and AI infrastructure.",
-        "source_figure": "Meta R&D $43.6B in 2024 for AI and mixed-reality platform development.",
-        "links": [
-          "https://www.globaldata.com/media/business-fundamentals/magnificent-7-ramp-up-rd-and-capex-as-ai-shift-drives-2-trillion-revenue-surge-reveals-globaldata/"
-        ],
-        "spend_type": "r_and_d",
-        "timeframe": null,
-        "amount_basis": "single_year_spend",
-        "certainty": "audited_filing",
-        "is_rollup": true
-      },
       {
         "investment_amount_billions_usd": 14.3,
         "year": 2025,
@@ -7472,7 +7185,8 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "equity_type": "Venture"
       },
       {
         "investment_amount_billions_usd": null,
@@ -7511,7 +7225,9 @@
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Manufacturing & Production"
       }
     ],
     "cloud_data_centers_ai_infra": [
@@ -7533,7 +7249,9 @@
         },
         "amount_basis": "estimated_cost",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Other"
       },
       {
         "investment_amount_billions_usd": 0.8,
@@ -7550,7 +7268,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -7567,29 +7287,9 @@
         "timeframe": null,
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
-      },
-      {
-        "investment_amount_billions_usd": 71.0,
-        "year": 2025,
-        "initiatives": [
-          "AI infrastructure expansion (servers, data centers, network)",
-          "Massive GPU cluster deployment (targeting >1M GPUs)"
-        ],
-        "notes": "Meta raised its 2025 capital expenditure guidance multiple times, finalizing the range at $70\u201372B (midpoint $71B) in Oct 2025, driven primarily by AI infrastructure investments.",
-        "source_figure": "Expect 2025 capital expenditures to be in the range of $70-72 billion.",
-        "links": [
-          "https://investor.fb.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx",
-          "https://www.reuters.com/technology/meta-raises-2025-capex-forecast-ai-spending-surge-continues-2025-10-29/"
-        ],
-        "spend_type": "capex",
-        "timeframe": {
-          "start": 2025,
-          "end": 2025
-        },
-        "amount_basis": "company_guidance",
-        "certainty": "company_guidance",
-        "is_rollup": true
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "litigation_settlements_fines": [
@@ -7604,11 +7304,12 @@
         "links": [
           "https://www.theguardian.com/technology/2023/may/22/facebook-owner-meta-fined-1-2bn-euros-for-mishandling-user-information"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "single_event_cost",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       },
       {
         "investment_amount_billions_usd": 0.84,
@@ -7621,11 +7322,12 @@
         "links": [
           "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5779"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "single_event_cost",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       },
       {
         "investment_amount_billions_usd": 5.0,
@@ -7638,11 +7340,12 @@
         "links": [
           "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook"
         ],
-        "spend_type": "other",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": "single_event_cost",
         "certainty": "regulatory_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "Legal Settlement"
       }
     ],
     "satellite_and_subsea_infrastructure": [
@@ -7665,7 +7368,9 @@
         },
         "amount_basis": "project_cost",
         "certainty": "press_report",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       },
       {
         "investment_amount_billions_usd": 1.0,
@@ -7686,7 +7391,9 @@
         },
         "amount_basis": "project_cost",
         "certainty": "company_announcement",
-        "is_rollup": false
+        "is_rollup": false,
+        "capex_type": "Growth",
+        "capex_tech": "Digital Infrastructure"
       }
     ],
     "sci_fi_consumer_devices": [
@@ -7701,7 +7408,7 @@
         "links": [
           "https://www.theverge.com/2019/9/23/20881032/facebook-ctrl-labs-acquisition-neural-interface-armband-ar-vr-deal"
         ],
-        "spend_type": "equity",
+        "spend_type": "M&A",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
@@ -7720,11 +7427,12 @@
         "links": [
           "https://about.fb.com/news/2019/01/facebook-tum-ai-ethics-center/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "timeframe": null,
         "amount_basis": null,
         "certainty": null,
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       },
       {
         "investment_amount_billions_usd": null,
@@ -7738,10 +7446,11 @@
         "links": [
           "https://ai.meta.com/llama/purple-llama/"
         ],
-        "spend_type": "r_and_d",
+        "spend_type": "opex",
         "amount_basis": "undisclosed",
         "certainty": "company_guidance",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "R&D"
       }
     ],
     "regulatory_compliance_investments": [
@@ -7760,7 +7469,8 @@
         "timeframe": null,
         "amount_basis": "single_year_spend",
         "certainty": "audited_filing",
-        "is_rollup": false
+        "is_rollup": false,
+        "opex_type": "G&A"
       }
     ]
   }
