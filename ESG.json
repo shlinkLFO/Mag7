@@ -1,0 +1,896 @@
+{
+  "dataset_metadata": {
+    "last_updated": "2025-12-02",
+    "maintainer": "Mag7 ESG Tracker"
+  },
+  "companies": {
+    "Alphabet": {
+      "2024": [
+        {
+          "year": 2024,
+          "source_metadata": {
+            "document_type": "2025 Environmental Report",
+            "url": "https://sustainability.google/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 35000,
+            "scope_2_market_based": 240000,
+            "scope_2_location_based": 2800000,
+            "scope_3_total": 8400000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 26000000,
+            "clean_energy_percentage": 66.0,
+            "pue": 1.1
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 30660,
+            "consumption": 22000
+          }
+        }
+      ],
+      "2023": [
+        {
+          "year": 2023,
+          "source_metadata": {
+            "document_type": "2024 Environmental Report",
+            "url": "https://sustainability.google/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 73100,
+            "scope_2_market_based": 3400000,
+            "scope_2_location_based": null,
+            "scope_3_total": 10800000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 25300000,
+            "clean_energy_percentage": 64.0,
+            "pue": 1.1
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 28500,
+            "consumption": 24100
+          }
+        }
+      ],
+      "2022": [
+        {
+          "year": 2022,
+          "source_metadata": {
+            "document_type": "2023 Environmental Report",
+            "url": "https://sustainability.google/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 36200,
+            "scope_2_market_based": 476300,
+            "scope_2_location_based": 2190000,
+            "scope_3_total": 9900000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 22286838,
+            "clean_energy_percentage": 66.0,
+            "pue": 1.1
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 28200,
+            "consumption": 21200
+          }
+        }
+      ],
+      "2021": [
+        {
+          "year": 2021,
+          "source_metadata": {
+            "document_type": "2022 Environmental Report",
+            "url": "https://sustainability.google/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 34000,
+            "scope_2_market_based": 440000,
+            "scope_2_location_based": null,
+            "scope_3_total": 10800000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 18287143,
+            "clean_energy_percentage": 66.0,
+            "pue": 1.1
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 16300,
+            "consumption": 12500
+          }
+        }
+      ],
+      "2020": [
+        {
+          "year": 2020,
+          "source_metadata": {
+            "document_type": "2021 Environmental Report",
+            "url": "https://sustainability.google/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 38600,
+            "scope_2_market_based": 587300,
+            "scope_2_location_based": 3927105,
+            "scope_3_total": 9390000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 15439000,
+            "clean_energy_percentage": 67.0,
+            "pue": 1.1
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 20400,
+            "consumption": 13900
+          }
+        }
+      ]
+    },
+    "Amazon": {
+      "2024": [
+        {
+          "year": 2024,
+          "source_metadata": {
+            "document_type": "2024 Sustainability Report",
+            "url": "https://sustainability.aboutamazon.com/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 15130000,
+            "scope_2_market_based": 2800000,
+            "scope_2_location_based": null,
+            "scope_3_total": 50320000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.15
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2023": [
+        {
+          "year": 2023,
+          "source_metadata": {
+            "document_type": "2023 Sustainability Report",
+            "url": "https://sustainability.aboutamazon.com/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 14270000,
+            "scope_2_market_based": 2790000,
+            "scope_2_location_based": 15670000,
+            "scope_3_total": 51760000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.14
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2022": [
+        {
+          "year": 2022,
+          "source_metadata": {
+            "document_type": "2022 Sustainability Report",
+            "url": "https://sustainability.aboutamazon.com/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 13400000,
+            "scope_2_market_based": 2890000,
+            "scope_2_location_based": 12110000,
+            "scope_3_total": 54980000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": 90.0,
+            "pue": 1.14
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2021": [
+        {
+          "year": 2021,
+          "source_metadata": {
+            "document_type": "2021 Sustainability Report",
+            "url": "https://sustainability.aboutamazon.com/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 12110000,
+            "scope_2_market_based": 4070000,
+            "scope_2_location_based": null,
+            "scope_3_total": 55360000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": 85.0,
+            "pue": 1.14
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2020": [
+        {
+          "year": 2020,
+          "source_metadata": {
+            "document_type": "2020 Sustainability Report",
+            "url": "https://sustainability.aboutamazon.com/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 9620000,
+            "scope_2_market_based": 5270000,
+            "scope_2_location_based": null,
+            "scope_3_total": 45750000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": 65.0,
+            "pue": 1.14
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ]
+    },
+    "Apple": {
+      "2024": [
+        {
+          "year": 2024,
+          "source_metadata": {
+            "document_type": "2025 Environmental Progress Report (FY24)",
+            "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2025.pdf"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 55200,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": 1003246,
+            "scope_3_total": 15228300
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 3100000,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2023": [
+        {
+          "year": 2023,
+          "source_metadata": {
+            "document_type": "2024 Environmental Progress Report",
+            "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2024.pdf"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 55200,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": 1003246,
+            "scope_3_total": 15228300
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 3199000,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2022": [
+        {
+          "year": 2022,
+          "source_metadata": {
+            "document_type": "2023 Environmental Progress Report (FY22)",
+            "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2023.pdf"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 56860,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": null,
+            "scope_3_total": 20300000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 2870000,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 5300,
+            "consumption": null
+          }
+        }
+      ],
+      "2021": [
+        {
+          "year": 2021,
+          "source_metadata": {
+            "document_type": "2022 Environmental Progress Report",
+            "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2022.pdf"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 53450,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": null,
+            "scope_3_total": 22500000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 2600000,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2020": [
+        {
+          "year": 2020,
+          "source_metadata": {
+            "document_type": "2021 Environmental Progress Report",
+            "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2021.pdf"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 46300,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": null,
+            "scope_3_total": 22600000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 2420000,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ]
+    },
+    "Meta": {
+      "2024": [
+        {
+          "year": 2024,
+          "source_metadata": {
+            "document_type": "2025 Sustainability Report",
+            "url": "https://sustainability.fb.com/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 50000,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": 3400000,
+            "scope_3_total": 8100000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 15000000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.08
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 3000,
+            "consumption": null
+          }
+        }
+      ],
+      "2023": [
+        {
+          "year": 2023,
+          "source_metadata": {
+            "document_type": "2024 Sustainability Report",
+            "url": "https://sustainability.fb.com/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 48952,
+            "scope_2_market_based": 1658,
+            "scope_2_location_based": null,
+            "scope_3_total": 7445621
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 14000000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.08
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2022": [
+        {
+          "year": 2022,
+          "source_metadata": {
+            "document_type": "2023 Sustainability Report",
+            "url": "https://sustainability.fb.com/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 66934,
+            "scope_2_market_based": 273,
+            "scope_2_location_based": 3400000,
+            "scope_3_total": 8466264
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 11530000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.09
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 3900,
+            "consumption": 2569
+          }
+        }
+      ],
+      "2021": [
+        {
+          "year": 2021,
+          "source_metadata": {
+            "document_type": "2021 Sustainability Report",
+            "url": "https://sustainability.fb.com/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 0,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": null,
+            "scope_3_total": 9994000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 9420000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.09
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 2570,
+            "consumption": 2000
+          }
+        }
+      ],
+      "2020": [
+        {
+          "year": 2020,
+          "source_metadata": {
+            "document_type": "2020 Sustainability Report",
+            "url": "https://sustainability.fb.com/reports/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 38000,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": null,
+            "scope_3_total": 3922000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 7170000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.1
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": 2270
+          }
+        }
+      ]
+    },
+    "Microsoft": {
+      "2024": [
+        {
+          "year": 2024,
+          "source_metadata": {
+            "document_type": "2025 Environmental Sustainability Report (FY24)",
+            "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 143510,
+            "scope_2_market_based": 259090,
+            "scope_2_location_based": 1757000,
+            "scope_3_total": 15140000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 24000000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.12
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 7800,
+            "consumption": null
+          }
+        }
+      ],
+      "2023": [
+        {
+          "year": 2023,
+          "source_metadata": {
+            "document_type": "2024 Environmental Sustainability Report (FY23)",
+            "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 143510,
+            "scope_2_market_based": 259090,
+            "scope_2_location_based": 1757000,
+            "scope_3_total": 15140000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 24005000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.12
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 7800,
+            "consumption": 6400
+          }
+        }
+      ],
+      "2022": [
+        {
+          "year": 2022,
+          "source_metadata": {
+            "document_type": "2022 Environmental Sustainability Report (FY22)",
+            "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 119000,
+            "scope_2_market_based": 283000,
+            "scope_2_location_based": 2207000,
+            "scope_3_total": 12996000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 18600000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.12
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": 7660,
+            "consumption": 6399
+          }
+        }
+      ],
+      "2021": [
+        {
+          "year": 2021,
+          "source_metadata": {
+            "document_type": "2021 Environmental Sustainability Report",
+            "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 100000,
+            "scope_2_market_based": 328000,
+            "scope_2_location_based": 4000000,
+            "scope_3_total": 14072000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 14600000,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.12
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2020": [
+        {
+          "year": 2020,
+          "source_metadata": {
+            "document_type": "2020 Environmental Sustainability Report",
+            "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 118000,
+            "scope_2_market_based": 189000,
+            "scope_2_location_based": 2600000,
+            "scope_3_total": 11577000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 10244377,
+            "clean_energy_percentage": 100.0,
+            "pue": 1.12
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ]
+    },
+    "NVIDIA": {
+      "2024": [
+        {
+          "year": 2024,
+          "source_metadata": {
+            "document_type": "FY2025 Sustainability Report (Jan 24 - Jan 25)",
+            "url": "https://www.nvidia.com/en-us/csr/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 13000,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": 228000,
+            "scope_3_total": 6912577
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 496901,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2023": [
+        {
+          "year": 2023,
+          "source_metadata": {
+            "document_type": "FY2024 Sustainability Report",
+            "url": "https://www.nvidia.com/en-us/csr/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 12952,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": 228378,
+            "scope_3_total": 6912577
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 496901,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2022": [
+        {
+          "year": 2022,
+          "source_metadata": {
+            "document_type": "FY2023 CSR Report",
+            "url": "https://www.nvidia.com/en-us/csr/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 6400,
+            "scope_2_market_based": 0,
+            "scope_2_location_based": 182000,
+            "scope_3_total": 2580000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 345000,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2021": [
+        {
+          "year": 2021,
+          "source_metadata": {
+            "document_type": "FY2022 CSR Report",
+            "url": "https://www.nvidia.com/en-us/csr/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 4612,
+            "scope_2_market_based": 78210,
+            "scope_2_location_based": 133569,
+            "scope_3_total": 1972425
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 269000,
+            "clean_energy_percentage": 76.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2020": [
+        {
+          "year": 2020,
+          "source_metadata": {
+            "document_type": "FY2021 CSR Report",
+            "url": "https://www.nvidia.com/en-us/csr/"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 3745,
+            "scope_2_market_based": 60864,
+            "scope_2_location_based": 97415,
+            "scope_3_total": 1323733
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": 226626,
+            "clean_energy_percentage": 62.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ]
+    },
+    "Tesla": {
+      "2024": [],
+      "2023": [
+        {
+          "year": 2023,
+          "source_metadata": {
+            "document_type": "2024 Impact Report (Latest Available Data)",
+            "url": "https://www.tesla.com/impact"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 211000,
+            "scope_2_market_based": null,
+            "scope_2_location_based": 466000,
+            "scope_3_total": 30100000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": 100.0,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        },
+        {
+          "year": 2023,
+          "source_metadata": {
+            "document_type": "2023 Impact Report",
+            "url": "https://www.tesla.com/impact"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 211000,
+            "scope_2_market_based": null,
+            "scope_2_location_based": 466000,
+            "scope_3_total": 54967000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": null,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2022": [
+        {
+          "year": 2022,
+          "source_metadata": {
+            "document_type": "2022 Impact Report",
+            "url": "https://www.tesla.com/impact"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 197000,
+            "scope_2_market_based": null,
+            "scope_2_location_based": 413000,
+            "scope_3_total": 30700000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": null,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2021": [
+        {
+          "year": 2021,
+          "source_metadata": {
+            "document_type": "2021 Impact Report",
+            "url": "https://www.tesla.com/impact"
+          },
+          "emissions_mtco2e": {
+            "scope_1": 185000,
+            "scope_2_market_based": null,
+            "scope_2_location_based": 403000,
+            "scope_3_total": 2500000
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": null,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ],
+      "2020": [
+        {
+          "year": 2020,
+          "source_metadata": {
+            "document_type": "2020 Impact Report",
+            "url": "https://www.tesla.com/impact"
+          },
+          "emissions_mtco2e": {
+            "scope_1": null,
+            "scope_2_market_based": null,
+            "scope_2_location_based": null,
+            "scope_3_total": null
+          },
+          "energy_consumption": {
+            "total_consumption_mwh": null,
+            "clean_energy_percentage": null,
+            "pue": null
+          },
+          "water_metrics": {
+            "unit": "Megaliters",
+            "withdrawal": null,
+            "consumption": null
+          }
+        }
+      ]
+    }
+  }
+}
