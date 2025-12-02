@@ -1,0 +1,236 @@
+{
+    "Apple": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": 0.848,
+          "year": 2015,
+          "initiatives": [
+            "California Flats Solar Project (130 MW)"
+          ],
+          "notes": "Signed a 25-year PPA with First Solar for 130 MW of the California Flats Solar Project in Monterey County. Apple committed $848 million for the energy, the industry's largest commercial PPA at the time.",
+          "source_figure": "$848 million commitment",
+          "links": [
+            "https://www.apple.com/newsroom/2015/02/10Apple-joins-First-Solar-in-California-solar-energy-project/",
+            "https://www.reuters.com/article/technology/first-solar-apple-strike-848-million-supply-deal-idUSL1N0VK1XN/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2015,
+            "end": 2040
+          },
+          "amount_basis": "contract_value",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "Singapore Solar Portfolio (Sunseap) (50 MW)"
+          ],
+          "notes": "Partnered with Sunseap to power Singapore operations with 100% renewable energy via rooftop solar systems on 800 buildings (33 MW allocated to Apple). First company in Singapore to run exclusively on renewables.",
+          "source_figure": "50 MW portfolio / 33 MW allocated",
+          "links": [
+            "https://www.apple.com/newsroom/2015/11/16Apple-powering-Singapore-operations-with-100-percent-renewable-energy/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2016,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "China Clean Energy Projects (200 MW)"
+          ],
+          "notes": "Announced the completion of 40 MW of solar in Sichuan and committed to build/procure an additional 200 MW of solar energy projects in China to offset supply chain emissions.",
+          "source_figure": "200 MW commitment",
+          "links": [
+            "https://www.apple.com/newsroom/2015/10/22Apple-Launches-New-Clean-Energy-Programs-in-China/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2015,
+            "end": null
+          },
+          "amount_basis": "capacity_milestone",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        }
+      ]
+    },
+    "Alphabet": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "Global Renewable Energy Purchase (842 MW)"
+          ],
+          "notes": "Announced the largest diverse purchase of renewable energy by a non-utility at the time: 842 MW across six projects in the US, Chile (80 MW El Romero Solar), and Sweden (76 MW Jenåsen Wind).",
+          "source_figure": "842 MW portfolio",
+          "links": [
+            "https://blog.google/outreach-initiatives/sustainability/our-biggest-renewable-energy-purchase-ever/",
+            "https://www.cnbc.com/2015/12/03/google-makes-largest-renewable-energy-purchase-ever.html"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2015,
+            "end": 2035
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "Altamont Pass Wind Repowering (43 MW)"
+          ],
+          "notes": "Signed an agreement to purchase power from the repowered Altamont Pass wind farm (Golden Hills) in California.",
+          "source_figure": "43 MW wind capacity",
+          "links": [
+            "https://blog.google/outreach-initiatives/environment/purchasing-wind-energy-from-one-of/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Amazon": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "Amazon Wind Farm US East (208 MW)"
+          ],
+          "notes": "Announced a 208 MW wind farm in North Carolina (Iberdrola Renewables), the first utility-scale wind farm in the state, to power AWS data centers.",
+          "source_figure": "208 MW wind capacity",
+          "links": [
+            "https://press.aboutamazon.com/2015/7/amazon-web-services-announces-amazon-wind-farm-us-east"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2016,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "Amazon Solar Farm US East (80 MW)"
+          ],
+          "notes": "Partnered with Community Energy to build an 80 MW solar farm in Accomack County, Virginia.",
+          "source_figure": "80 MW solar capacity",
+          "links": [
+            "https://press.aboutamazon.com/2015/6/amazon-web-services-announces-amazon-solar-farm-us-east"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2016,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "Amazon Wind Farm Fowler Ridge (150 MW)"
+          ],
+          "notes": "Announced a 150 MW wind farm in Benton County, Indiana, with Pattern Energy.",
+          "source_figure": "150 MW wind capacity",
+          "links": [
+            "https://press.aboutamazon.com/2015/1/amazon-web-services-announces-amazon-wind-farm-fowler-ridge"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2016,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "Amazon Wind Farm US Central (100 MW)"
+          ],
+          "notes": "Announced a 100 MW wind farm in Paulding County, Ohio, developed by EDP Renewables.",
+          "source_figure": "100 MW wind capacity",
+          "links": [
+            "https://press.aboutamazon.com/2015/11/amazon-web-services-announces-amazon-wind-farm-us-central"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2017,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Meta": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2015,
+          "initiatives": [
+            "Shannon Wind Farm (200 MW)"
+          ],
+          "notes": "Signed a PPA for 200 MW of wind energy from the Shannon Wind project in Clay County, Texas, to power the Fort Worth data center.",
+          "source_figure": "200 MW wind capacity",
+          "links": [
+            "https://www.businesswire.com/news/home/20150707006276/en/Facebook-to-Power-New-Fort-Worth-Data-Center-with-100-Renewable-Energy"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2016,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Microsoft": {
+      "renewable_energy_generation": []
+    },
+    "Tesla": {
+      "renewable_energy_generation": []
+    },
+    "NVIDIA": {
+      "renewable_energy_generation": []
+    }
+  }

@@ -1,0 +1,257 @@
+{
+    "Microsoft": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Pleinmont Solar I & II (315 MW)"
+          ],
+          "notes": "Signed a PPA for 315 MW of solar energy in Virginia with sPower. At the time, this was the single largest corporate solar PPA in the United States.",
+          "source_figure": "315 MW solar capacity",
+          "links": [
+            "https://news.microsoft.com/2018/03/14/microsoft-purchase-from-spower-is-largest-corporate-solar-agreement-in-the-us/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Wilkinson Solar Energy Center (74 MW)"
+          ],
+          "notes": "Signed a 15-year PPA for 74 MW of solar energy in North Carolina with Invenergy.",
+          "source_figure": "74 MW solar capacity",
+          "links": [
+            "https://invenergy.com/news/invenergy-announces-agreement-with-microsoft-for-north-carolina-solar-project"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2018,
+            "end": 2033
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Alphabet": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Finland Wind Portfolio (190 MW)"
+          ],
+          "notes": "Signed PPAs for three new wind farms in Finland (with Neoen, CPC, and WPD) totaling 190 MW to power the Hamina data center.",
+          "source_figure": "190 MW wind capacity",
+          "links": [
+            "https://blog.google/around-the-globe/google-europe/buying-renewable-energy-finland/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Tennessee Valley Authority Solar (150 MW)"
+          ],
+          "notes": "Partnered with TVA to build two new solar farms in Hollywood, Alabama, and Yum Yim, Tennessee, totaling 150 MW for Google data centers.",
+          "source_figure": "150 MW solar capacity",
+          "links": [
+            "https://www.tva.com/newsroom/press-releases/google-tva-partner-to-use-renewable-energy-for-new-data-center"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Meta": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Walton EMC Solar Portfolio (202 MW)"
+          ],
+          "notes": "Signed contracts for 202 MW of solar capacity in Georgia (Silicon Ranch) to support the Newton Data Center. This was the largest solar portfolio in Georgia at the time.",
+          "source_figure": "202 MW solar capacity",
+          "links": [
+            "https://www.prnewswire.com/news-releases/facebook-walton-emc-announce-agreement-for-202-mw-of-new-solar-projects-in-georgia-300763848.html"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Nordic Wind PPAs (294 MW)"
+          ],
+          "notes": "Signed long-term PPAs with Luxcara for three wind projects in Norway (Bjerkreim cluster) totaling 294 MW to power European data centers.",
+          "source_figure": "294 MW wind capacity",
+          "links": [
+            "https://www.luxcara.com/news/luxcara-and-facebook-sign-ppas-for-wind-energy-portfolio"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Cove Mountain Solar (58 MW)"
+          ],
+          "notes": "Signed a PPA with First Solar for the 58 MW Cove Mountain solar project in Utah to support the Eagle Mountain data center.",
+          "source_figure": "58 MW solar capacity",
+          "links": [
+            "https://investor.firstsolar.com/news/press-release-details/2018/First-Solar-to-Power-Facebooks-Eagle-Mountain-Data-Center-with-Utah-Solar-Project/default.aspx"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "TVA Solar Projects (377 MW)"
+          ],
+          "notes": "Partnered with TVA for 377 MW of solar capacity in the Tennessee Valley (First Solar and NextEra projects) to support the Huntsville data center.",
+          "source_figure": "377 MW solar capacity",
+          "links": [
+            "https://www.tva.com/newsroom/press-releases/facebook-to-build-data-center-in-huntsville-ala"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "PNM Solar Projects (100 MW)"
+          ],
+          "notes": "Signed PPAs for two 50 MW solar plants in New Mexico to power the Los Lunas data center.",
+          "source_figure": "100 MW solar capacity",
+          "links": [
+            "https://www.pnm.com/facebook-announces-expansion-of-los-lunas-data-center"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        }
+      ]
+    },
+    "Amazon": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Rooftop Solar Milestone (50 Sites)"
+          ],
+          "notes": "Achieved goal of installing solar systems on 50 fulfillment centers globally by 2020 ahead of schedule; total capacity of these systems reached 98 MW.",
+          "source_figure": "50 solar rooftops deployed",
+          "links": [
+            "https://www.aboutamazon.com/news/sustainability/amazon-reaches-goal-of-50-solar-rooftops-ahead-of-schedule"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2018,
+            "end": 2018
+          },
+          "amount_basis": "capacity_milestone",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        }
+      ]
+    },
+    "Apple": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "100% Global Renewable Energy Achievement"
+          ],
+          "notes": "Announced that its global facilities (retail stores, offices, data centers) across 43 countries were powered by 100% clean energy. Also secured 23 supplier commitments.",
+          "source_figure": "100% clean energy for global facilities",
+          "links": [
+            "https://www.apple.com/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2018,
+            "end": 2018
+          },
+          "amount_basis": "corporate_milestone",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        }
+      ]
+    },
+    "Tesla": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2018,
+          "initiatives": [
+            "Gigafactory 1 Solar Roof Installation"
+          ],
+          "notes": "Began construction on a 70 MW rooftop solar array at Gigafactory 1 in Nevada, intended to be the largest rooftop solar array in the world.",
+          "source_figure": "70 MW solar rooftop array started",
+          "links": [
+            "https://electrek.co/2018/02/26/tesla-gigafactory-1-solar-rooftop-array/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2018,
+            "end": 2019
+          },
+          "amount_basis": "project_capacity",
+          "certainty": "press_report",
+          "is_rollup": false
+        }
+      ]
+    },
+    "NVIDIA": {
+      "renewable_energy_generation": []
+    }
+  }

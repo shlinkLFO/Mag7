@@ -1,6 +1,6 @@
 ================================================================================
 MAG7 SPENDING DATA - COMPREHENSIVE ANALYSIS SUMMARY
-Generated: 2025-12-01 18:43:56
+Generated: 2025-12-02 16:57:28
 ================================================================================
 
 EXECUTIVE SUMMARY
@@ -263,11 +263,11 @@ priority                           reason                            domain  rec
   MEDIUM     Company missing many domains             Multiple (21 domains)      NaN       NaN                 Research NVIDIA's activity in: 5g_6g_network_infrastructure, batteries_and_storage, content_production_studios...    NVIDIA
   MEDIUM     Company missing many domains             Multiple (21 domains)      NaN       NaN                    Research Tesla's activity in: 5g_6g_network_infrastructure, ai_foundation_models, bio_ai_and_drug_discovery...     Tesla
   MEDIUM     Company missing many domains             Multiple (16 domains)      NaN       NaN                          Research Meta's activity in: 5g_6g_network_infrastructure, autonomous_mobility, batteries_and_storage...      Meta
-     LOW         Only 1 company in domain                           r_and_d      NaN       NaN                                                                                Check if Tesla, Microsoft, Meta have activity here       NaN
-     LOW         Only 1 company in domain        wellness_vr_and_behavioral      NaN       NaN                                                                              Check if Tesla, Microsoft, NVIDIA have activity here       NaN
-     LOW         Only 1 company in domain    superconducting_devices_squids      NaN       NaN                                                                                Check if Tesla, Microsoft, Meta have activity here       NaN
-     LOW         Only 1 company in domain         supply_chain_digitization      NaN       NaN                                                                                Check if Tesla, Microsoft, Meta have activity here       NaN
-     LOW         Only 1 company in domain     edge_computing_infrastructure      NaN       NaN                                                                                Check if Tesla, Microsoft, Meta have activity here       NaN
-     LOW         Only 1 company in domain regulatory_compliance_investments      NaN       NaN                                                                              Check if Tesla, Microsoft, NVIDIA have activity here       NaN
+     LOW         Only 1 company in domain    superconducting_devices_squids      NaN       NaN                                                                                 Check if NVIDIA, Apple, Amazon have activity here       NaN
+     LOW         Only 1 company in domain        wellness_vr_and_behavioral      NaN       NaN                                                                               Check if Alphabet, NVIDIA, Apple have activity here       NaN
+     LOW         Only 1 company in domain regulatory_compliance_investments      NaN       NaN                                                                               Check if Alphabet, NVIDIA, Apple have activity here       NaN
+     LOW         Only 1 company in domain     edge_computing_infrastructure      NaN       NaN                                                                               Check if Alphabet, NVIDIA, Apple have activity here       NaN
+     LOW         Only 1 company in domain                           r_and_d      NaN       NaN                                                                              Check if Alphabet, NVIDIA, Amazon have activity here       NaN
+     LOW         Only 1 company in domain         supply_chain_digitization      NaN       NaN                                                                              Check if Alphabet, NVIDIA, Amazon have activity here       NaN
 
 

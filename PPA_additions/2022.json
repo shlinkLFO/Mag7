@@ -1,0 +1,295 @@
+{
+    "Amazon": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Record Annual Procurement (8.3 GW)"
+          ],
+          "notes": "Set a new corporate record by announcing 133 new projects totaling 8.3 GW of renewable energy capacity in 2022, bringing total portfolio to 20 GW.",
+          "source_figure": "8.3 GW added in 2022",
+          "links": [
+            "https://press.aboutamazon.com/2023/1/amazon-sets-new-record-for-most-renewable-energy-purchased-by-a-single-company-in-one-year"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2022,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "AES Corporation Solar/Storage (450 MW)"
+          ],
+          "notes": "Signed a PPA with AES for 450 MW of solar and 225 MW of 4-hour battery storage in California (part of the 8.3 GW total).",
+          "source_figure": "450 MW solar / 225 MW storage",
+          "links": [
+            "https://www.aes.com/amazon-and-aes-sign-renewable-energy-power-purchase-agreement-california"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Itochu Corp Solar (Japan)"
+          ],
+          "notes": "Signed a PPA with Itochu to build 700 solar power sites in Japan to power Amazon data centers.",
+          "source_figure": "700 solar sites",
+          "links": [
+            "https://www.reuters.com/business/energy/amazon-partners-with-itochu-develop-solar-power-plants-japan-2022-09-14/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Brookfield Renewable (600 MW)"
+          ],
+          "notes": "Strategic collaboration to develop 600 MW of wind and solar capacity across North America, Europe, and India.",
+          "source_figure": "600 MW capacity",
+          "links": [
+            "https://bep.brookfield.com/press-releases/bep/brookfield-renewable-collaborate-amazon-develop-new-renewable-energy-projects"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Alphabet": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "SB Energy Solar Portfolio (942 MW)"
+          ],
+          "notes": "Agreed to purchase approximately 75% of the renewable energy produced by four SB Energy solar projects in Texas (Orion I, II, III and Eiffel), totaling 942 MW. This was Google's largest combined solar deal at the time.",
+          "source_figure": "942 MW solar capacity",
+          "links": [
+            "https://sbenergy.com/updates/google-to-purchase-power-from-sb-energys-texas-solar-portfolio"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2023,
+            "end": 2024
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Ranger Power Solar PPA (149 MW)"
+          ],
+          "notes": "Signed a PPA for 149 MW from the White Tail Solar project in Michigan.",
+          "source_figure": "149 MW solar capacity",
+          "links": [
+            "https://www.rangerpower.com"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Sol Systems Solar Portfolio"
+          ],
+          "notes": "Partnered with Sol Systems to finance and develop a portfolio of solar projects in the US Midwest and South.",
+          "source_figure": "Strategic partnership",
+          "links": [
+            "https://www.solsystems.com/blog/sol-systems-and-google-announce-strategic-partnership/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "undisclosed",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Microsoft": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Volt Energy Utility PPA (250 MW)"
+          ],
+          "notes": "Signed a 250 MW solar PPA with African American-owned solar developer Volt Energy, focused on environmental justice communities.",
+          "source_figure": "250 MW solar capacity",
+          "links": [
+            "https://news.microsoft.com/2021/07/21/microsoft-and-volt-energy-utility-team-up-on-new-250-megawatt-solar-energy-project/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Shinhan Financial Group PPA"
+          ],
+          "notes": "Signed a strategic partnership with Shinhan Financial Group in Korea for renewable energy procurement.",
+          "source_figure": "Strategic energy partnership",
+          "links": [
+            "https://news.microsoft.com/en-kr/2022/11/15/microsoft-shinhan-financial-group-strategic-partnership/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "undisclosed",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Constellation Energy Matching (24/7 CFE)"
+          ],
+          "notes": "Signed a five-year agreement to match 100% of the energy use of its Boydton, Virginia data center with hourly carbon-free energy (mostly nuclear).",
+          "source_figure": "24/7 hourly matching agreement",
+          "links": [
+            "https://blogs.microsoft.com/on-the-issues/2022/03/15/constellation-energy-matching-nuclear-power-virginia/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2022,
+            "end": 2027
+          },
+          "amount_basis": "energy_matching_contract",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Meta": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Silicon Ranch Solar Portfolio (720 MW)"
+          ],
+          "notes": "Signed seven new solar PPAs totaling 720 MW with Silicon Ranch for projects in Georgia and Tennessee.",
+          "source_figure": "720 MW solar capacity",
+          "links": [
+            "https://www.siliconranch.com/meta-and-silicon-ranch-announce-720-mw-of-new-solar-projects/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2024,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Apex Clean Energy (Great Pathfinder Wind) (225 MW)"
+          ],
+          "notes": "Signed a PPA for the full 225 MW capacity of the Great Pathfinder Wind project in Iowa.",
+          "source_figure": "225 MW wind capacity",
+          "links": [
+            "https://www.apexcleanenergy.com/news/apex-clean-energy-and-meta-announce-225-mw-renewable-energy-purchase-agreement/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "rPlus Energies Solar PPA (200 MW)"
+          ],
+          "notes": "Signed a PPA for 200 MW from the Appaloosa Solar 1 project in Utah.",
+          "source_figure": "200 MW solar capacity",
+          "links": [
+            "https://www.rplusenergies.com/rplus-energies-and-meta-sign-ppa-for-utah-solar-project/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Apple": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2022,
+          "initiatives": [
+            "Supplier Clean Energy Program (10 GW Milestone)"
+          ],
+          "notes": "Announced that its global manufacturing partners now support over 10 gigawatts of renewable energy for Apple production.",
+          "source_figure": "10 GW operational",
+          "links": [
+            "https://www.apple.com/newsroom/2022/04/apple-helps-suppliers-bring-online-more-than-10-gigawatts-of-clean-power/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2022,
+            "end": null
+          },
+          "amount_basis": "capacity_milestone",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        }
+      ]
+    },
+    "Tesla": {
+      "renewable_energy_generation": []
+    },
+    "NVIDIA": {
+      "renewable_energy_generation": []
+    }
+  }

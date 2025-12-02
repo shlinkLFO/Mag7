@@ -1,0 +1,257 @@
+{
+    "Alphabet": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "536 MW Wind Portfolio (SD, IA, OK)"
+          ],
+          "notes": "Signed contracts for 536 MW of wind capacity across three projects: 196 MW with Avangrid (SD), 200 MW with EDF (IA), and 140 MW with GRDA (OK).",
+          "source_figure": "536 MW wind capacity",
+          "links": [
+            "https://blog.google/outreach-initiatives/environment/trio-wind-agreements-add-535-mw-our-renewable-energy-portfolio/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": 3.5,
+          "year": 2017,
+          "initiatives": [
+            "100% Renewable Energy Matching Achievement"
+          ],
+          "notes": "Announced the achievement of matching 100% of global electricity consumption with renewable energy purchases (reaching 3 GW total contracted). Google stated its contracts spurred $3.5B in capital investment globally.",
+          "source_figure": "$3.5 billion capital investment catalyzed",
+          "links": [
+            "https://blog.google/outreach-initiatives/environment/meeting-our-match-buying-100-percent-renewable-energy/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2017,
+            "end": 2017
+          },
+          "amount_basis": "cumulative_investment_catalyzed",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        }
+      ]
+    },
+    "Microsoft": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Wieringermeer Wind Farm (Netherlands, 180 MW)"
+          ],
+          "notes": "Signed a 10-year PPA with Vattenfall for 100% of the output from a repowered 180 MW wind farm near the Amsterdam data center.",
+          "source_figure": "180 MW wind capacity",
+          "links": [
+            "https://news.microsoft.com/2017/11/02/microsoft-purchases-wind-energy-from-vattenfall-in-the-netherlands/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2019,
+            "end": 2029
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Tullahennel Wind Farm (Ireland, 37 MW)"
+          ],
+          "notes": "Signed a 15-year PPA with GE for 37 MW of wind energy in County Kerry, Ireland, supporting cloud services from Ireland.",
+          "source_figure": "37 MW wind capacity",
+          "links": [
+            "https://news.microsoft.com/2017/10/16/microsoft-signs-wind-energy-deal-ireland/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2017,
+            "end": 2032
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Puget Sound Energy Green Direct"
+          ],
+          "notes": "Contracted with Puget Sound Energy to power the Redmond, WA campus with 100% renewable energy through the Green Direct tariff.",
+          "source_figure": "100% renewable energy for Redmond campus",
+          "links": [
+            "https://news.microsoft.com/2017/10/30/microsoft-and-puget-sound-energy-announce-contract-to-power-campus-with-100-percent-carbon-free-energy/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "energy_matching_contract",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Singapore Solar Project (60 MW)"
+          ],
+          "notes": "Signed first renewable energy deal in Asia with Sunseap for a 60 MWp distributed solar rooftop project.",
+          "source_figure": "60 MWp solar capacity",
+          "links": [
+            "https://news.microsoft.com/en-sg/2018/03/01/microsoft-purchases-solar-energy-sunseap-singapore/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Meta": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Rattlesnake Creek Wind (320 MW)"
+          ],
+          "notes": "Partnered with Tradewind Energy and OPPD for 320 MW of wind power to support the Papillion, Nebraska data center.",
+          "source_figure": "320 MW wind capacity",
+          "links": [
+            "https://www.tradewindenergy.com/news/facebook-announces-new-data-center-to-be-powered-by-tradewind-energy-project/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Virginia Solar Projects (Dominion Energy)"
+          ],
+          "notes": "Announced partnership with Dominion Energy to build multiple solar facilities to power the new Henrico Data Center with 100% renewable energy.",
+          "source_figure": "100% renewable energy commitment",
+          "links": [
+            "https://news.dominionenergy.com/2017-10-05-Facebook-Governor-McAuliffe-Announce-New-Data-Center-in-Henrico-County-to-be-Powered-by-Renewable-Energy-Supplied-by-Dominion-Energy"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Amazon": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Virginia Solar Portfolio (180 MW)"
+          ],
+          "notes": "Announced five new solar projects in Virginia totaling 180 MW to power AWS data centers.",
+          "source_figure": "180 MW solar capacity",
+          "links": [
+            "https://press.aboutamazon.com/2017/10/amazon-announces-five-new-solar-farms-to-power-the-aws-cloud"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": true
+        }
+      ]
+    },
+    "Apple": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Turquoise Solar Project (200 MW)"
+          ],
+          "notes": "Commissioned the Turquoise Solar project in Nevada (200 MW) to support the Reno data center.",
+          "source_figure": "200 MW solar capacity",
+          "links": [
+            "https://www.apple.com/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": {
+            "start": 2017,
+            "end": null
+          },
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_report",
+          "is_rollup": false
+        },
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Japan Rooftop Solar Portfolio"
+          ],
+          "notes": "Partnered with Daini Denryoku to install rooftop solar systems totaling over 300 systems by end of year.",
+          "source_figure": "300 rooftop systems",
+          "links": [
+            "https://www.apple.com/newsroom/2017/03/apple-launches-new-clean-energy-programs-in-china-to-promote-low-carbon-manufacturing/"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "capacity_procurement",
+          "certainty": "company_announcement",
+          "is_rollup": false
+        }
+      ]
+    },
+    "Tesla": {
+      "renewable_energy_generation": [
+        {
+          "type": "renewable_energy_generation",
+          "investment_amount_billions_usd": null,
+          "year": 2017,
+          "initiatives": [
+            "Hornsdale Power Reserve (100 MW)"
+          ],
+          "notes": "Constructed the world's largest lithium-ion battery in South Australia (100 MW/129 MWh). While primarily storage, it included grid service agreements and was paired with the Hornsdale Wind Farm.",
+          "source_figure": "100 MW battery storage",
+          "links": [
+            "https://www.tesla.com/blog/tesla-powerpack-to-enable-large-scale-sustainable-energy-to-south-australia"
+          ],
+          "spend_type": "ppa",
+          "timeframe": null,
+          "amount_basis": "project_capacity",
+          "certainty": "certain",
+          "is_rollup": false
+        }
+      ]
+    },
+    "NVIDIA": {
+      "renewable_energy_generation": []
+    }
+  }
