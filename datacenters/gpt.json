@@ -1,0 +1,277 @@
+{
+    "Alphabet": {
+      "Alphabet-1": {
+        "country": "USA",
+        "state": "Iowa",
+        "city": "Council Bluffs",
+        "location_name": "Google Council Bluffs Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": "1185 acres",
+        "date_built": "2009",
+        "notes": "Google announced in 2007 plans to build a data center in Council Bluffs (first phase completed 2009) on a site totaling about 1,185 acres:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.",
+        "type": "hyperscale",
+        "source_type": "official disclosure"
+      },
+      "Alphabet-2": {
+        "country": "USA",
+        "state": "Tennessee",
+        "city": "Clarksville",
+        "location_name": "Google Clarksville Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": "1300 acres",
+        "date_built": "2018",
+        "notes": "Google announced acquisition of a 1,300-acre site in Clarksville in 2015 and broke ground on a $500–600M data center project in 2018:contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}.",
+        "type": "hyperscale",
+        "source_type": "official disclosure"
+      },
+      "Alphabet-3": {
+        "country": "USA",
+        "state": "Nevada",
+        "city": "Henderson",
+        "location_name": "Google Henderson Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2019",
+        "notes": "Google developed a new data center in Henderson, NV with ~$600M investment (operations by ~2020):contentReference[oaicite:5]{index=5}; project filings with NV energy highlight this effort.",
+        "type": "hyperscale",
+        "source_type": "energy filings"
+      },
+      "Alphabet-4": {
+        "country": "USA",
+        "state": "Nevada",
+        "city": "Reno (Tahoe Reno Industrial Center, Storey County)",
+        "location_name": "Google Tahoe Reno Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": "1210 acres",
+        "date_built": "2020",
+        "notes": "Google purchased ~1,210 acres in Tahoe Reno Industrial Center (Storey County) in 2017 and announced a data center project in 2018 (approved Nov 2018):contentReference[oaicite:6]{index=6}.  Construction is underway (expected operational after 2020).",
+        "type": "hyperscale",
+        "source_type": "official disclosure"
+      },
+      "Alphabet-5": {
+        "country": "USA",
+        "state": "Alabama",
+        "city": "Widows Creek (Jackson County)",
+        "location_name": "Google Widows Creek Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": "320 acres",
+        "date_built": "2018",
+        "notes": "Google began construction in April 2018 on a new $600M data center on the former Widows Creek coal plant site in Jackson County, AL (320-acre campus):contentReference[oaicite:7]{index=7}:contentReference[oaicite:8]{index=8}, expected to be powered by 100% renewables.",
+        "type": "hyperscale",
+        "source_type": "official disclosure"
+      },
+      "Alphabet-6": {
+        "country": "USA",
+        "state": "South Carolina",
+        "city": "Moncks Corner (Berkeley County)",
+        "location_name": "Google Berkeley County Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": "500 acres",
+        "date_built": "2008",
+        "notes": "Google’s data center campus in Berkeley County (Moncks Corner) opened its first facility in 2008 and has since expanded (second facility opened by 2013).  The company invested ~$600M in 2007 and another $600M in 2013 on this site:contentReference[oaicite:9]{index=9}.  About 150 employees on site as of 2013:contentReference[oaicite:10]{index=10}.",
+        "type": "hyperscale",
+        "source_type": "media report"
+      },
+      "Alphabet-7": {
+        "country": "USA",
+        "state": "Texas",
+        "city": "Midlothian",
+        "location_name": "Google Dallas (Midlothian) Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": "375 acres",
+        "date_built": "2022",
+        "notes": "Google’s Midlothian, TX site (Dallas region) was announced in 2019 and launched in 2022.  The campus spans ~375 acres with a ~$600M building cost:contentReference[oaicite:11]{index=11}, supporting Google’s US-South Cloud region.",
+        "type": "hyperscale",
+        "source_type": "media report"
+      },
+      "Alphabet-8": {
+        "country": "USA",
+        "state": "Alabama",
+        "city": "Jackson County (Widows Creek)",
+        "location_name": "Google (Same as Widows Creek)",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": null,
+        "notes": "Google operates a $600M data center at the former Widows Creek coal plant site (320-acre campus) in Jackson County, AL:contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}. Groundbreaking occurred in April 2018.",
+        "type": "hyperscale",
+        "source_type": "official disclosure"
+      }
+    },
+    "Amazon": {
+      "Amazon-VA1": {
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Northern Virginia",
+        "location_name": "Amazon (AWS) US-East Data Center Region",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2006",
+        "notes": "Amazon Web Services (AWS) launched its first cloud data centers in Loudoun County, VA in 2006.  It now owns or leases dozens of hyperscale sites across Northern Virginia (Haymarket, Manassas, Ashburn, Sterling, Chantilly, etc.):contentReference[oaicite:14]{index=14}, totaling over 50 facilities and consuming ~1.7 GW as of 2019:contentReference[oaicite:15]{index=15}.",
+        "type": "hyperscale",
+        "source_type": "industry report"
+      }
+    },
+    "Microsoft": {
+      "Microsoft-1": {
+        "country": "USA",
+        "state": "Washington",
+        "city": "Quincy",
+        "location_name": "Microsoft Quincy Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": "270 acres",
+        "date_built": "2007",
+        "notes": "Microsoft’s Quincy, WA campus hosts multiple data centers.  The campus spans ~270 acres and includes facilities of several generations; it draws hydroelectric power from Grand Coulee Dam:contentReference[oaicite:16]{index=16}.  Microsoft’s first Quincy data center opened in 2007, and the site has since expanded significantly:contentReference[oaicite:17]{index=17}:contentReference[oaicite:18]{index=18}.",
+        "type": "hyperscale",
+        "source_type": "media report"
+      },
+      "Microsoft-2": {
+        "country": "USA",
+        "state": "Wyoming",
+        "city": "Cheyenne",
+        "location_name": "Microsoft Cheyenne Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2026",
+        "notes": "Microsoft broke ground in 2025 on a new data center campus in Cheyenne, WY (HR Ranch Road) expected online by early 2026:contentReference[oaicite:19]{index=19}.  Microsoft has had a data center presence in Cheyenne since 2012 (West Central U.S. Azure region 2016):contentReference[oaicite:20]{index=20}.",
+        "type": "hyperscale",
+        "source_type": "official disclosure"
+      }
+    },
+    "Meta": {
+      "Meta-1": {
+        "country": "USA",
+        "state": "California",
+        "city": "Menlo Park",
+        "location_name": "Meta AI Research SuperCluster (RSC)",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2022",
+        "notes": "Meta announced its AI Research SuperCluster (RSC) in Jan 2022, a multimillion-dollar in-house supercomputer to train AI models.  Meta claims RSC is among the fastest AI supercomputers in the world:contentReference[oaicite:21]{index=21} (expected fully built by mid-2022).",
+        "type": "R&D",
+        "source_type": "official disclosure"
+      }
+    },
+    "Apple": {
+      "Apple-1": {
+        "country": "USA",
+        "state": "Iowa",
+        "city": "Waukee",
+        "location_name": "Apple Waukee Data Center (Project Morgan)",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": "315,773 sq ft (first building)",
+        "date_built": "2024",
+        "notes": "Apple began operations in Oct 2024 on the first data center building at its Waukee, IA campus (Project Morgan):contentReference[oaicite:22]{index=22}.  The campus covers ~2,000 acres, with plans for multiple buildings (initial building ~315,773 sq ft, $1.3B investment):contentReference[oaicite:23]{index=23}:contentReference[oaicite:24]{index=24}.",
+        "type": "hyperscale",
+        "source_type": "media report"
+      },
+      "Apple-2": {
+        "country": "USA",
+        "state": "North Carolina",
+        "city": "Maiden (Catawba County)",
+        "location_name": "Apple Maiden Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": "2023",
+        "sqftg": "1,000,000 sq ft (campus)",
+        "date_built": "2009",
+        "notes": "Apple’s Maiden, NC campus spans about 1 million sq ft across four buildings (opened 2009).  The company is investing ~$175M in a new 237,600 sq ft expansion announced 2025:contentReference[oaicite:25]{index=25}:contentReference[oaicite:26]{index=26}. The site (2009 vintage) uses 100% clean energy (biogas, solar, wind) and used 453 million kWh in 2024:contentReference[oaicite:27]{index=27}.",
+        "type": "hyperscale",
+        "source_type": "media report"
+      },
+      "Apple-3": {
+        "country": "USA",
+        "state": "Oregon",
+        "city": "Prineville",
+        "location_name": "Apple Prineville Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2013",
+        "notes": "Apple quietly built a large data center in Prineville, OR (begun 2012, open by ~2013) to support iCloud and services.  The Prineville campus (160-acre site) is part of Apple’s expansion following its Maiden, NC site:contentReference[oaicite:28]{index=28}. Apple reportedly also planned another site in nearby Renol, NV (2012 announcement):contentReference[oaicite:29]{index=29}.",
+        "type": "hyperscale",
+        "source_type": "media report"
+      }
+    },
+    "Tesla": {
+      "Tesla-1": {
+        "country": "USA",
+        "state": "Texas",
+        "city": "Austin",
+        "location_name": "Tesla Austin Dojo Supercomputer",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2023",
+        "notes": "Tesla is building its new Dojo AI training supercomputer in Austin, TX.  Plans announced in 2023 call for an on-site data center at Gigafactory Texas to host the next-generation Dojo (with thousands of D1 chips):contentReference[oaicite:30]{index=30}. Estimated ~100 exaflops upon completion.",
+        "type": "R&D",
+        "source_type": "industry news"
+      },
+      "Tesla-2": {
+        "country": "USA",
+        "state": "California",
+        "city": "San Jose",
+        "location_name": "Tesla San Jose Dojo Supercomputer",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2022",
+        "notes": "Tesla built its first Dojo supercomputer cluster at its San Jose headquarters (operational by ~2022).  That installation houses thousands of water-cooled D1 chips (Blade 108) on-site:contentReference[oaicite:31]{index=31} to train FSD and AI models.",
+        "type": "R&D",
+        "source_type": "industry news"
+      },
+      "Tesla-3": {
+        "country": "USA",
+        "state": "California",
+        "city": "Sacramento",
+        "location_name": "Tesla Sacramento Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2017",
+        "notes": "Tesla leases a data center in Sacramento, CA (former Twitter facility) operated by NTT, used for AI and data processing.  This colocation supports Tesla’s Full Self-Driving and AI workloads:contentReference[oaicite:32]{index=32}.",
+        "type": "colocation",
+        "source_type": "industry news"
+      },
+      "Tesla-4": {
+        "country": "China",
+        "state": null,
+        "city": "Shanghai",
+        "location_name": "Tesla Shanghai Data Center",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2017",
+        "notes": "Tesla operates servers in a GDS colocation data center (28 facilities in Shanghai region). Tesla is a customer of GDS in Shanghai (one of 28 carrier-neutral sites):contentReference[oaicite:33]{index=33}.",
+        "type": "colocation",
+        "source_type": "industry news"
+      }
+    },
+    "NVIDIA": {
+      "NVIDIA-1": {
+        "country": "USA",
+        "state": "California",
+        "city": "Santa Clara",
+        "location_name": "NVIDIA Santa Clara Data Center (Selene Supercomputer)",
+        "power_draw": null,
+        "power_draw_timeframe": null,
+        "sqftg": null,
+        "date_built": "2020",
+        "notes": "NVIDIA built Selene, a 63.46-petaflop AI supercomputer, at its Santa Clara headquarters. Selene (built in early 2020) uses 1080 AMD CPUs and 4320 A100 GPUs and ranks among the fastest industrial supercomputers:contentReference[oaicite:34]{index=34}. It is housed in a co-location facility adjacent to NVIDIA's Silicon Valley HQ:contentReference[oaicite:35]{index=35}.",
+        "type": "R&D",
+        "source_type": "official disclosure"
+      }
+    }
+  }
+  

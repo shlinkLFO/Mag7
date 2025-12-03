@@ -1,0 +1,446 @@
+{
+    "Alphabet": {
+      "us-central1": {
+        "location_name": "Council Bluffs Campus",
+        "country": "United States",
+        "state": "Iowa",
+        "city": "Council Bluffs",
+        "power_draw": "Greater than 400 MW",
+        "sqftg": "2,000,000+",
+        "date_built": "2007 (First phase)",
+        "notes": "One of Google's largest campuses; typically 3-4 massive buildings. Part of the us-central1 region."
+      },
+      "us-east1": {
+        "location_name": "Berkeley County Campus",
+        "country": "United States",
+        "state": "South Carolina",
+        "city": "Moncks Corner",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown (Multiple buildings)",
+        "date_built": "2007",
+        "notes": "Expanded multiple times; represents the us-east1 region."
+      },
+      "us-east4": {
+        "location_name": "Northern Virginia",
+        "country": "United States",
+        "state": "Virginia",
+        "city": "Ashburn / Sterling",
+        "power_draw": "Gigawatt scale (Regional total)",
+        "sqftg": "Multiple leased and owned facilities",
+        "date_built": "2017 (Region launch)",
+        "notes": "Google operates multiple sites in Loudoun County, including leased space from major providers."
+      },
+      "us-west1": {
+        "location_name": "The Dalles Campus",
+        "country": "United States",
+        "state": "Oregon",
+        "city": "The Dalles",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown (First company-owned DC)",
+        "date_built": "2006",
+        "notes": "Google's first custom-built data center. Uses hydroelectric power from the Columbia River."
+      },
+      "us-west2": {
+        "location_name": "Mesa Campus",
+        "country": "United States",
+        "state": "Arizona",
+        "city": "Mesa",
+        "power_draw": "400 MW (Planned at full build)",
+        "sqftg": "750,000 (Phase 1)",
+        "date_built": "2023-2025",
+        "notes": "New massive campus in the Elliot Road Technology Corridor."
+      },
+      "us-central-oh": {
+        "location_name": "New Albany / Columbus Campuses",
+        "country": "United States",
+        "state": "Ohio",
+        "city": "New Albany / Lancaster",
+        "power_draw": "Unknown",
+        "sqftg": "Multiple campuses",
+        "date_built": "2019",
+        "notes": "Includes the $600M New Albany facility and others in central Ohio."
+      },
+      "europe-north1": {
+        "location_name": "Hamina Campus",
+        "country": "Finland",
+        "state": "Kymenlaakso",
+        "city": "Hamina",
+        "power_draw": "Unknown",
+        "sqftg": "Converted Paper Mill",
+        "date_built": "2011",
+        "notes": "Uses seawater cooling from the Gulf of Finland."
+      },
+      "europe-west4": {
+        "location_name": "Eemshaven Campus",
+        "country": "Netherlands",
+        "state": "Groningen",
+        "city": "Eemshaven",
+        "power_draw": "Unknown",
+        "sqftg": "Multiple buildings",
+        "date_built": "2016",
+        "notes": "Powered by wind and solar; first Google DC to be 100% renewable powered from day one."
+      },
+      "southamerica-west1": {
+        "location_name": "Quilicura Campus",
+        "country": "Chile",
+        "state": "Santiago Metropolitan",
+        "city": "Quilicura",
+        "power_draw": "Unknown",
+        "sqftg": "11 hectares (land)",
+        "date_built": "2015",
+        "notes": "First Google data center in Latin America."
+      },
+      "new-construction-tx": {
+        "location_name": "Red Oak / Midlothian",
+        "country": "United States",
+        "state": "Texas",
+        "city": "Red Oak",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "2024-2025 (Ongoing)",
+        "notes": "$600M investment announced for Red Oak."
+      }
+    },
+    "Amazon": {
+      "us-east-1": {
+        "location_name": "Northern Virginia (Data Center Alley)",
+        "country": "United States",
+        "state": "Virginia",
+        "city": "Ashburn / Sterling / Manassas",
+        "power_draw": "Estimated > 3.5 GW (Regional total)",
+        "sqftg": "10,000,000+ (Regional aggregate)",
+        "date_built": "2006 (Ongoing expansion)",
+        "notes": "The heart of the internet. Comprises 50+ individual data centers. Known addresses include 21263 Smith Switch Rd (Ashburn)."
+      },
+      "us-east-2": {
+        "location_name": "Ohio Campus",
+        "country": "United States",
+        "state": "Ohio",
+        "city": "Hilliard / Dublin / New Albany",
+        "power_draw": "Unknown",
+        "sqftg": "Multiple campuses",
+        "date_built": "2016",
+        "notes": "Three distinct availability zones spread across central Ohio municipalities."
+      },
+      "us-west-2": {
+        "location_name": "Oregon Campus",
+        "country": "United States",
+        "state": "Oregon",
+        "city": "Boardman / Umatilla",
+        "power_draw": "Unknown",
+        "sqftg": "Multiple massive campuses",
+        "date_built": "2011",
+        "notes": "Massive footprint in Morrow and Umatilla counties due to tax incentives and hydro power."
+      },
+      "eu-west-1": {
+        "location_name": "Dublin Campus",
+        "country": "Ireland",
+        "state": "Dublin",
+        "city": "Dublin",
+        "power_draw": "Unknown",
+        "sqftg": "Multiple sites (Tallaght, Blanchardstown)",
+        "date_built": "2007",
+        "notes": "AWS's primary European hub. Often faces power constraints due to grid capacity."
+      },
+      "ap-northeast-1": {
+        "location_name": "Tokyo Region",
+        "country": "Japan",
+        "state": "Kanto",
+        "city": "Tokyo / Inzai",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "2011",
+        "notes": "Comprises 4 Availability Zones. Critical hub for Asia Pacific."
+      },
+      "upcoming-pa": {
+        "location_name": "Berwick Nuclear Campus",
+        "country": "United States",
+        "state": "Pennsylvania",
+        "city": "Berwick",
+        "power_draw": "960 MW (Planned)",
+        "sqftg": "Unknown",
+        "date_built": "Planned (2025+)",
+        "notes": "Controversial deal to colocate directly at the Susquehanna Steam Electric Station nuclear plant for zero-carbon baseload power."
+      }
+    },
+    "Microsoft": {
+      "east-us-2": {
+        "location_name": "Boydton Campus",
+        "country": "United States",
+        "state": "Virginia",
+        "city": "Boydton",
+        "power_draw": "Unknown",
+        "sqftg": "1,100,000+",
+        "date_built": "2010",
+        "notes": "Address: 101 Herbert Drive. Massive campus with over 14 buildings. $2B+ investment."
+      },
+      "central-us": {
+        "location_name": "West Des Moines Campus",
+        "country": "United States",
+        "state": "Iowa",
+        "city": "West Des Moines",
+        "power_draw": "Unknown",
+        "sqftg": "1,700,000 (Project Osmium)",
+        "date_built": "2012 (Project Mountain start)",
+        "notes": "Includes 'Project Mountain', 'Project Alluvion', and 'Project Osmium'. Address: 550 White Crane Rd."
+      },
+      "west-us-2": {
+        "location_name": "Columbia Data Center",
+        "country": "United States",
+        "state": "Washington",
+        "city": "Quincy",
+        "power_draw": "100 MW+ (Estimated)",
+        "sqftg": "800,000+",
+        "date_built": "2007",
+        "notes": "Address: 1515 Port Industrial Way. Uses hydro power from the Columbia River."
+      },
+      "south-central-us": {
+        "location_name": "San Antonio Campus",
+        "country": "United States",
+        "state": "Texas",
+        "city": "San Antonio",
+        "power_draw": "Unknown",
+        "sqftg": "470,000 (One building)",
+        "date_built": "2008",
+        "notes": "Address: 5150 Rogers Rd. Multiple sites including SAT40, SAT80, SAT81, SAT82."
+      },
+      "north-europe": {
+        "location_name": "Dublin Campus",
+        "country": "Ireland",
+        "state": "Dublin",
+        "city": "Grange Castle",
+        "power_draw": "Unknown",
+        "sqftg": "500,000+",
+        "date_built": "2009",
+        "notes": "Microsoft's major European hub."
+      },
+      "us-gov-texas": {
+        "location_name": "San Antonio (Gov)",
+        "country": "United States",
+        "state": "Texas",
+        "city": "San Antonio",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "Unknown",
+        "notes": "Dedicated sovereign cloud facilities for US Government workloads."
+      }
+    },
+    "Meta": {
+      "prineville": {
+        "location_name": "Prineville Data Center",
+        "country": "United States",
+        "state": "Oregon",
+        "city": "Prineville",
+        "power_draw": "Unknown",
+        "sqftg": "4,600,000 (Planned/Built)",
+        "date_built": "2011",
+        "notes": "Meta's first owned data center. Massive campus with multiple buildings."
+      },
+      "forest-city": {
+        "location_name": "Forest City Data Center",
+        "country": "United States",
+        "state": "North Carolina",
+        "city": "Forest City",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "2012",
+        "notes": "Located in Rutherford County."
+      },
+      "lulea": {
+        "location_name": "Luleå Data Center",
+        "country": "Sweden",
+        "state": "Norrbotten",
+        "city": "Luleå",
+        "power_draw": "Unknown",
+        "sqftg": "900,000+",
+        "date_built": "2013",
+        "notes": "Meta's first non-US data center. Located near the Arctic Circle for cooling efficiency."
+      },
+      "altoona": {
+        "location_name": "Altoona Data Center",
+        "country": "United States",
+        "state": "Iowa",
+        "city": "Altoona",
+        "power_draw": "Unknown",
+        "sqftg": "5,000,000 (Target 2025)",
+        "date_built": "2014",
+        "notes": "Set to become Meta's largest campus globally."
+      },
+      "gallatin": {
+        "location_name": "Gallatin Data Center",
+        "country": "United States",
+        "state": "Tennessee",
+        "city": "Gallatin",
+        "power_draw": "Unknown",
+        "sqftg": "1,600,000",
+        "date_built": "2023 (Operational)",
+        "notes": "Address: 1 Meta Loop. 100% renewable energy."
+      },
+      "eagle-mountain": {
+        "location_name": "Eagle Mountain Data Center",
+        "country": "United States",
+        "state": "Utah",
+        "city": "Eagle Mountain",
+        "power_draw": "Unknown",
+        "sqftg": "1,500,000+",
+        "date_built": "2021",
+        "notes": "Massive expansion ongoing."
+      },
+      "future-hyperion": {
+        "location_name": "Hyperion (Planned)",
+        "country": "United States",
+        "state": "Louisiana",
+        "city": "Monroe (Rumored)",
+        "power_draw": "5 GW (Planned long-term)",
+        "sqftg": "Unknown",
+        "date_built": "Future",
+        "notes": "Mark Zuckerberg announced this as a 'titan cluster' potentially scaling to 5 gigawatts."
+      }
+    },
+    "Apple": {
+      "maiden": {
+        "location_name": "Maiden Data Center",
+        "country": "United States",
+        "state": "North Carolina",
+        "city": "Maiden",
+        "power_draw": "Unknown",
+        "sqftg": "500,000 (Main bldg)",
+        "date_built": "2010",
+        "notes": "Address: 5977 Startown Road. Features 100-acre on-site solar farm and fuel cells. LEED Platinum."
+      },
+      "reno": {
+        "location_name": "Reno Data Center",
+        "country": "United States",
+        "state": "Nevada",
+        "city": "Reno",
+        "power_draw": "Unknown",
+        "sqftg": "1,100,000+",
+        "date_built": "2012",
+        "notes": "Address: 21505 Technology Way. Located in the Reno Technology Park."
+      },
+      "viborg": {
+        "location_name": "Viborg Data Center",
+        "country": "Denmark",
+        "state": "Central Denmark Region",
+        "city": "Viborg",
+        "power_draw": "Unknown",
+        "sqftg": "484,000 (Expanding to 1.8M)",
+        "date_built": "2020",
+        "notes": "Address: Hobro Landevej 8. Powered by renewable energy; feeds excess heat into district heating."
+      },
+      "waukee": {
+        "location_name": "Waukee Data Center",
+        "country": "United States",
+        "state": "Iowa",
+        "city": "Waukee",
+        "power_draw": "Unknown",
+        "sqftg": "400,000 (Building 1)",
+        "date_built": "2024 (Operational)",
+        "notes": "Address: 2995 W Hickman Rd. $1.3B planned investment for 6 buildings."
+      },
+      "guizhou": {
+        "location_name": "Guizhou Data Center",
+        "country": "China",
+        "state": "Guizhou",
+        "city": "Guiyang",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "2021",
+        "notes": "Operated by GCBD (Guizhou-Cloud Big Data) to comply with Chinese data sovereignty laws."
+      }
+    },
+    "Tesla": {
+      "austin-cortex": {
+        "location_name": "Giga Texas Cortex Cluster",
+        "country": "United States",
+        "state": "Texas",
+        "city": "Austin",
+        "power_draw": "130 MW (scaling to 500 MW)",
+        "sqftg": "Unknown (Integrated into Giga Texas)",
+        "date_built": "2024-2025",
+        "notes": "Housing the 'Cortex' supercomputer with 50k+ Nvidia H100s and Tesla hardware. 'Bunker-like' structure."
+      },
+      "sparks-switch": {
+        "location_name": "Citadel Campus (Colocation)",
+        "country": "United States",
+        "state": "Nevada",
+        "city": "Sparks",
+        "power_draw": "Unknown",
+        "sqftg": "1,300,000 (Switch Facility)",
+        "date_built": "2017",
+        "notes": "Tesla is a major tenant at the Switch Citadel Campus located next to Gigafactory 1."
+      },
+      "palo-alto-dojo": {
+        "location_name": "Dojo Engineering Hub",
+        "country": "United States",
+        "state": "California",
+        "city": "Palo Alto",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "Unknown",
+        "notes": "Houses 7 ExaPODs of the Dojo supercomputer for R&D."
+      },
+      "buffalo-riverbend": {
+        "location_name": "Giga New York (Dojo - Halted?)",
+        "country": "United States",
+        "state": "New York",
+        "city": "Buffalo",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "Unknown",
+        "notes": "Was slated for $500M Dojo investment. Recent reports (Aug 2025) suggest the specific Dojo project here may have been halted, though the factory remains active."
+      }
+    },
+    "NVIDIA": {
+      "selene-santa-clara": {
+        "location_name": "Selene Supercomputer",
+        "country": "United States",
+        "state": "California",
+        "city": "Santa Clara",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown (HQ/Colo)",
+        "date_built": "2020",
+        "notes": "NVIDIA's primary R&D supercomputer. Typically ranked in top 10 global supercomputers."
+      },
+      "eos-dfw": {
+        "location_name": "Eos Supercomputer",
+        "country": "United States",
+        "state": "Texas",
+        "city": "Dallas-Fort Worth Area",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "2023",
+        "notes": "Located in a CoreWeave data center. 18.4 Exaflops of AI performance."
+      },
+      "cambridge-1": {
+        "location_name": "Cambridge-1",
+        "country": "United Kingdom",
+        "state": "Essex",
+        "city": "Harlow",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown (Kao Data Campus)",
+        "date_built": "2021",
+        "notes": "Dedicated to healthcare and life sciences research. Located at Kao Data's Harlow campus."
+      },
+      "israel-1": {
+        "location_name": "Israel-1 Supercomputer",
+        "country": "Israel",
+        "state": "North District",
+        "city": "Yokne'am Illit",
+        "power_draw": "30 MW (Planned)",
+        "sqftg": "107,000",
+        "date_built": "2024-2025",
+        "notes": "Massive generative AI cloud supercomputer. ~$500M investment."
+      },
+      "taiwan-ai-factory": {
+        "location_name": "Taipei-1 / Taiwania 4",
+        "country": "Taiwan",
+        "state": "Kaohsiung / Taipei",
+        "city": "Kaohsiung",
+        "power_draw": "Unknown",
+        "sqftg": "Unknown",
+        "date_built": "2024-2025",
+        "notes": "Partnership with Foxconn to build 'AI Factories' and new HQ 'Constellation' in Taipei."
+      }
+    }
+  }
