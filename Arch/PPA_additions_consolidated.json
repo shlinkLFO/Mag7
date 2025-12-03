@@ -1,4 +1,4 @@
-﻿{
+{
   "Alphabet": {
     "2024": [
       {
@@ -28,7 +28,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.08,
+        "investment_amount_billions_usd": 0.553,
         "estimated_project_capex_billions_usd": 2.1,
         "estimated_contract_value_billions_usd": 2.5,
         "year": 2024,
@@ -53,7 +53,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.076,
         "estimated_project_capex_billions_usd": 0.48,
         "estimated_contract_value_billions_usd": 0.6,
         "year": 2024,
@@ -78,7 +78,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.03,
         "estimated_project_capex_billions_usd": 0.1,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2024,
@@ -103,7 +103,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 0.048,
         "estimated_project_capex_billions_usd": 0.33,
         "estimated_contract_value_billions_usd": 0.5,
         "year": 2024,
@@ -130,7 +130,7 @@
     "2023": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.195,
         "estimated_project_capex_billions_usd": 0.72,
         "estimated_contract_value_billions_usd": 0.9,
         "year": 2023,
@@ -155,12 +155,12 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.06,
+        "investment_amount_billions_usd": 0.1,
         "estimated_project_capex_billions_usd": 0.2,
         "estimated_contract_value_billions_usd": 0.35,
         "year": 2023,
         "initiatives": [
-          "Ørsted Helena Wind Farm (150 MW)"
+          "\u00d8rsted Helena Wind Farm (150 MW)"
         ],
         "notes": "Signed a 15-year PPA for 150 MW from the Helena Wind Farm (operational 2022).",
         "source_figure": "150 MW wind capacity",
@@ -180,7 +180,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.03,
+        "investment_amount_billions_usd": 0.078,
         "estimated_project_capex_billions_usd": 0.25,
         "estimated_contract_value_billions_usd": 0.4,
         "year": 2023,
@@ -207,7 +207,7 @@
     "2022": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.08,
+        "investment_amount_billions_usd": 0.24,
         "estimated_project_capex_billions_usd": 1.0,
         "estimated_contract_value_billions_usd": 1.0,
         "year": 2022,
@@ -233,7 +233,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.075,
         "estimated_project_capex_billions_usd": 0.16,
         "estimated_contract_value_billions_usd": 0.25,
         "year": 2022,
@@ -260,7 +260,7 @@
     "2021": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.32,
+        "investment_amount_billions_usd": 0.626,
         "estimated_project_capex_billions_usd": 0.6,
         "estimated_contract_value_billions_usd": 0.8,
         "year": 2021,
@@ -285,7 +285,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.1,
+        "investment_amount_billions_usd": 0.086,
         "estimated_project_capex_billions_usd": 0.2,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2021,
@@ -365,7 +365,7 @@
     "2019": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.6,
+        "investment_amount_billions_usd": 1.555,
         "estimated_project_capex_billions_usd": 2.0,
         "estimated_contract_value_billions_usd": 2.2,
         "year": 2019,
@@ -394,7 +394,7 @@
     "2024": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.376,
         "estimated_project_capex_billions_usd": 0.0,
         "estimated_contract_value_billions_usd": 4.5,
         "year": 2024,
@@ -419,7 +419,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.08,
+        "investment_amount_billions_usd": 0.499,
         "estimated_project_capex_billions_usd": 1.65,
         "estimated_contract_value_billions_usd": 2.5,
         "year": 2024,
@@ -444,12 +444,12 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.018,
         "estimated_project_capex_billions_usd": 0.09,
         "estimated_contract_value_billions_usd": 0.13,
         "year": 2024,
         "initiatives": [
-          "Poland Solar PPA (Miłkowice)"
+          "Poland Solar PPA (Mi\u0142kowice)"
         ],
         "notes": "87 MW solar deal in Poland. Likely operational late 2024 or 2025.",
         "source_figure": "87 MW capacity",
@@ -471,7 +471,7 @@
     "2023": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 1.2,
+        "investment_amount_billions_usd": 2.547,
         "estimated_project_capex_billions_usd": 9.2,
         "estimated_contract_value_billions_usd": 12.0,
         "year": 2023,
@@ -496,14 +496,14 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.049,
         "estimated_project_capex_billions_usd": 0.16,
         "estimated_contract_value_billions_usd": 0.25,
         "year": 2023,
         "initiatives": [
-          "Seridó Wind Farm (Brazil)"
+          "Serid\u00f3 Wind Farm (Brazil)"
         ],
-        "notes": "122 MW share of Seridó Wind Farm. Operational start likely 2024.",
+        "notes": "122 MW share of Serid\u00f3 Wind Farm. Operational start likely 2024.",
         "source_figure": "122 MW capacity",
         "links": [
           "https://www.aboutamazon.com/news/sustainability/amazon-announces-first-renewable-energy-project-in-south-america"
@@ -521,7 +521,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.04,
+        "investment_amount_billions_usd": 0.103,
         "estimated_project_capex_billions_usd": 0.36,
         "estimated_contract_value_billions_usd": 0.5,
         "year": 2023,
@@ -546,7 +546,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.15,
+        "investment_amount_billions_usd": 0.36,
         "estimated_project_capex_billions_usd": 1.2,
         "estimated_contract_value_billions_usd": 1.8,
         "year": 2023,
@@ -573,7 +573,7 @@
     "2022": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 2.5,
+        "investment_amount_billions_usd": 4.017,
         "estimated_project_capex_billions_usd": 9.5,
         "estimated_contract_value_billions_usd": 12.5,
         "year": 2022,
@@ -598,7 +598,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.15,
+        "investment_amount_billions_usd": 0.237,
         "estimated_project_capex_billions_usd": 0.6,
         "estimated_contract_value_billions_usd": 0.7,
         "year": 2022,
@@ -623,7 +623,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 0.064,
         "estimated_project_capex_billions_usd": 0.15,
         "estimated_contract_value_billions_usd": 0.2,
         "year": 2022,
@@ -648,7 +648,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.18,
+        "investment_amount_billions_usd": 0.292,
         "estimated_project_capex_billions_usd": 0.7,
         "estimated_contract_value_billions_usd": 0.9,
         "year": 2022,
@@ -675,7 +675,7 @@
     "2021": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 2.1,
+        "investment_amount_billions_usd": 3.529,
         "estimated_project_capex_billions_usd": 6.4,
         "estimated_contract_value_billions_usd": 8.0,
         "year": 2021,
@@ -700,7 +700,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.042,
         "estimated_project_capex_billions_usd": 0.08,
         "estimated_contract_value_billions_usd": 0.09,
         "year": 2021,
@@ -725,7 +725,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.017,
         "estimated_project_capex_billions_usd": 0.03,
         "estimated_contract_value_billions_usd": 0.04,
         "year": 2021,
@@ -750,7 +750,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.013,
         "estimated_project_capex_billions_usd": 0.025,
         "estimated_contract_value_billions_usd": 0.03,
         "year": 2021,
@@ -777,7 +777,7 @@
     "2020": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 2.0,
+        "investment_amount_billions_usd": 3.26,
         "estimated_project_capex_billions_usd": 4.6,
         "estimated_contract_value_billions_usd": 6.0,
         "year": 2020,
@@ -804,7 +804,7 @@
     "2025": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.15,
         "estimated_project_capex_billions_usd": 1.1,
         "estimated_contract_value_billions_usd": 1.5,
         "year": 2025,
@@ -835,7 +835,7 @@
         "estimated_contract_value_billions_usd": 0.2,
         "year": 2025,
         "initiatives": [
-          "Portugal Wind PPA (Tâmega)"
+          "Portugal Wind PPA (T\u00e2mega)"
         ],
         "notes": "Future start date (2027).",
         "source_figure": "First PPA in Portugal",
@@ -857,7 +857,7 @@
     "2019": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.24,
+        "investment_amount_billions_usd": 0.318,
         "estimated_project_capex_billions_usd": 0.36,
         "estimated_contract_value_billions_usd": 0.5,
         "year": 2019,
@@ -882,7 +882,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.18,
+        "investment_amount_billions_usd": 0.259,
         "estimated_project_capex_billions_usd": 0.3,
         "estimated_contract_value_billions_usd": 0.4,
         "year": 2019,
@@ -907,7 +907,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.16,
+        "investment_amount_billions_usd": 0.233,
         "estimated_project_capex_billions_usd": 0.28,
         "estimated_contract_value_billions_usd": 0.35,
         "year": 2019,
@@ -934,7 +934,7 @@
     "2018": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.1,
+        "investment_amount_billions_usd": 0.113,
         "estimated_project_capex_billions_usd": 0.15,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2018,
@@ -961,7 +961,7 @@
     "2017": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.13,
+        "investment_amount_billions_usd": 0.223,
         "estimated_project_capex_billions_usd": 0.2,
         "estimated_contract_value_billions_usd": 0.25,
         "year": 2017,
@@ -988,7 +988,7 @@
     "2016": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.35,
+        "investment_amount_billions_usd": 0.519,
         "estimated_project_capex_billions_usd": 0.33,
         "estimated_contract_value_billions_usd": 0.6,
         "year": 2016,
@@ -1013,7 +1013,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.13,
+        "investment_amount_billions_usd": 0.251,
         "estimated_project_capex_billions_usd": 0.2,
         "estimated_contract_value_billions_usd": 0.25,
         "year": 2016,
@@ -1040,7 +1040,7 @@
     "2015": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.3,
+        "investment_amount_billions_usd": 0.478,
         "estimated_project_capex_billions_usd": 0.27,
         "estimated_contract_value_billions_usd": 0.5,
         "year": 2015,
@@ -1065,7 +1065,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.07,
+        "investment_amount_billions_usd": 0.136,
         "estimated_project_capex_billions_usd": 0.1,
         "estimated_contract_value_billions_usd": 0.12,
         "year": 2015,
@@ -1090,7 +1090,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.2,
+        "investment_amount_billions_usd": 0.341,
         "estimated_project_capex_billions_usd": 0.2,
         "estimated_contract_value_billions_usd": 0.35,
         "year": 2015,
@@ -1115,7 +1115,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.12,
+        "investment_amount_billions_usd": 0.184,
         "estimated_project_capex_billions_usd": 0.13,
         "estimated_contract_value_billions_usd": 0.2,
         "year": 2015,
@@ -1144,14 +1144,14 @@
     "2024": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.015,
+        "investment_amount_billions_usd": 0.031,
         "estimated_project_capex_billions_usd": 0.11,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2024,
         "initiatives": [
           "ib vogt Solar PPA Spain (105 MW)"
         ],
-        "notes": "Signed a PPA for 105 MW from the CastaÃ±o Solar project (Segovia). Operational late 2024.",
+        "notes": "Signed a PPA for 105 MW from the Casta\u00c3\u00b1o Solar project (Segovia). Operational late 2024.",
         "source_figure": "105 MW solar capacity",
         "links": [
           "https://www.ibvogt.com/news/ib-vogt-and-apple-sign-ppa-for-105-mwac-solar-capacity-in-spain/"
@@ -1275,7 +1275,7 @@
     "2021": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.05,
         "estimated_project_capex_billions_usd": 0.02,
         "estimated_contract_value_billions_usd": 0.03,
         "year": 2021,
@@ -1297,7 +1297,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.077,
         "estimated_project_capex_billions_usd": 0.1,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2021,
@@ -1430,7 +1430,7 @@
     "2017": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.28,
+        "investment_amount_billions_usd": 0.297,
         "estimated_project_capex_billions_usd": 0.25,
         "estimated_contract_value_billions_usd": 0.45,
         "year": 2017,
@@ -1455,7 +1455,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.034,
         "estimated_project_capex_billions_usd": 0.03,
         "estimated_contract_value_billions_usd": 0.05,
         "year": 2017,
@@ -1504,7 +1504,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.07,
+        "investment_amount_billions_usd": 0.076,
         "estimated_project_capex_billions_usd": 0.06,
         "estimated_contract_value_billions_usd": 0.1,
         "year": 2016,
@@ -1531,7 +1531,7 @@
     "2015": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.305,
+        "investment_amount_billions_usd": 0.4,
         "estimated_project_capex_billions_usd": 0.2,
         "estimated_contract_value_billions_usd": 0.848,
         "year": 2015,
@@ -1556,7 +1556,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.076,
         "estimated_project_capex_billions_usd": 0.06,
         "estimated_contract_value_billions_usd": 0.1,
         "year": 2015,
@@ -1610,7 +1610,7 @@
     "2024": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.233,
         "estimated_project_capex_billions_usd": 0.84,
         "estimated_contract_value_billions_usd": 1.1,
         "year": 2024,
@@ -1660,7 +1660,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.04,
+        "investment_amount_billions_usd": 0.195,
         "estimated_project_capex_billions_usd": 0.72,
         "estimated_contract_value_billions_usd": 0.9,
         "year": 2024,
@@ -1685,7 +1685,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.055,
         "estimated_project_capex_billions_usd": 0.41,
         "estimated_contract_value_billions_usd": 0.55,
         "year": 2024,
@@ -1710,7 +1710,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.03,
         "estimated_project_capex_billions_usd": 0.22,
         "estimated_contract_value_billions_usd": 0.3,
         "year": 2024,
@@ -1737,7 +1737,7 @@
     "2023": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.035,
         "estimated_project_capex_billions_usd": 0.26,
         "estimated_contract_value_billions_usd": 0.35,
         "year": 2023,
@@ -1762,7 +1762,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.062,
         "estimated_project_capex_billions_usd": 0.22,
         "estimated_contract_value_billions_usd": 0.3,
         "year": 2023,
@@ -1787,7 +1787,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.048,
         "estimated_project_capex_billions_usd": 0.17,
         "estimated_contract_value_billions_usd": 0.23,
         "year": 2023,
@@ -1812,7 +1812,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.013,
         "estimated_project_capex_billions_usd": 0.05,
         "estimated_contract_value_billions_usd": 0.06,
         "year": 2023,
@@ -1839,7 +1839,7 @@
     "2022": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.329,
         "estimated_project_capex_billions_usd": 0.8,
         "estimated_contract_value_billions_usd": 1.0,
         "year": 2022,
@@ -1864,7 +1864,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.07,
+        "investment_amount_billions_usd": 0.135,
         "estimated_project_capex_billions_usd": 0.29,
         "estimated_contract_value_billions_usd": 0.45,
         "year": 2022,
@@ -1889,7 +1889,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.062,
         "estimated_project_capex_billions_usd": 0.22,
         "estimated_contract_value_billions_usd": 0.3,
         "year": 2022,
@@ -1916,7 +1916,7 @@
     "2021": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.16,
+        "investment_amount_billions_usd": 0.287,
         "estimated_project_capex_billions_usd": 0.47,
         "estimated_contract_value_billions_usd": 0.7,
         "year": 2021,
@@ -1941,7 +1941,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.1,
+        "investment_amount_billions_usd": 0.235,
         "estimated_project_capex_billions_usd": 0.41,
         "estimated_contract_value_billions_usd": 0.55,
         "year": 2021,
@@ -1966,7 +1966,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.15,
+        "investment_amount_billions_usd": 0.368,
         "estimated_project_capex_billions_usd": 0.65,
         "estimated_contract_value_billions_usd": 0.85,
         "year": 2021,
@@ -1993,7 +1993,7 @@
     "2020": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.08,
+        "investment_amount_billions_usd": 0.175,
         "estimated_project_capex_billions_usd": 0.22,
         "estimated_contract_value_billions_usd": 0.35,
         "year": 2020,
@@ -2147,7 +2147,7 @@
     "2019": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.17,
+        "investment_amount_billions_usd": 0.138,
         "estimated_project_capex_billions_usd": 0.42,
         "estimated_contract_value_billions_usd": null,
         "year": 2019,
@@ -2172,7 +2172,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.1,
+        "investment_amount_billions_usd": 0.244,
         "estimated_project_capex_billions_usd": 0.26,
         "estimated_contract_value_billions_usd": 0.4,
         "year": 2019,
@@ -2197,7 +2197,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.04,
+        "investment_amount_billions_usd": 0.078,
         "estimated_project_capex_billions_usd": 0.09,
         "estimated_contract_value_billions_usd": 0.12,
         "year": 2019,
@@ -2222,7 +2222,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.1,
+        "investment_amount_billions_usd": 0.244,
         "estimated_project_capex_billions_usd": 0.26,
         "estimated_contract_value_billions_usd": 0.4,
         "year": 2019,
@@ -2247,7 +2247,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.06,
+        "investment_amount_billions_usd": 0.115,
         "estimated_project_capex_billions_usd": 0.13,
         "estimated_contract_value_billions_usd": 0.18,
         "year": 2019,
@@ -2274,7 +2274,7 @@
     "2018": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.12,
+        "investment_amount_billions_usd": 0.225,
         "estimated_project_capex_billions_usd": 0.22,
         "estimated_contract_value_billions_usd": 0.3,
         "year": 2018,
@@ -2299,7 +2299,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.17,
+        "investment_amount_billions_usd": 0.424,
         "estimated_project_capex_billions_usd": 0.38,
         "estimated_contract_value_billions_usd": 0.6,
         "year": 2018,
@@ -2324,7 +2324,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.03,
+        "investment_amount_billions_usd": 0.061,
         "estimated_project_capex_billions_usd": 0.06,
         "estimated_contract_value_billions_usd": 0.08,
         "year": 2018,
@@ -2349,7 +2349,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.2,
+        "investment_amount_billions_usd": 0.415,
         "estimated_project_capex_billions_usd": 0.41,
         "estimated_contract_value_billions_usd": 0.55,
         "year": 2018,
@@ -2374,7 +2374,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.112,
         "estimated_project_capex_billions_usd": 0.11,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2018,
@@ -2401,7 +2401,7 @@
     "2017": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.22,
+        "investment_amount_billions_usd": 0.525,
         "estimated_project_capex_billions_usd": 0.41,
         "estimated_contract_value_billions_usd": 0.65,
         "year": 2017,
@@ -2426,7 +2426,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 0.25,
         "estimated_project_capex_billions_usd": 0.1,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2017,
@@ -2450,7 +2450,7 @@
     "2016": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.15,
+        "investment_amount_billions_usd": 0.595,
         "estimated_project_capex_billions_usd": 0.26,
         "estimated_contract_value_billions_usd": 0.4,
         "year": 2016,
@@ -2475,7 +2475,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.039,
         "estimated_project_capex_billions_usd": 0.03,
         "estimated_contract_value_billions_usd": 0.04,
         "year": 2016,
@@ -2502,7 +2502,7 @@
     "2015": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.23,
+        "investment_amount_billions_usd": 0.409,
         "estimated_project_capex_billions_usd": 0.26,
         "estimated_contract_value_billions_usd": 0.4,
         "year": 2015,
@@ -2581,7 +2581,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.168,
         "estimated_project_capex_billions_usd": 0.6,
         "estimated_contract_value_billions_usd": 0.8,
         "year": 2024,
@@ -2606,7 +2606,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.046,
         "estimated_project_capex_billions_usd": 0.2,
         "estimated_contract_value_billions_usd": 0.3,
         "year": 2024,
@@ -2631,7 +2631,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.072,
         "estimated_project_capex_billions_usd": 0.55,
         "estimated_contract_value_billions_usd": 0.7,
         "year": 2024,
@@ -2683,7 +2683,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.2,
+        "investment_amount_billions_usd": 0.8,
         "estimated_project_capex_billions_usd": 0.0,
         "estimated_contract_value_billions_usd": 0.8,
         "year": 2023,
@@ -2705,7 +2705,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.01,
+        "investment_amount_billions_usd": 0.133,
         "estimated_project_capex_billions_usd": 0.3,
         "estimated_contract_value_billions_usd": 0.2,
         "year": 2023,
@@ -2735,7 +2735,7 @@
         "estimated_contract_value_billions_usd": 0.5,
         "year": 2023,
         "initiatives": [
-          "Ørsted BECCS PPA (2.76 million tons)"
+          "\u00d8rsted BECCS PPA (2.76 million tons)"
         ],
         "notes": "2.76M tons. Starts 2026.",
         "source_figure": "2.76 million tonnes of carbon removal",
@@ -2755,7 +2755,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.046,
         "estimated_project_capex_billions_usd": 0.1,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2023,
@@ -2782,7 +2782,7 @@
     "2022": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.11,
         "estimated_project_capex_billions_usd": 0.25,
         "estimated_contract_value_billions_usd": 0.35,
         "year": 2022,
@@ -2807,7 +2807,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 0.0,
         "estimated_project_capex_billions_usd": 0.0,
         "estimated_contract_value_billions_usd": 0.0,
         "year": 2022,
@@ -2829,7 +2829,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.03,
+        "investment_amount_billions_usd": 0.033,
         "estimated_project_capex_billions_usd": 0.0,
         "estimated_contract_value_billions_usd": 0.05,
         "year": 2022,
@@ -2856,7 +2856,7 @@
     "2021": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.11,
         "estimated_project_capex_billions_usd": 0.25,
         "estimated_contract_value_billions_usd": 0.35,
         "year": 2021,
@@ -2906,7 +2906,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.03,
+        "investment_amount_billions_usd": 0.078,
         "estimated_project_capex_billions_usd": 0.1,
         "estimated_contract_value_billions_usd": 0.12,
         "year": 2021,
@@ -2931,7 +2931,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.1,
+        "investment_amount_billions_usd": 0.344,
         "estimated_project_capex_billions_usd": 0.52,
         "estimated_contract_value_billions_usd": 0.6,
         "year": 2021,
@@ -2958,7 +2958,7 @@
     "2020": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.05,
+        "investment_amount_billions_usd": 0.463,
         "estimated_project_capex_billions_usd": 0.55,
         "estimated_contract_value_billions_usd": 0.7,
         "year": 2020,
@@ -3010,7 +3010,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.015,
         "estimated_project_capex_billions_usd": 0.15,
         "estimated_contract_value_billions_usd": 0.2,
         "year": 2025,
@@ -3037,7 +3037,7 @@
     "2019": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.07,
+        "investment_amount_billions_usd": 0.222,
         "estimated_project_capex_billions_usd": 0.25,
         "estimated_contract_value_billions_usd": 0.35,
         "year": 2019,
@@ -3062,7 +3062,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.067,
         "estimated_project_capex_billions_usd": 0.08,
         "estimated_contract_value_billions_usd": 0.1,
         "year": 2019,
@@ -3087,7 +3087,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.04,
+        "investment_amount_billions_usd": 0.141,
         "estimated_project_capex_billions_usd": 0.16,
         "estimated_contract_value_billions_usd": 0.22,
         "year": 2019,
@@ -3112,7 +3112,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.1,
+        "investment_amount_billions_usd": 0.389,
         "estimated_project_capex_billions_usd": 0.45,
         "estimated_contract_value_billions_usd": 0.6,
         "year": 2019,
@@ -3139,7 +3139,7 @@
     "2018": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.1,
+        "investment_amount_billions_usd": 0.368,
         "estimated_project_capex_billions_usd": 0.35,
         "estimated_contract_value_billions_usd": 0.5,
         "year": 2018,
@@ -3164,7 +3164,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.078,
         "estimated_project_capex_billions_usd": 0.08,
         "estimated_contract_value_billions_usd": 0.1,
         "year": 2018,
@@ -3191,7 +3191,7 @@
     "2017": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.11,
+        "investment_amount_billions_usd": 0.315,
         "estimated_project_capex_billions_usd": 0.25,
         "estimated_contract_value_billions_usd": 0.25,
         "year": 2017,
@@ -3216,7 +3216,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.061,
         "estimated_project_capex_billions_usd": 0.05,
         "estimated_contract_value_billions_usd": 0.06,
         "year": 2017,
@@ -3241,7 +3241,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 0.0,
         "estimated_project_capex_billions_usd": 0.0,
         "estimated_contract_value_billions_usd": 0.0,
         "year": 2017,
@@ -3263,7 +3263,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.02,
+        "investment_amount_billions_usd": 0.053,
         "estimated_project_capex_billions_usd": 0.06,
         "estimated_contract_value_billions_usd": 0.08,
         "year": 2017,
@@ -3290,7 +3290,7 @@
     "2016": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.12,
+        "investment_amount_billions_usd": 0.422,
         "estimated_project_capex_billions_usd": 0.27,
         "estimated_contract_value_billions_usd": 0.25,
         "year": 2016,
@@ -3315,7 +3315,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.04,
+        "investment_amount_billions_usd": 0.106,
         "estimated_project_capex_billions_usd": 0.09,
         "estimated_contract_value_billions_usd": 0.1,
         "year": 2016,
@@ -3425,7 +3425,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 0.35,
         "estimated_project_capex_billions_usd": 0.35,
         "estimated_contract_value_billions_usd": null,
         "year": 2025,
@@ -3450,7 +3450,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": null,
+        "investment_amount_billions_usd": 0.025,
         "estimated_project_capex_billions_usd": 0.025,
         "estimated_contract_value_billions_usd": null,
         "year": 2025,
@@ -3479,7 +3479,7 @@
     "2025": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.009,
         "estimated_project_capex_billions_usd": 0.05,
         "estimated_contract_value_billions_usd": 0.1,
         "year": 2025,
@@ -3504,7 +3504,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.017,
         "estimated_project_capex_billions_usd": 0.11,
         "estimated_contract_value_billions_usd": 0.15,
         "year": 2025,
@@ -3556,7 +3556,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.824,
         "estimated_project_capex_billions_usd": 0.0,
         "estimated_contract_value_billions_usd": 3.0,
         "year": 2024,
@@ -3613,7 +3613,7 @@
     "2016": [
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 2.6,
+        "investment_amount_billions_usd": 0.0,
         "estimated_project_capex_billions_usd": 0.0,
         "estimated_contract_value_billions_usd": 0.0,
         "year": 2016,
@@ -3638,7 +3638,7 @@
       },
       {
         "type": "renewable_energy_generation",
-        "investment_amount_billions_usd": 0.0,
+        "investment_amount_billions_usd": 0.01,
         "estimated_project_capex_billions_usd": 0.01,
         "estimated_contract_value_billions_usd": 0.0,
         "year": 2016,
