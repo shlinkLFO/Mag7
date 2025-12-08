@@ -136,7 +136,7 @@
         {
           "year": 2024,
           "source_metadata": {
-            "document_type": "2024 Sustainability Report",
+            "document_type": "2024 Sustainability Report (FY23 Data)",
             "url": "https://sustainability.aboutamazon.com/"
           },
           "emissions_mtco2e": {
@@ -146,7 +146,7 @@
             "scope_3_total": 50320000
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 47850000,
             "clean_energy_percentage": 100.0,
             "pue": 1.15
           },
@@ -161,7 +161,7 @@
         {
           "year": 2023,
           "source_metadata": {
-            "document_type": "2023 Sustainability Report",
+            "document_type": "2023 Sustainability Report (FY22 Data)",
             "url": "https://sustainability.aboutamazon.com/"
           },
           "emissions_mtco2e": {
@@ -171,7 +171,7 @@
             "scope_3_total": 51760000
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 39000000,
             "clean_energy_percentage": 100.0,
             "pue": 1.14
           },
@@ -196,7 +196,7 @@
             "scope_3_total": 54980000
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 30000000,
             "clean_energy_percentage": 90.0,
             "pue": 1.14
           },
@@ -221,7 +221,7 @@
             "scope_3_total": 55360000
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 24000000,
             "clean_energy_percentage": 85.0,
             "pue": 1.14
           },
@@ -246,7 +246,7 @@
             "scope_3_total": 45750000
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 19000000,
             "clean_energy_percentage": 65.0,
             "pue": 1.14
           },
@@ -782,31 +782,8 @@
             "scope_3_total": 30100000
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 2579168,
             "clean_energy_percentage": 100.0,
-            "pue": null
-          },
-          "water_metrics": {
-            "unit": "Megaliters",
-            "withdrawal": null,
-            "consumption": null
-          }
-        },
-        {
-          "year": 2023,
-          "source_metadata": {
-            "document_type": "2023 Impact Report",
-            "url": "https://www.tesla.com/impact"
-          },
-          "emissions_mtco2e": {
-            "scope_1": 211000,
-            "scope_2_market_based": null,
-            "scope_2_location_based": 466000,
-            "scope_3_total": 54967000
-          },
-          "energy_consumption": {
-            "total_consumption_mwh": null,
-            "clean_energy_percentage": null,
             "pue": null
           },
           "water_metrics": {
@@ -830,7 +807,7 @@
             "scope_3_total": 30700000
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 1900000,
             "clean_energy_percentage": null,
             "pue": null
           },
@@ -855,7 +832,7 @@
             "scope_3_total": 2500000
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 1290000,
             "clean_energy_percentage": null,
             "pue": null
           },
@@ -880,7 +857,7 @@
             "scope_3_total": null
           },
           "energy_consumption": {
-            "total_consumption_mwh": null,
+            "total_consumption_mwh": 695000,
             "clean_energy_percentage": null,
             "pue": null
           },

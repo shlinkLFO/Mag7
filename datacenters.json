@@ -21,84 +21,84 @@
       "country": "USA",
       "state": "Tennessee",
       "city": "Clarksville",
-      "power_draw_timeframe": null,
+      "power_draw_timeframe": "2019-ppa-match",
       "sqftg": "1,300 acres",
       "date_built": "2018",
-      "notes": "Google announced acquisition of a 1,300-acre site in 2015 and broke ground on a $500-600M data center project in 2018.",
+      "notes": "Google announced acquisition of a 1,300-acre site in 2015. Power usage is matched by 150 MW from solar farms (e.g., Yum Yum) via TVA agreement.",
       "type": "company-owned-hyperscale",
       "source_type": "official_disclosure",
-      "power_draw_mw": null
+      "power_draw_mw": 150.0
     },
     "us-west3-henderson": {
       "location_name": "Google Henderson Data Center",
       "country": "USA",
       "state": "Nevada",
       "city": "Henderson",
-      "power_draw_timeframe": null,
+      "power_draw_timeframe": "2023-contracted",
       "sqftg": null,
       "date_built": "2019",
-      "notes": "Google developed a new data center in Henderson, NV with ~$600M investment (operations by ~2020); project filings with NV energy highlight this effort.",
+      "notes": "Google developed a new data center in Henderson, NV. Backed by a massive 'megadeal' with NV Energy for 350 MW of solar and 280 MW of battery storage.",
       "type": "company-owned-hyperscale",
       "source_type": "energy_filing",
-      "power_draw_mw": null
+      "power_draw_mw": 350.0
     },
     "us-west4-tahoe-reno": {
       "location_name": "Google Tahoe Reno Data Center",
       "country": "USA",
       "state": "Nevada",
       "city": "Reno (Tahoe Reno Industrial Center, Storey County)",
-      "power_draw_timeframe": null,
+      "power_draw_timeframe": "estimated",
       "sqftg": "1,210 acres",
       "date_built": "2020",
-      "notes": "Google purchased ~1,210 acres in Tahoe Reno Industrial Center (Storey County) in 2017 and announced a data center project in 2018 (approved Nov 2018). Construction is underway (expected operational after 2020).",
+      "notes": "Google purchased ~1,210 acres in Tahoe Reno Industrial Center (Storey County). Part of a broader 450 MW clean energy procurement strategy in Nevada alongside Henderson.",
       "type": "company-owned-hyperscale",
       "source_type": "official_disclosure",
-      "power_draw_mw": null
+      "power_draw_mw": 100.0
     },
     "us-south1-widows-creek": {
       "location_name": "Google Widows Creek Data Center",
       "country": "USA",
       "state": "Alabama",
       "city": "Widows Creek (Jackson County)",
-      "power_draw_timeframe": null,
+      "power_draw_timeframe": "2019-ppa-match",
       "sqftg": "320 acres",
       "date_built": "2018",
-      "notes": "Google began construction in April 2018 on a new $600M data center on the former Widows Creek coal plant site in Jackson County, AL (320-acre campus), expected to be powered by 100% renewables.",
+      "notes": "Built on the former Widows Creek coal plant site. Power usage is matched by 150 MW of solar capacity via TVA.",
       "type": "company-owned-hyperscale",
       "source_type": "official_disclosure",
-      "power_draw_mw": null
+      "power_draw_mw": 150.0
     },
     "us-east1-berkeley-county": {
       "location_name": "Berkeley County Campus (Moncks Corner)",
       "country": "USA",
       "state": "South Carolina",
       "city": "Moncks Corner (Berkeley County)",
-      "power_draw_timeframe": null,
+      "power_draw_timeframe": "2024-estimated-load",
       "sqftg": "500 acres",
       "date_built": "2007",
-      "notes": "Google's data center campus in Berkeley County (Moncks Corner) opened its first facility in 2007/2008 and has since expanded (second facility opened by 2013). The company invested ~$600M in 2007 and another $600M in 2013. About 150 employees on site as of 2013. Expanded multiple times; us-east1 region.",
+      "notes": "Google's data center campus in Berkeley County. Local utilities (Santee Cooper) report data center loads in the county around 200 MW, scaling significantly by 2030.",
       "type": "company-owned-hyperscale",
       "source_type": "official_disclosure",
       "source_urls": [
         "https://www.google.com/about/datacenters/locations/berkeley-county/"
       ],
-      "power_draw_mw": null
+      "power_draw_mw": 200.0
     },
     "us-south1-midlothian": {
       "location_name": "Google Dallas (Midlothian/Red Oak) Data Center",
       "country": "USA",
       "state": "Texas",
       "city": "Midlothian/Red Oak",
-      "power_draw_timeframe": null,
+      "power_draw_timeframe": "2023-contracted-match",
       "sqftg": "375 acres",
       "date_built": "2022",
-      "notes": "Google's Midlothian/Red Oak, TX site (Dallas region) was announced in 2019 and launched in 2022. The campus spans ~375 acres with a ~$600M building cost, supporting Google's US-South Cloud region. Under construction 2024-2025 expansion.",
+      "notes": "Google signed a 942 MW Power Purchase Agreement (PPA) with SB Energy to match the consumption of its Midlothian data center and Dallas cloud region.",
       "type": "company-owned-hyperscale",
       "source_type": "official_disclosure",
       "source_urls": [
         "https://blog.google/outreach-initiatives/grow-with-google/"
       ],
-      "power_draw_mw": null
+      "power_draw_mw": 942.0
     },
     "us-east4-northern-virginia": {
       "location_name": "Northern Virginia (Ashburn/Sterling)",
@@ -121,16 +121,16 @@
       "country": "USA",
       "state": "Oregon",
       "city": "The Dalles",
-      "power_draw_timeframe": "2023",
+      "power_draw_timeframe": "2009-confirmed-base",
       "sqftg": "84,000 sq ft",
       "date_built": "2006",
-      "notes": "Google's first custom-built data center; hydroelectric powered; 80 full-time employees",
+      "notes": "Google's first custom-built data center. Industry estimates placed power consumption at 103 MW back in 2009; likely significantly higher today due to expansion.",
       "type": "company-owned-hyperscale",
       "source_type": "official_disclosure",
       "source_urls": [
         "https://www.google.com/about/datacenters/locations/the-dalles/"
       ],
-      "power_draw_mw": 35.0
+      "power_draw_mw": 103.0
     },
     "us-west2-mesa": {
       "location_name": "Mesa Campus",
@@ -427,16 +427,16 @@
       "country": "USA",
       "state": "Oregon",
       "city": "Boardman / Umatilla",
-      "power_draw_timeframe": null,
+      "power_draw_timeframe": "2016-committed",
       "sqftg": "Multiple massive campuses",
       "date_built": "2011",
-      "notes": "Massive footprint in Morrow and Umatilla counties due to tax incentives and hydro power. Part of AWS US-West-2 region.",
+      "notes": "Massive footprint in Morrow and Umatilla counties. AWS is the largest taxpayer and power user in the region. Commitments to renewable energy in the region reached 2.5 GW as of 2016.",
       "type": "company-owned-hyperscale",
       "source_type": "official_disclosure",
       "source_urls": [
         "https://aws.amazon.com/about-aws/global-infrastructure/"
       ],
-      "power_draw_mw": 2.5
+      "power_draw_mw": 2500.0
     },
     "us-west-1-california": {
       "location_name": "Northern California Region",
@@ -700,16 +700,16 @@
       "country": "USA",
       "state": "Oregon",
       "city": "Prineville",
-      "power_draw_timeframe": "2023",
+      "power_draw_timeframe": "2023-average-load",
       "sqftg": "4,600,000 sq ft (Planned/Built); 307,000 sq ft (initial)",
       "date_built": "2011",
-      "notes": "Meta's first custom-built data center. Massive campus with multiple buildings. Meta's first owned data center.",
+      "notes": "Meta's first custom-built data center. Consumed 1,375,321 MWh in 2023 (approx 157 MW average load). Massive campus with multiple buildings.",
       "type": "company-owned-hyperscale",
       "source_type": "official_disclosure",
       "source_urls": [
         "https://sustainability.fb.com/"
       ],
-      "power_draw_mw": 40.0
+      "power_draw_mw": 157.0
     },
     "forest-city-nc": {
       "location_name": "Forest City Data Center",
@@ -748,16 +748,16 @@
       "country": "USA",
       "state": "Iowa",
       "city": "Altoona",
-      "power_draw_timeframe": "2023",
+      "power_draw_timeframe": "2023-average-load",
       "sqftg": "5,000,000 sq ft (Target 2025); 1.4 million sq ft",
       "date_built": "2013-2014",
-      "notes": "Broke ground in 2013; as of 2022, spans 5 million square feet. Set to become Meta's largest campus globally.",
+      "notes": "Broke ground in 2013; as of 2022, spans 5 million square feet. Consumed 1,243,306 MWh in 2023 (approx 142 MW average load).",
       "type": "company-owned-hyperscale",
       "source_type": "energy_filing",
       "source_urls": [
         "https://www.midamericanenergy.com/"
       ],
-      "power_draw_mw": 310.0
+      "power_draw_mw": 142.0
     },
     "fort-worth-texas": {
       "location_name": "Fort Worth Data Center",
